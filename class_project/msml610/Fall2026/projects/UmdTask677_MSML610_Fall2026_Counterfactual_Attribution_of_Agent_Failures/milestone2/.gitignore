@@ -10,9 +10,8 @@ evidence/
 
 .pytest_cache/
 
-# Local delivery copies and future-milestone planning are outside M2 publication.
+# Local delivery copies are outside publication.
 delivery/
-experiments/m3_plan_v1/
 
 # Preserve operational evidence locally; publish scientific summaries instead.
 *.sqlite
@@ -25,3 +24,8 @@ experiments/**/halt_evidence_inventory.json
 experiments/**/credit_probe_latest.json
 experiments/**/halt_provider_check.json
 experiments/**/authentication_check.json
+
+# Milestone 3 live stage: the frozen manifest and results are published;
+# the writable store, ledger and the reviewer's working sheet are not.
+experiments/m3_live_v1/store/
+review/taxonomy_review_sheet.csv

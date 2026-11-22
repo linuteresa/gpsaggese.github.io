@@ -1,0 +1,1726 @@
+{
+  "schema": "caaf.m3.live_stage/1",
+  "stage": "m3_live_v1_pilot",
+  "status": "FROZEN_PENDING_AUTHORIZATION",
+  "frozen_before_any_outcome": true,
+  "supersedes": null,
+  "historical_proposal": "experiments/m3_plan_v1/PLAN.md (not an authorization)",
+  "purpose": "Technical and cost feasibility of matched-prefix cross-model transfer. Establishes that the live provider accepts the declared Haiku 4.5 policy, that the explicit transfer fork preserves the saved prefix and board, and what a continuation actually costs. NOT a powered transfer test.",
+  "not_used_for": [
+    "Confirmatory transfer labels or effect claims.",
+    "Any statement about the target model's own failure taxonomy.",
+    "Population or benchmark frequencies."
+  ],
+  "selection": {
+    "source": "experiments/m3_plan_v1/cost_forecast.json selected_decisions",
+    "rule": "Three Holm-resolved harmful decisions, two helpful-direction controls, one early unresolved case and two flat controls, covering all four represented starting positions. Selection is fixed by M2 statistics and is independent of the behavioural taxonomy labels.",
+    "decisions": 8,
+    "positions_represented": [
+      "krk-m3-1",
+      "krk-m4-1",
+      "krk-m6-1",
+      "krk-m8-1"
+    ]
+  },
+  "decisions": [
+    {
+      "decision_id": "krk-m4-1_trial0_step003",
+      "task_id": "krk-m4-1",
+      "trial": 0,
+      "step": 3,
+      "before_checkpoint": "efabdf0167e93a7168c589a890310401575629da2b4bd49eaa0f34d9f729c81d",
+      "after_checkpoint": "5a62d40e401900bfa650561baf55efaf36019ae3b6197e23451f0f318e89d977",
+      "source_branch_id": "br-199f2cd2c646",
+      "run_id": "run-0a9e69b6000b",
+      "original_reply_sha256": "8b2371b9fed2709a321e15529d3f8a8804fefc5549c16cd263769d167cc1cde4",
+      "m2_repair_gain": 0.6666666666666666,
+      "m2_holm_p": 1.7107946274196676e-05,
+      "m2_keep": [
+        5,
+        30
+      ],
+      "m2_redecide": [
+        25,
+        30
+      ],
+      "causal_status": "resolved_harmful_reply_effect",
+      "selection_role": "resolved_harmful"
+    },
+    {
+      "decision_id": "krk-m4-1_trial0_step005",
+      "task_id": "krk-m4-1",
+      "trial": 0,
+      "step": 5,
+      "before_checkpoint": "b8533fa3dd8f3490270c9a7189951318f391c5370dbdf7c1bbdcac73b6c02661",
+      "after_checkpoint": "2b02e0973a21b3df249f6bf3c8cdfe879a5ffe50ded0ca4f98dd63d78247840b",
+      "source_branch_id": "br-199f2cd2c646",
+      "run_id": "run-0a9e69b6000b",
+      "original_reply_sha256": "36570ab3f2668a1d9aa0e87707428fbc42fb5d664a3bdb72856b319f2b6bcfaf",
+      "m2_repair_gain": 0.36666666666666664,
+      "m2_holm_p": 0.014983846870510612,
+      "m2_keep": [
+        0,
+        30
+      ],
+      "m2_redecide": [
+        11,
+        30
+      ],
+      "causal_status": "resolved_harmful_reply_effect",
+      "selection_role": "resolved_harmful"
+    },
+    {
+      "decision_id": "krk-m4-1_trial1_step001",
+      "task_id": "krk-m4-1",
+      "trial": 1,
+      "step": 1,
+      "before_checkpoint": "b9fc0d1d1581287fa253bfa33c21b0a67aaa63b8e3fedf0e9cd836e335e0c7fa",
+      "after_checkpoint": "2d79bd4c91c601ba248d5e9ce867b29a689bb68f4b8ee0a7c600f253f3c93ef4",
+      "source_branch_id": "br-40afc5c2d2ad",
+      "run_id": "run-c96b6903d568",
+      "original_reply_sha256": "c90ba799580fc825327293960a37cd69216242df5763f4c8c9cf34d86060449f",
+      "m2_repair_gain": 0.36666666666666664,
+      "m2_holm_p": 0.014983846870510612,
+      "m2_keep": [
+        0,
+        30
+      ],
+      "m2_redecide": [
+        11,
+        30
+      ],
+      "causal_status": "resolved_harmful_reply_effect",
+      "selection_role": "resolved_harmful"
+    },
+    {
+      "decision_id": "krk-m4-1_trial0_step001",
+      "task_id": "krk-m4-1",
+      "trial": 0,
+      "step": 1,
+      "before_checkpoint": "f6ce3c7ace80cb8dd172d94a874431920be09d3c1f518b6201f7f1d7cc612c66",
+      "after_checkpoint": "2a2ef138bf3aed810378a4ab29b6ac577f12bfd3852035cbf57e426c3cfd7587",
+      "source_branch_id": "br-199f2cd2c646",
+      "run_id": "run-0a9e69b6000b",
+      "original_reply_sha256": "cd427545b1f0d2dac3146a7507512dd3456cd2339b6deb79fdc1b939fb0c2f7b",
+      "m2_repair_gain": -0.3333333333333333,
+      "m2_holm_p": 0.8402265011827871,
+      "m2_keep": [
+        21,
+        30
+      ],
+      "m2_redecide": [
+        11,
+        30
+      ],
+      "causal_status": "unresolved",
+      "selection_role": "control_or_unresolved"
+    },
+    {
+      "decision_id": "krk-m6-1_trial0_step001",
+      "task_id": "krk-m6-1",
+      "trial": 0,
+      "step": 1,
+      "before_checkpoint": "87d5f281272f0a57f75bf0ff120ebcc95394db0f03109b30da4070df9bb24ffc",
+      "after_checkpoint": "982dc0de1cd0daf2c07b93e8a98cfafa8b3fd82ce7dc8c455205e0e01d1035cc",
+      "source_branch_id": "br-f2126a68de64",
+      "run_id": "run-f3cc2b004a22",
+      "original_reply_sha256": "0c40d1a8988133d5191d417d80def6d9304e3d1839ac167b88aec2ed1d73e5de",
+      "m2_repair_gain": -0.2,
+      "m2_holm_p": 1.0,
+      "m2_keep": [
+        7,
+        30
+      ],
+      "m2_redecide": [
+        1,
+        30
+      ],
+      "causal_status": "unresolved",
+      "selection_role": "control_or_unresolved"
+    },
+    {
+      "decision_id": "krk-m3-1_trial0_step001",
+      "task_id": "krk-m3-1",
+      "trial": 0,
+      "step": 1,
+      "before_checkpoint": "b037df3b74f1360fad476d0bccea6707787d66f4ddf9fe458a552ade2865a04d",
+      "after_checkpoint": "5176f837771b2a4cb000cdff1e6250dff011bf2e4fc4f1aa66d9f0dbef369c6b",
+      "source_branch_id": "br-5d69d1bd40a6",
+      "run_id": "run-fdd2ea1b8a28",
+      "original_reply_sha256": "619a14ced9eda8403fda6923e93adae81ee16f000495636efaf04576ab932a24",
+      "m2_repair_gain": 0.03333333333333333,
+      "m2_holm_p": 1.0,
+      "m2_keep": [
+        2,
+        30
+      ],
+      "m2_redecide": [
+        3,
+        30
+      ],
+      "causal_status": "unresolved",
+      "selection_role": "control_or_unresolved"
+    },
+    {
+      "decision_id": "krk-m3-1_trial0_step003",
+      "task_id": "krk-m3-1",
+      "trial": 0,
+      "step": 3,
+      "before_checkpoint": "28fed58b70c953963327c6e7a5c38f5ddd9b4dd812d36120270d8335ba32edc2",
+      "after_checkpoint": "efca8d2ad83fae1fbdf47cd14c4973cdf03978bece97623b068e8a8ee310e9ec",
+      "source_branch_id": "br-5d69d1bd40a6",
+      "run_id": "run-fdd2ea1b8a28",
+      "original_reply_sha256": "9de72aec52281e80d5c1b2213ca3b769e0ab5c119473a956d463a5a89ab083bb",
+      "m2_repair_gain": 0.0,
+      "m2_holm_p": 1.0,
+      "m2_keep": [
+        0,
+        30
+      ],
+      "m2_redecide": [
+        0,
+        30
+      ],
+      "causal_status": "unresolved",
+      "selection_role": "control_or_unresolved"
+    },
+    {
+      "decision_id": "krk-m8-1_trial0_step003",
+      "task_id": "krk-m8-1",
+      "trial": 0,
+      "step": 3,
+      "before_checkpoint": "2fe7d7aeb4722e4201480d6cec4a161e73aea7c5a5a42168695255d7ecba6344",
+      "after_checkpoint": "6663026188b27403e7acc9a183cee8fbc6ec6cf36b3e2eb54975cd50f3f76a8d",
+      "source_branch_id": "br-530e4c7ce831",
+      "run_id": "run-785341a28f04",
+      "original_reply_sha256": "858121ae068bbfb6b8e909b16cd61ebff591e54210fec77d44a37b0a637845b6",
+      "m2_repair_gain": 0.0,
+      "m2_holm_p": 1.0,
+      "m2_keep": [
+        0,
+        30
+      ],
+      "m2_redecide": [
+        0,
+        30
+      ],
+      "causal_status": "unresolved",
+      "selection_role": "control_or_unresolved"
+    }
+  ],
+  "design": {
+    "arms": [
+      "keep_original_reply",
+      "redecide_reply"
+    ],
+    "arm_definitions": {
+      "keep_original_reply": "Restore the checkpoint, force the complete original Haiku 5.5 reply exactly once, then every later call uses the target model.",
+      "redecide_reply": "Restore the checkpoint; the target model decides immediately."
+    },
+    "continuations_per_arm": 10,
+    "continuations_total": 160,
+    "paired": "Both arms run from the identical before-step checkpoint.",
+    "randomisation": "None. Replicates differ only by provider sampling; the prefix, board and policy are identical by construction."
+  },
+  "jobs": [
+    {
+      "job_id": "krk-m4-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:00",
+      "decision_id": "krk-m4-1_trial0_step003",
+      "arm": "keep_original_reply",
+      "replicate": 0,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "efabdf0167e93a7168c589a890310401575629da2b4bd49eaa0f34d9f729c81d",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:01",
+      "decision_id": "krk-m4-1_trial0_step003",
+      "arm": "keep_original_reply",
+      "replicate": 1,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "efabdf0167e93a7168c589a890310401575629da2b4bd49eaa0f34d9f729c81d",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:02",
+      "decision_id": "krk-m4-1_trial0_step003",
+      "arm": "keep_original_reply",
+      "replicate": 2,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "efabdf0167e93a7168c589a890310401575629da2b4bd49eaa0f34d9f729c81d",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:03",
+      "decision_id": "krk-m4-1_trial0_step003",
+      "arm": "keep_original_reply",
+      "replicate": 3,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "efabdf0167e93a7168c589a890310401575629da2b4bd49eaa0f34d9f729c81d",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:04",
+      "decision_id": "krk-m4-1_trial0_step003",
+      "arm": "keep_original_reply",
+      "replicate": 4,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "efabdf0167e93a7168c589a890310401575629da2b4bd49eaa0f34d9f729c81d",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:05",
+      "decision_id": "krk-m4-1_trial0_step003",
+      "arm": "keep_original_reply",
+      "replicate": 5,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "efabdf0167e93a7168c589a890310401575629da2b4bd49eaa0f34d9f729c81d",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:06",
+      "decision_id": "krk-m4-1_trial0_step003",
+      "arm": "keep_original_reply",
+      "replicate": 6,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "efabdf0167e93a7168c589a890310401575629da2b4bd49eaa0f34d9f729c81d",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:07",
+      "decision_id": "krk-m4-1_trial0_step003",
+      "arm": "keep_original_reply",
+      "replicate": 7,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "efabdf0167e93a7168c589a890310401575629da2b4bd49eaa0f34d9f729c81d",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:08",
+      "decision_id": "krk-m4-1_trial0_step003",
+      "arm": "keep_original_reply",
+      "replicate": 8,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "efabdf0167e93a7168c589a890310401575629da2b4bd49eaa0f34d9f729c81d",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:09",
+      "decision_id": "krk-m4-1_trial0_step003",
+      "arm": "keep_original_reply",
+      "replicate": 9,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "efabdf0167e93a7168c589a890310401575629da2b4bd49eaa0f34d9f729c81d",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:00",
+      "decision_id": "krk-m4-1_trial0_step003",
+      "arm": "redecide_reply",
+      "replicate": 0,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "efabdf0167e93a7168c589a890310401575629da2b4bd49eaa0f34d9f729c81d",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:01",
+      "decision_id": "krk-m4-1_trial0_step003",
+      "arm": "redecide_reply",
+      "replicate": 1,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "efabdf0167e93a7168c589a890310401575629da2b4bd49eaa0f34d9f729c81d",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:02",
+      "decision_id": "krk-m4-1_trial0_step003",
+      "arm": "redecide_reply",
+      "replicate": 2,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "efabdf0167e93a7168c589a890310401575629da2b4bd49eaa0f34d9f729c81d",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:03",
+      "decision_id": "krk-m4-1_trial0_step003",
+      "arm": "redecide_reply",
+      "replicate": 3,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "efabdf0167e93a7168c589a890310401575629da2b4bd49eaa0f34d9f729c81d",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:04",
+      "decision_id": "krk-m4-1_trial0_step003",
+      "arm": "redecide_reply",
+      "replicate": 4,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "efabdf0167e93a7168c589a890310401575629da2b4bd49eaa0f34d9f729c81d",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:05",
+      "decision_id": "krk-m4-1_trial0_step003",
+      "arm": "redecide_reply",
+      "replicate": 5,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "efabdf0167e93a7168c589a890310401575629da2b4bd49eaa0f34d9f729c81d",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:06",
+      "decision_id": "krk-m4-1_trial0_step003",
+      "arm": "redecide_reply",
+      "replicate": 6,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "efabdf0167e93a7168c589a890310401575629da2b4bd49eaa0f34d9f729c81d",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:07",
+      "decision_id": "krk-m4-1_trial0_step003",
+      "arm": "redecide_reply",
+      "replicate": 7,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "efabdf0167e93a7168c589a890310401575629da2b4bd49eaa0f34d9f729c81d",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:08",
+      "decision_id": "krk-m4-1_trial0_step003",
+      "arm": "redecide_reply",
+      "replicate": 8,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "efabdf0167e93a7168c589a890310401575629da2b4bd49eaa0f34d9f729c81d",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:09",
+      "decision_id": "krk-m4-1_trial0_step003",
+      "arm": "redecide_reply",
+      "replicate": 9,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "efabdf0167e93a7168c589a890310401575629da2b4bd49eaa0f34d9f729c81d",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step005:anthropic/claude-haiku-4-5-20251001:keep_original_reply:00",
+      "decision_id": "krk-m4-1_trial0_step005",
+      "arm": "keep_original_reply",
+      "replicate": 0,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b8533fa3dd8f3490270c9a7189951318f391c5370dbdf7c1bbdcac73b6c02661",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step005:anthropic/claude-haiku-4-5-20251001:keep_original_reply:01",
+      "decision_id": "krk-m4-1_trial0_step005",
+      "arm": "keep_original_reply",
+      "replicate": 1,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b8533fa3dd8f3490270c9a7189951318f391c5370dbdf7c1bbdcac73b6c02661",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step005:anthropic/claude-haiku-4-5-20251001:keep_original_reply:02",
+      "decision_id": "krk-m4-1_trial0_step005",
+      "arm": "keep_original_reply",
+      "replicate": 2,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b8533fa3dd8f3490270c9a7189951318f391c5370dbdf7c1bbdcac73b6c02661",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step005:anthropic/claude-haiku-4-5-20251001:keep_original_reply:03",
+      "decision_id": "krk-m4-1_trial0_step005",
+      "arm": "keep_original_reply",
+      "replicate": 3,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b8533fa3dd8f3490270c9a7189951318f391c5370dbdf7c1bbdcac73b6c02661",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step005:anthropic/claude-haiku-4-5-20251001:keep_original_reply:04",
+      "decision_id": "krk-m4-1_trial0_step005",
+      "arm": "keep_original_reply",
+      "replicate": 4,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b8533fa3dd8f3490270c9a7189951318f391c5370dbdf7c1bbdcac73b6c02661",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step005:anthropic/claude-haiku-4-5-20251001:keep_original_reply:05",
+      "decision_id": "krk-m4-1_trial0_step005",
+      "arm": "keep_original_reply",
+      "replicate": 5,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b8533fa3dd8f3490270c9a7189951318f391c5370dbdf7c1bbdcac73b6c02661",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step005:anthropic/claude-haiku-4-5-20251001:keep_original_reply:06",
+      "decision_id": "krk-m4-1_trial0_step005",
+      "arm": "keep_original_reply",
+      "replicate": 6,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b8533fa3dd8f3490270c9a7189951318f391c5370dbdf7c1bbdcac73b6c02661",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step005:anthropic/claude-haiku-4-5-20251001:keep_original_reply:07",
+      "decision_id": "krk-m4-1_trial0_step005",
+      "arm": "keep_original_reply",
+      "replicate": 7,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b8533fa3dd8f3490270c9a7189951318f391c5370dbdf7c1bbdcac73b6c02661",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step005:anthropic/claude-haiku-4-5-20251001:keep_original_reply:08",
+      "decision_id": "krk-m4-1_trial0_step005",
+      "arm": "keep_original_reply",
+      "replicate": 8,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b8533fa3dd8f3490270c9a7189951318f391c5370dbdf7c1bbdcac73b6c02661",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step005:anthropic/claude-haiku-4-5-20251001:keep_original_reply:09",
+      "decision_id": "krk-m4-1_trial0_step005",
+      "arm": "keep_original_reply",
+      "replicate": 9,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b8533fa3dd8f3490270c9a7189951318f391c5370dbdf7c1bbdcac73b6c02661",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step005:anthropic/claude-haiku-4-5-20251001:redecide_reply:00",
+      "decision_id": "krk-m4-1_trial0_step005",
+      "arm": "redecide_reply",
+      "replicate": 0,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b8533fa3dd8f3490270c9a7189951318f391c5370dbdf7c1bbdcac73b6c02661",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step005:anthropic/claude-haiku-4-5-20251001:redecide_reply:01",
+      "decision_id": "krk-m4-1_trial0_step005",
+      "arm": "redecide_reply",
+      "replicate": 1,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b8533fa3dd8f3490270c9a7189951318f391c5370dbdf7c1bbdcac73b6c02661",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step005:anthropic/claude-haiku-4-5-20251001:redecide_reply:02",
+      "decision_id": "krk-m4-1_trial0_step005",
+      "arm": "redecide_reply",
+      "replicate": 2,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b8533fa3dd8f3490270c9a7189951318f391c5370dbdf7c1bbdcac73b6c02661",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step005:anthropic/claude-haiku-4-5-20251001:redecide_reply:03",
+      "decision_id": "krk-m4-1_trial0_step005",
+      "arm": "redecide_reply",
+      "replicate": 3,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b8533fa3dd8f3490270c9a7189951318f391c5370dbdf7c1bbdcac73b6c02661",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step005:anthropic/claude-haiku-4-5-20251001:redecide_reply:04",
+      "decision_id": "krk-m4-1_trial0_step005",
+      "arm": "redecide_reply",
+      "replicate": 4,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b8533fa3dd8f3490270c9a7189951318f391c5370dbdf7c1bbdcac73b6c02661",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step005:anthropic/claude-haiku-4-5-20251001:redecide_reply:05",
+      "decision_id": "krk-m4-1_trial0_step005",
+      "arm": "redecide_reply",
+      "replicate": 5,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b8533fa3dd8f3490270c9a7189951318f391c5370dbdf7c1bbdcac73b6c02661",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step005:anthropic/claude-haiku-4-5-20251001:redecide_reply:06",
+      "decision_id": "krk-m4-1_trial0_step005",
+      "arm": "redecide_reply",
+      "replicate": 6,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b8533fa3dd8f3490270c9a7189951318f391c5370dbdf7c1bbdcac73b6c02661",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step005:anthropic/claude-haiku-4-5-20251001:redecide_reply:07",
+      "decision_id": "krk-m4-1_trial0_step005",
+      "arm": "redecide_reply",
+      "replicate": 7,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b8533fa3dd8f3490270c9a7189951318f391c5370dbdf7c1bbdcac73b6c02661",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step005:anthropic/claude-haiku-4-5-20251001:redecide_reply:08",
+      "decision_id": "krk-m4-1_trial0_step005",
+      "arm": "redecide_reply",
+      "replicate": 8,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b8533fa3dd8f3490270c9a7189951318f391c5370dbdf7c1bbdcac73b6c02661",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step005:anthropic/claude-haiku-4-5-20251001:redecide_reply:09",
+      "decision_id": "krk-m4-1_trial0_step005",
+      "arm": "redecide_reply",
+      "replicate": 9,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b8533fa3dd8f3490270c9a7189951318f391c5370dbdf7c1bbdcac73b6c02661",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial1_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:00",
+      "decision_id": "krk-m4-1_trial1_step001",
+      "arm": "keep_original_reply",
+      "replicate": 0,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b9fc0d1d1581287fa253bfa33c21b0a67aaa63b8e3fedf0e9cd836e335e0c7fa",
+      "source_branch_id": "br-40afc5c2d2ad"
+    },
+    {
+      "job_id": "krk-m4-1_trial1_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:01",
+      "decision_id": "krk-m4-1_trial1_step001",
+      "arm": "keep_original_reply",
+      "replicate": 1,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b9fc0d1d1581287fa253bfa33c21b0a67aaa63b8e3fedf0e9cd836e335e0c7fa",
+      "source_branch_id": "br-40afc5c2d2ad"
+    },
+    {
+      "job_id": "krk-m4-1_trial1_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:02",
+      "decision_id": "krk-m4-1_trial1_step001",
+      "arm": "keep_original_reply",
+      "replicate": 2,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b9fc0d1d1581287fa253bfa33c21b0a67aaa63b8e3fedf0e9cd836e335e0c7fa",
+      "source_branch_id": "br-40afc5c2d2ad"
+    },
+    {
+      "job_id": "krk-m4-1_trial1_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:03",
+      "decision_id": "krk-m4-1_trial1_step001",
+      "arm": "keep_original_reply",
+      "replicate": 3,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b9fc0d1d1581287fa253bfa33c21b0a67aaa63b8e3fedf0e9cd836e335e0c7fa",
+      "source_branch_id": "br-40afc5c2d2ad"
+    },
+    {
+      "job_id": "krk-m4-1_trial1_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:04",
+      "decision_id": "krk-m4-1_trial1_step001",
+      "arm": "keep_original_reply",
+      "replicate": 4,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b9fc0d1d1581287fa253bfa33c21b0a67aaa63b8e3fedf0e9cd836e335e0c7fa",
+      "source_branch_id": "br-40afc5c2d2ad"
+    },
+    {
+      "job_id": "krk-m4-1_trial1_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:05",
+      "decision_id": "krk-m4-1_trial1_step001",
+      "arm": "keep_original_reply",
+      "replicate": 5,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b9fc0d1d1581287fa253bfa33c21b0a67aaa63b8e3fedf0e9cd836e335e0c7fa",
+      "source_branch_id": "br-40afc5c2d2ad"
+    },
+    {
+      "job_id": "krk-m4-1_trial1_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:06",
+      "decision_id": "krk-m4-1_trial1_step001",
+      "arm": "keep_original_reply",
+      "replicate": 6,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b9fc0d1d1581287fa253bfa33c21b0a67aaa63b8e3fedf0e9cd836e335e0c7fa",
+      "source_branch_id": "br-40afc5c2d2ad"
+    },
+    {
+      "job_id": "krk-m4-1_trial1_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:07",
+      "decision_id": "krk-m4-1_trial1_step001",
+      "arm": "keep_original_reply",
+      "replicate": 7,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b9fc0d1d1581287fa253bfa33c21b0a67aaa63b8e3fedf0e9cd836e335e0c7fa",
+      "source_branch_id": "br-40afc5c2d2ad"
+    },
+    {
+      "job_id": "krk-m4-1_trial1_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:08",
+      "decision_id": "krk-m4-1_trial1_step001",
+      "arm": "keep_original_reply",
+      "replicate": 8,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b9fc0d1d1581287fa253bfa33c21b0a67aaa63b8e3fedf0e9cd836e335e0c7fa",
+      "source_branch_id": "br-40afc5c2d2ad"
+    },
+    {
+      "job_id": "krk-m4-1_trial1_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:09",
+      "decision_id": "krk-m4-1_trial1_step001",
+      "arm": "keep_original_reply",
+      "replicate": 9,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b9fc0d1d1581287fa253bfa33c21b0a67aaa63b8e3fedf0e9cd836e335e0c7fa",
+      "source_branch_id": "br-40afc5c2d2ad"
+    },
+    {
+      "job_id": "krk-m4-1_trial1_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:00",
+      "decision_id": "krk-m4-1_trial1_step001",
+      "arm": "redecide_reply",
+      "replicate": 0,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b9fc0d1d1581287fa253bfa33c21b0a67aaa63b8e3fedf0e9cd836e335e0c7fa",
+      "source_branch_id": "br-40afc5c2d2ad"
+    },
+    {
+      "job_id": "krk-m4-1_trial1_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:01",
+      "decision_id": "krk-m4-1_trial1_step001",
+      "arm": "redecide_reply",
+      "replicate": 1,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b9fc0d1d1581287fa253bfa33c21b0a67aaa63b8e3fedf0e9cd836e335e0c7fa",
+      "source_branch_id": "br-40afc5c2d2ad"
+    },
+    {
+      "job_id": "krk-m4-1_trial1_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:02",
+      "decision_id": "krk-m4-1_trial1_step001",
+      "arm": "redecide_reply",
+      "replicate": 2,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b9fc0d1d1581287fa253bfa33c21b0a67aaa63b8e3fedf0e9cd836e335e0c7fa",
+      "source_branch_id": "br-40afc5c2d2ad"
+    },
+    {
+      "job_id": "krk-m4-1_trial1_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:03",
+      "decision_id": "krk-m4-1_trial1_step001",
+      "arm": "redecide_reply",
+      "replicate": 3,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b9fc0d1d1581287fa253bfa33c21b0a67aaa63b8e3fedf0e9cd836e335e0c7fa",
+      "source_branch_id": "br-40afc5c2d2ad"
+    },
+    {
+      "job_id": "krk-m4-1_trial1_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:04",
+      "decision_id": "krk-m4-1_trial1_step001",
+      "arm": "redecide_reply",
+      "replicate": 4,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b9fc0d1d1581287fa253bfa33c21b0a67aaa63b8e3fedf0e9cd836e335e0c7fa",
+      "source_branch_id": "br-40afc5c2d2ad"
+    },
+    {
+      "job_id": "krk-m4-1_trial1_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:05",
+      "decision_id": "krk-m4-1_trial1_step001",
+      "arm": "redecide_reply",
+      "replicate": 5,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b9fc0d1d1581287fa253bfa33c21b0a67aaa63b8e3fedf0e9cd836e335e0c7fa",
+      "source_branch_id": "br-40afc5c2d2ad"
+    },
+    {
+      "job_id": "krk-m4-1_trial1_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:06",
+      "decision_id": "krk-m4-1_trial1_step001",
+      "arm": "redecide_reply",
+      "replicate": 6,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b9fc0d1d1581287fa253bfa33c21b0a67aaa63b8e3fedf0e9cd836e335e0c7fa",
+      "source_branch_id": "br-40afc5c2d2ad"
+    },
+    {
+      "job_id": "krk-m4-1_trial1_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:07",
+      "decision_id": "krk-m4-1_trial1_step001",
+      "arm": "redecide_reply",
+      "replicate": 7,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b9fc0d1d1581287fa253bfa33c21b0a67aaa63b8e3fedf0e9cd836e335e0c7fa",
+      "source_branch_id": "br-40afc5c2d2ad"
+    },
+    {
+      "job_id": "krk-m4-1_trial1_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:08",
+      "decision_id": "krk-m4-1_trial1_step001",
+      "arm": "redecide_reply",
+      "replicate": 8,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b9fc0d1d1581287fa253bfa33c21b0a67aaa63b8e3fedf0e9cd836e335e0c7fa",
+      "source_branch_id": "br-40afc5c2d2ad"
+    },
+    {
+      "job_id": "krk-m4-1_trial1_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:09",
+      "decision_id": "krk-m4-1_trial1_step001",
+      "arm": "redecide_reply",
+      "replicate": 9,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b9fc0d1d1581287fa253bfa33c21b0a67aaa63b8e3fedf0e9cd836e335e0c7fa",
+      "source_branch_id": "br-40afc5c2d2ad"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:00",
+      "decision_id": "krk-m4-1_trial0_step001",
+      "arm": "keep_original_reply",
+      "replicate": 0,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "f6ce3c7ace80cb8dd172d94a874431920be09d3c1f518b6201f7f1d7cc612c66",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:01",
+      "decision_id": "krk-m4-1_trial0_step001",
+      "arm": "keep_original_reply",
+      "replicate": 1,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "f6ce3c7ace80cb8dd172d94a874431920be09d3c1f518b6201f7f1d7cc612c66",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:02",
+      "decision_id": "krk-m4-1_trial0_step001",
+      "arm": "keep_original_reply",
+      "replicate": 2,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "f6ce3c7ace80cb8dd172d94a874431920be09d3c1f518b6201f7f1d7cc612c66",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:03",
+      "decision_id": "krk-m4-1_trial0_step001",
+      "arm": "keep_original_reply",
+      "replicate": 3,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "f6ce3c7ace80cb8dd172d94a874431920be09d3c1f518b6201f7f1d7cc612c66",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:04",
+      "decision_id": "krk-m4-1_trial0_step001",
+      "arm": "keep_original_reply",
+      "replicate": 4,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "f6ce3c7ace80cb8dd172d94a874431920be09d3c1f518b6201f7f1d7cc612c66",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:05",
+      "decision_id": "krk-m4-1_trial0_step001",
+      "arm": "keep_original_reply",
+      "replicate": 5,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "f6ce3c7ace80cb8dd172d94a874431920be09d3c1f518b6201f7f1d7cc612c66",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:06",
+      "decision_id": "krk-m4-1_trial0_step001",
+      "arm": "keep_original_reply",
+      "replicate": 6,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "f6ce3c7ace80cb8dd172d94a874431920be09d3c1f518b6201f7f1d7cc612c66",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:07",
+      "decision_id": "krk-m4-1_trial0_step001",
+      "arm": "keep_original_reply",
+      "replicate": 7,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "f6ce3c7ace80cb8dd172d94a874431920be09d3c1f518b6201f7f1d7cc612c66",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:08",
+      "decision_id": "krk-m4-1_trial0_step001",
+      "arm": "keep_original_reply",
+      "replicate": 8,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "f6ce3c7ace80cb8dd172d94a874431920be09d3c1f518b6201f7f1d7cc612c66",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:09",
+      "decision_id": "krk-m4-1_trial0_step001",
+      "arm": "keep_original_reply",
+      "replicate": 9,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "f6ce3c7ace80cb8dd172d94a874431920be09d3c1f518b6201f7f1d7cc612c66",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:00",
+      "decision_id": "krk-m4-1_trial0_step001",
+      "arm": "redecide_reply",
+      "replicate": 0,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "f6ce3c7ace80cb8dd172d94a874431920be09d3c1f518b6201f7f1d7cc612c66",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:01",
+      "decision_id": "krk-m4-1_trial0_step001",
+      "arm": "redecide_reply",
+      "replicate": 1,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "f6ce3c7ace80cb8dd172d94a874431920be09d3c1f518b6201f7f1d7cc612c66",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:02",
+      "decision_id": "krk-m4-1_trial0_step001",
+      "arm": "redecide_reply",
+      "replicate": 2,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "f6ce3c7ace80cb8dd172d94a874431920be09d3c1f518b6201f7f1d7cc612c66",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:03",
+      "decision_id": "krk-m4-1_trial0_step001",
+      "arm": "redecide_reply",
+      "replicate": 3,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "f6ce3c7ace80cb8dd172d94a874431920be09d3c1f518b6201f7f1d7cc612c66",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:04",
+      "decision_id": "krk-m4-1_trial0_step001",
+      "arm": "redecide_reply",
+      "replicate": 4,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "f6ce3c7ace80cb8dd172d94a874431920be09d3c1f518b6201f7f1d7cc612c66",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:05",
+      "decision_id": "krk-m4-1_trial0_step001",
+      "arm": "redecide_reply",
+      "replicate": 5,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "f6ce3c7ace80cb8dd172d94a874431920be09d3c1f518b6201f7f1d7cc612c66",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:06",
+      "decision_id": "krk-m4-1_trial0_step001",
+      "arm": "redecide_reply",
+      "replicate": 6,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "f6ce3c7ace80cb8dd172d94a874431920be09d3c1f518b6201f7f1d7cc612c66",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:07",
+      "decision_id": "krk-m4-1_trial0_step001",
+      "arm": "redecide_reply",
+      "replicate": 7,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "f6ce3c7ace80cb8dd172d94a874431920be09d3c1f518b6201f7f1d7cc612c66",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:08",
+      "decision_id": "krk-m4-1_trial0_step001",
+      "arm": "redecide_reply",
+      "replicate": 8,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "f6ce3c7ace80cb8dd172d94a874431920be09d3c1f518b6201f7f1d7cc612c66",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m4-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:09",
+      "decision_id": "krk-m4-1_trial0_step001",
+      "arm": "redecide_reply",
+      "replicate": 9,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "f6ce3c7ace80cb8dd172d94a874431920be09d3c1f518b6201f7f1d7cc612c66",
+      "source_branch_id": "br-199f2cd2c646"
+    },
+    {
+      "job_id": "krk-m6-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:00",
+      "decision_id": "krk-m6-1_trial0_step001",
+      "arm": "keep_original_reply",
+      "replicate": 0,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "87d5f281272f0a57f75bf0ff120ebcc95394db0f03109b30da4070df9bb24ffc",
+      "source_branch_id": "br-f2126a68de64"
+    },
+    {
+      "job_id": "krk-m6-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:01",
+      "decision_id": "krk-m6-1_trial0_step001",
+      "arm": "keep_original_reply",
+      "replicate": 1,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "87d5f281272f0a57f75bf0ff120ebcc95394db0f03109b30da4070df9bb24ffc",
+      "source_branch_id": "br-f2126a68de64"
+    },
+    {
+      "job_id": "krk-m6-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:02",
+      "decision_id": "krk-m6-1_trial0_step001",
+      "arm": "keep_original_reply",
+      "replicate": 2,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "87d5f281272f0a57f75bf0ff120ebcc95394db0f03109b30da4070df9bb24ffc",
+      "source_branch_id": "br-f2126a68de64"
+    },
+    {
+      "job_id": "krk-m6-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:03",
+      "decision_id": "krk-m6-1_trial0_step001",
+      "arm": "keep_original_reply",
+      "replicate": 3,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "87d5f281272f0a57f75bf0ff120ebcc95394db0f03109b30da4070df9bb24ffc",
+      "source_branch_id": "br-f2126a68de64"
+    },
+    {
+      "job_id": "krk-m6-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:04",
+      "decision_id": "krk-m6-1_trial0_step001",
+      "arm": "keep_original_reply",
+      "replicate": 4,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "87d5f281272f0a57f75bf0ff120ebcc95394db0f03109b30da4070df9bb24ffc",
+      "source_branch_id": "br-f2126a68de64"
+    },
+    {
+      "job_id": "krk-m6-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:05",
+      "decision_id": "krk-m6-1_trial0_step001",
+      "arm": "keep_original_reply",
+      "replicate": 5,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "87d5f281272f0a57f75bf0ff120ebcc95394db0f03109b30da4070df9bb24ffc",
+      "source_branch_id": "br-f2126a68de64"
+    },
+    {
+      "job_id": "krk-m6-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:06",
+      "decision_id": "krk-m6-1_trial0_step001",
+      "arm": "keep_original_reply",
+      "replicate": 6,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "87d5f281272f0a57f75bf0ff120ebcc95394db0f03109b30da4070df9bb24ffc",
+      "source_branch_id": "br-f2126a68de64"
+    },
+    {
+      "job_id": "krk-m6-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:07",
+      "decision_id": "krk-m6-1_trial0_step001",
+      "arm": "keep_original_reply",
+      "replicate": 7,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "87d5f281272f0a57f75bf0ff120ebcc95394db0f03109b30da4070df9bb24ffc",
+      "source_branch_id": "br-f2126a68de64"
+    },
+    {
+      "job_id": "krk-m6-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:08",
+      "decision_id": "krk-m6-1_trial0_step001",
+      "arm": "keep_original_reply",
+      "replicate": 8,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "87d5f281272f0a57f75bf0ff120ebcc95394db0f03109b30da4070df9bb24ffc",
+      "source_branch_id": "br-f2126a68de64"
+    },
+    {
+      "job_id": "krk-m6-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:09",
+      "decision_id": "krk-m6-1_trial0_step001",
+      "arm": "keep_original_reply",
+      "replicate": 9,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "87d5f281272f0a57f75bf0ff120ebcc95394db0f03109b30da4070df9bb24ffc",
+      "source_branch_id": "br-f2126a68de64"
+    },
+    {
+      "job_id": "krk-m6-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:00",
+      "decision_id": "krk-m6-1_trial0_step001",
+      "arm": "redecide_reply",
+      "replicate": 0,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "87d5f281272f0a57f75bf0ff120ebcc95394db0f03109b30da4070df9bb24ffc",
+      "source_branch_id": "br-f2126a68de64"
+    },
+    {
+      "job_id": "krk-m6-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:01",
+      "decision_id": "krk-m6-1_trial0_step001",
+      "arm": "redecide_reply",
+      "replicate": 1,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "87d5f281272f0a57f75bf0ff120ebcc95394db0f03109b30da4070df9bb24ffc",
+      "source_branch_id": "br-f2126a68de64"
+    },
+    {
+      "job_id": "krk-m6-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:02",
+      "decision_id": "krk-m6-1_trial0_step001",
+      "arm": "redecide_reply",
+      "replicate": 2,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "87d5f281272f0a57f75bf0ff120ebcc95394db0f03109b30da4070df9bb24ffc",
+      "source_branch_id": "br-f2126a68de64"
+    },
+    {
+      "job_id": "krk-m6-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:03",
+      "decision_id": "krk-m6-1_trial0_step001",
+      "arm": "redecide_reply",
+      "replicate": 3,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "87d5f281272f0a57f75bf0ff120ebcc95394db0f03109b30da4070df9bb24ffc",
+      "source_branch_id": "br-f2126a68de64"
+    },
+    {
+      "job_id": "krk-m6-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:04",
+      "decision_id": "krk-m6-1_trial0_step001",
+      "arm": "redecide_reply",
+      "replicate": 4,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "87d5f281272f0a57f75bf0ff120ebcc95394db0f03109b30da4070df9bb24ffc",
+      "source_branch_id": "br-f2126a68de64"
+    },
+    {
+      "job_id": "krk-m6-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:05",
+      "decision_id": "krk-m6-1_trial0_step001",
+      "arm": "redecide_reply",
+      "replicate": 5,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "87d5f281272f0a57f75bf0ff120ebcc95394db0f03109b30da4070df9bb24ffc",
+      "source_branch_id": "br-f2126a68de64"
+    },
+    {
+      "job_id": "krk-m6-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:06",
+      "decision_id": "krk-m6-1_trial0_step001",
+      "arm": "redecide_reply",
+      "replicate": 6,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "87d5f281272f0a57f75bf0ff120ebcc95394db0f03109b30da4070df9bb24ffc",
+      "source_branch_id": "br-f2126a68de64"
+    },
+    {
+      "job_id": "krk-m6-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:07",
+      "decision_id": "krk-m6-1_trial0_step001",
+      "arm": "redecide_reply",
+      "replicate": 7,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "87d5f281272f0a57f75bf0ff120ebcc95394db0f03109b30da4070df9bb24ffc",
+      "source_branch_id": "br-f2126a68de64"
+    },
+    {
+      "job_id": "krk-m6-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:08",
+      "decision_id": "krk-m6-1_trial0_step001",
+      "arm": "redecide_reply",
+      "replicate": 8,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "87d5f281272f0a57f75bf0ff120ebcc95394db0f03109b30da4070df9bb24ffc",
+      "source_branch_id": "br-f2126a68de64"
+    },
+    {
+      "job_id": "krk-m6-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:09",
+      "decision_id": "krk-m6-1_trial0_step001",
+      "arm": "redecide_reply",
+      "replicate": 9,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "87d5f281272f0a57f75bf0ff120ebcc95394db0f03109b30da4070df9bb24ffc",
+      "source_branch_id": "br-f2126a68de64"
+    },
+    {
+      "job_id": "krk-m3-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:00",
+      "decision_id": "krk-m3-1_trial0_step001",
+      "arm": "keep_original_reply",
+      "replicate": 0,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b037df3b74f1360fad476d0bccea6707787d66f4ddf9fe458a552ade2865a04d",
+      "source_branch_id": "br-5d69d1bd40a6"
+    },
+    {
+      "job_id": "krk-m3-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:01",
+      "decision_id": "krk-m3-1_trial0_step001",
+      "arm": "keep_original_reply",
+      "replicate": 1,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b037df3b74f1360fad476d0bccea6707787d66f4ddf9fe458a552ade2865a04d",
+      "source_branch_id": "br-5d69d1bd40a6"
+    },
+    {
+      "job_id": "krk-m3-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:02",
+      "decision_id": "krk-m3-1_trial0_step001",
+      "arm": "keep_original_reply",
+      "replicate": 2,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b037df3b74f1360fad476d0bccea6707787d66f4ddf9fe458a552ade2865a04d",
+      "source_branch_id": "br-5d69d1bd40a6"
+    },
+    {
+      "job_id": "krk-m3-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:03",
+      "decision_id": "krk-m3-1_trial0_step001",
+      "arm": "keep_original_reply",
+      "replicate": 3,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b037df3b74f1360fad476d0bccea6707787d66f4ddf9fe458a552ade2865a04d",
+      "source_branch_id": "br-5d69d1bd40a6"
+    },
+    {
+      "job_id": "krk-m3-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:04",
+      "decision_id": "krk-m3-1_trial0_step001",
+      "arm": "keep_original_reply",
+      "replicate": 4,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b037df3b74f1360fad476d0bccea6707787d66f4ddf9fe458a552ade2865a04d",
+      "source_branch_id": "br-5d69d1bd40a6"
+    },
+    {
+      "job_id": "krk-m3-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:05",
+      "decision_id": "krk-m3-1_trial0_step001",
+      "arm": "keep_original_reply",
+      "replicate": 5,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b037df3b74f1360fad476d0bccea6707787d66f4ddf9fe458a552ade2865a04d",
+      "source_branch_id": "br-5d69d1bd40a6"
+    },
+    {
+      "job_id": "krk-m3-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:06",
+      "decision_id": "krk-m3-1_trial0_step001",
+      "arm": "keep_original_reply",
+      "replicate": 6,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b037df3b74f1360fad476d0bccea6707787d66f4ddf9fe458a552ade2865a04d",
+      "source_branch_id": "br-5d69d1bd40a6"
+    },
+    {
+      "job_id": "krk-m3-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:07",
+      "decision_id": "krk-m3-1_trial0_step001",
+      "arm": "keep_original_reply",
+      "replicate": 7,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b037df3b74f1360fad476d0bccea6707787d66f4ddf9fe458a552ade2865a04d",
+      "source_branch_id": "br-5d69d1bd40a6"
+    },
+    {
+      "job_id": "krk-m3-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:08",
+      "decision_id": "krk-m3-1_trial0_step001",
+      "arm": "keep_original_reply",
+      "replicate": 8,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b037df3b74f1360fad476d0bccea6707787d66f4ddf9fe458a552ade2865a04d",
+      "source_branch_id": "br-5d69d1bd40a6"
+    },
+    {
+      "job_id": "krk-m3-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:09",
+      "decision_id": "krk-m3-1_trial0_step001",
+      "arm": "keep_original_reply",
+      "replicate": 9,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b037df3b74f1360fad476d0bccea6707787d66f4ddf9fe458a552ade2865a04d",
+      "source_branch_id": "br-5d69d1bd40a6"
+    },
+    {
+      "job_id": "krk-m3-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:00",
+      "decision_id": "krk-m3-1_trial0_step001",
+      "arm": "redecide_reply",
+      "replicate": 0,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b037df3b74f1360fad476d0bccea6707787d66f4ddf9fe458a552ade2865a04d",
+      "source_branch_id": "br-5d69d1bd40a6"
+    },
+    {
+      "job_id": "krk-m3-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:01",
+      "decision_id": "krk-m3-1_trial0_step001",
+      "arm": "redecide_reply",
+      "replicate": 1,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b037df3b74f1360fad476d0bccea6707787d66f4ddf9fe458a552ade2865a04d",
+      "source_branch_id": "br-5d69d1bd40a6"
+    },
+    {
+      "job_id": "krk-m3-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:02",
+      "decision_id": "krk-m3-1_trial0_step001",
+      "arm": "redecide_reply",
+      "replicate": 2,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b037df3b74f1360fad476d0bccea6707787d66f4ddf9fe458a552ade2865a04d",
+      "source_branch_id": "br-5d69d1bd40a6"
+    },
+    {
+      "job_id": "krk-m3-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:03",
+      "decision_id": "krk-m3-1_trial0_step001",
+      "arm": "redecide_reply",
+      "replicate": 3,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b037df3b74f1360fad476d0bccea6707787d66f4ddf9fe458a552ade2865a04d",
+      "source_branch_id": "br-5d69d1bd40a6"
+    },
+    {
+      "job_id": "krk-m3-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:04",
+      "decision_id": "krk-m3-1_trial0_step001",
+      "arm": "redecide_reply",
+      "replicate": 4,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b037df3b74f1360fad476d0bccea6707787d66f4ddf9fe458a552ade2865a04d",
+      "source_branch_id": "br-5d69d1bd40a6"
+    },
+    {
+      "job_id": "krk-m3-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:05",
+      "decision_id": "krk-m3-1_trial0_step001",
+      "arm": "redecide_reply",
+      "replicate": 5,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b037df3b74f1360fad476d0bccea6707787d66f4ddf9fe458a552ade2865a04d",
+      "source_branch_id": "br-5d69d1bd40a6"
+    },
+    {
+      "job_id": "krk-m3-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:06",
+      "decision_id": "krk-m3-1_trial0_step001",
+      "arm": "redecide_reply",
+      "replicate": 6,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b037df3b74f1360fad476d0bccea6707787d66f4ddf9fe458a552ade2865a04d",
+      "source_branch_id": "br-5d69d1bd40a6"
+    },
+    {
+      "job_id": "krk-m3-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:07",
+      "decision_id": "krk-m3-1_trial0_step001",
+      "arm": "redecide_reply",
+      "replicate": 7,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b037df3b74f1360fad476d0bccea6707787d66f4ddf9fe458a552ade2865a04d",
+      "source_branch_id": "br-5d69d1bd40a6"
+    },
+    {
+      "job_id": "krk-m3-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:08",
+      "decision_id": "krk-m3-1_trial0_step001",
+      "arm": "redecide_reply",
+      "replicate": 8,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b037df3b74f1360fad476d0bccea6707787d66f4ddf9fe458a552ade2865a04d",
+      "source_branch_id": "br-5d69d1bd40a6"
+    },
+    {
+      "job_id": "krk-m3-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:09",
+      "decision_id": "krk-m3-1_trial0_step001",
+      "arm": "redecide_reply",
+      "replicate": 9,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "b037df3b74f1360fad476d0bccea6707787d66f4ddf9fe458a552ade2865a04d",
+      "source_branch_id": "br-5d69d1bd40a6"
+    },
+    {
+      "job_id": "krk-m3-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:00",
+      "decision_id": "krk-m3-1_trial0_step003",
+      "arm": "keep_original_reply",
+      "replicate": 0,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "28fed58b70c953963327c6e7a5c38f5ddd9b4dd812d36120270d8335ba32edc2",
+      "source_branch_id": "br-5d69d1bd40a6"
+    },
+    {
+      "job_id": "krk-m3-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:01",
+      "decision_id": "krk-m3-1_trial0_step003",
+      "arm": "keep_original_reply",
+      "replicate": 1,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "28fed58b70c953963327c6e7a5c38f5ddd9b4dd812d36120270d8335ba32edc2",
+      "source_branch_id": "br-5d69d1bd40a6"
+    },
+    {
+      "job_id": "krk-m3-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:02",
+      "decision_id": "krk-m3-1_trial0_step003",
+      "arm": "keep_original_reply",
+      "replicate": 2,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "28fed58b70c953963327c6e7a5c38f5ddd9b4dd812d36120270d8335ba32edc2",
+      "source_branch_id": "br-5d69d1bd40a6"
+    },
+    {
+      "job_id": "krk-m3-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:03",
+      "decision_id": "krk-m3-1_trial0_step003",
+      "arm": "keep_original_reply",
+      "replicate": 3,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "28fed58b70c953963327c6e7a5c38f5ddd9b4dd812d36120270d8335ba32edc2",
+      "source_branch_id": "br-5d69d1bd40a6"
+    },
+    {
+      "job_id": "krk-m3-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:04",
+      "decision_id": "krk-m3-1_trial0_step003",
+      "arm": "keep_original_reply",
+      "replicate": 4,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "28fed58b70c953963327c6e7a5c38f5ddd9b4dd812d36120270d8335ba32edc2",
+      "source_branch_id": "br-5d69d1bd40a6"
+    },
+    {
+      "job_id": "krk-m3-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:05",
+      "decision_id": "krk-m3-1_trial0_step003",
+      "arm": "keep_original_reply",
+      "replicate": 5,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "28fed58b70c953963327c6e7a5c38f5ddd9b4dd812d36120270d8335ba32edc2",
+      "source_branch_id": "br-5d69d1bd40a6"
+    },
+    {
+      "job_id": "krk-m3-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:06",
+      "decision_id": "krk-m3-1_trial0_step003",
+      "arm": "keep_original_reply",
+      "replicate": 6,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "28fed58b70c953963327c6e7a5c38f5ddd9b4dd812d36120270d8335ba32edc2",
+      "source_branch_id": "br-5d69d1bd40a6"
+    },
+    {
+      "job_id": "krk-m3-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:07",
+      "decision_id": "krk-m3-1_trial0_step003",
+      "arm": "keep_original_reply",
+      "replicate": 7,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "28fed58b70c953963327c6e7a5c38f5ddd9b4dd812d36120270d8335ba32edc2",
+      "source_branch_id": "br-5d69d1bd40a6"
+    },
+    {
+      "job_id": "krk-m3-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:08",
+      "decision_id": "krk-m3-1_trial0_step003",
+      "arm": "keep_original_reply",
+      "replicate": 8,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "28fed58b70c953963327c6e7a5c38f5ddd9b4dd812d36120270d8335ba32edc2",
+      "source_branch_id": "br-5d69d1bd40a6"
+    },
+    {
+      "job_id": "krk-m3-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:09",
+      "decision_id": "krk-m3-1_trial0_step003",
+      "arm": "keep_original_reply",
+      "replicate": 9,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "28fed58b70c953963327c6e7a5c38f5ddd9b4dd812d36120270d8335ba32edc2",
+      "source_branch_id": "br-5d69d1bd40a6"
+    },
+    {
+      "job_id": "krk-m3-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:00",
+      "decision_id": "krk-m3-1_trial0_step003",
+      "arm": "redecide_reply",
+      "replicate": 0,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "28fed58b70c953963327c6e7a5c38f5ddd9b4dd812d36120270d8335ba32edc2",
+      "source_branch_id": "br-5d69d1bd40a6"
+    },
+    {
+      "job_id": "krk-m3-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:01",
+      "decision_id": "krk-m3-1_trial0_step003",
+      "arm": "redecide_reply",
+      "replicate": 1,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "28fed58b70c953963327c6e7a5c38f5ddd9b4dd812d36120270d8335ba32edc2",
+      "source_branch_id": "br-5d69d1bd40a6"
+    },
+    {
+      "job_id": "krk-m3-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:02",
+      "decision_id": "krk-m3-1_trial0_step003",
+      "arm": "redecide_reply",
+      "replicate": 2,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "28fed58b70c953963327c6e7a5c38f5ddd9b4dd812d36120270d8335ba32edc2",
+      "source_branch_id": "br-5d69d1bd40a6"
+    },
+    {
+      "job_id": "krk-m3-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:03",
+      "decision_id": "krk-m3-1_trial0_step003",
+      "arm": "redecide_reply",
+      "replicate": 3,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "28fed58b70c953963327c6e7a5c38f5ddd9b4dd812d36120270d8335ba32edc2",
+      "source_branch_id": "br-5d69d1bd40a6"
+    },
+    {
+      "job_id": "krk-m3-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:04",
+      "decision_id": "krk-m3-1_trial0_step003",
+      "arm": "redecide_reply",
+      "replicate": 4,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "28fed58b70c953963327c6e7a5c38f5ddd9b4dd812d36120270d8335ba32edc2",
+      "source_branch_id": "br-5d69d1bd40a6"
+    },
+    {
+      "job_id": "krk-m3-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:05",
+      "decision_id": "krk-m3-1_trial0_step003",
+      "arm": "redecide_reply",
+      "replicate": 5,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "28fed58b70c953963327c6e7a5c38f5ddd9b4dd812d36120270d8335ba32edc2",
+      "source_branch_id": "br-5d69d1bd40a6"
+    },
+    {
+      "job_id": "krk-m3-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:06",
+      "decision_id": "krk-m3-1_trial0_step003",
+      "arm": "redecide_reply",
+      "replicate": 6,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "28fed58b70c953963327c6e7a5c38f5ddd9b4dd812d36120270d8335ba32edc2",
+      "source_branch_id": "br-5d69d1bd40a6"
+    },
+    {
+      "job_id": "krk-m3-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:07",
+      "decision_id": "krk-m3-1_trial0_step003",
+      "arm": "redecide_reply",
+      "replicate": 7,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "28fed58b70c953963327c6e7a5c38f5ddd9b4dd812d36120270d8335ba32edc2",
+      "source_branch_id": "br-5d69d1bd40a6"
+    },
+    {
+      "job_id": "krk-m3-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:08",
+      "decision_id": "krk-m3-1_trial0_step003",
+      "arm": "redecide_reply",
+      "replicate": 8,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "28fed58b70c953963327c6e7a5c38f5ddd9b4dd812d36120270d8335ba32edc2",
+      "source_branch_id": "br-5d69d1bd40a6"
+    },
+    {
+      "job_id": "krk-m3-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:09",
+      "decision_id": "krk-m3-1_trial0_step003",
+      "arm": "redecide_reply",
+      "replicate": 9,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "28fed58b70c953963327c6e7a5c38f5ddd9b4dd812d36120270d8335ba32edc2",
+      "source_branch_id": "br-5d69d1bd40a6"
+    },
+    {
+      "job_id": "krk-m8-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:00",
+      "decision_id": "krk-m8-1_trial0_step003",
+      "arm": "keep_original_reply",
+      "replicate": 0,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "2fe7d7aeb4722e4201480d6cec4a161e73aea7c5a5a42168695255d7ecba6344",
+      "source_branch_id": "br-530e4c7ce831"
+    },
+    {
+      "job_id": "krk-m8-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:01",
+      "decision_id": "krk-m8-1_trial0_step003",
+      "arm": "keep_original_reply",
+      "replicate": 1,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "2fe7d7aeb4722e4201480d6cec4a161e73aea7c5a5a42168695255d7ecba6344",
+      "source_branch_id": "br-530e4c7ce831"
+    },
+    {
+      "job_id": "krk-m8-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:02",
+      "decision_id": "krk-m8-1_trial0_step003",
+      "arm": "keep_original_reply",
+      "replicate": 2,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "2fe7d7aeb4722e4201480d6cec4a161e73aea7c5a5a42168695255d7ecba6344",
+      "source_branch_id": "br-530e4c7ce831"
+    },
+    {
+      "job_id": "krk-m8-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:03",
+      "decision_id": "krk-m8-1_trial0_step003",
+      "arm": "keep_original_reply",
+      "replicate": 3,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "2fe7d7aeb4722e4201480d6cec4a161e73aea7c5a5a42168695255d7ecba6344",
+      "source_branch_id": "br-530e4c7ce831"
+    },
+    {
+      "job_id": "krk-m8-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:04",
+      "decision_id": "krk-m8-1_trial0_step003",
+      "arm": "keep_original_reply",
+      "replicate": 4,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "2fe7d7aeb4722e4201480d6cec4a161e73aea7c5a5a42168695255d7ecba6344",
+      "source_branch_id": "br-530e4c7ce831"
+    },
+    {
+      "job_id": "krk-m8-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:05",
+      "decision_id": "krk-m8-1_trial0_step003",
+      "arm": "keep_original_reply",
+      "replicate": 5,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "2fe7d7aeb4722e4201480d6cec4a161e73aea7c5a5a42168695255d7ecba6344",
+      "source_branch_id": "br-530e4c7ce831"
+    },
+    {
+      "job_id": "krk-m8-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:06",
+      "decision_id": "krk-m8-1_trial0_step003",
+      "arm": "keep_original_reply",
+      "replicate": 6,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "2fe7d7aeb4722e4201480d6cec4a161e73aea7c5a5a42168695255d7ecba6344",
+      "source_branch_id": "br-530e4c7ce831"
+    },
+    {
+      "job_id": "krk-m8-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:07",
+      "decision_id": "krk-m8-1_trial0_step003",
+      "arm": "keep_original_reply",
+      "replicate": 7,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "2fe7d7aeb4722e4201480d6cec4a161e73aea7c5a5a42168695255d7ecba6344",
+      "source_branch_id": "br-530e4c7ce831"
+    },
+    {
+      "job_id": "krk-m8-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:08",
+      "decision_id": "krk-m8-1_trial0_step003",
+      "arm": "keep_original_reply",
+      "replicate": 8,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "2fe7d7aeb4722e4201480d6cec4a161e73aea7c5a5a42168695255d7ecba6344",
+      "source_branch_id": "br-530e4c7ce831"
+    },
+    {
+      "job_id": "krk-m8-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:09",
+      "decision_id": "krk-m8-1_trial0_step003",
+      "arm": "keep_original_reply",
+      "replicate": 9,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "2fe7d7aeb4722e4201480d6cec4a161e73aea7c5a5a42168695255d7ecba6344",
+      "source_branch_id": "br-530e4c7ce831"
+    },
+    {
+      "job_id": "krk-m8-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:00",
+      "decision_id": "krk-m8-1_trial0_step003",
+      "arm": "redecide_reply",
+      "replicate": 0,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "2fe7d7aeb4722e4201480d6cec4a161e73aea7c5a5a42168695255d7ecba6344",
+      "source_branch_id": "br-530e4c7ce831"
+    },
+    {
+      "job_id": "krk-m8-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:01",
+      "decision_id": "krk-m8-1_trial0_step003",
+      "arm": "redecide_reply",
+      "replicate": 1,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "2fe7d7aeb4722e4201480d6cec4a161e73aea7c5a5a42168695255d7ecba6344",
+      "source_branch_id": "br-530e4c7ce831"
+    },
+    {
+      "job_id": "krk-m8-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:02",
+      "decision_id": "krk-m8-1_trial0_step003",
+      "arm": "redecide_reply",
+      "replicate": 2,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "2fe7d7aeb4722e4201480d6cec4a161e73aea7c5a5a42168695255d7ecba6344",
+      "source_branch_id": "br-530e4c7ce831"
+    },
+    {
+      "job_id": "krk-m8-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:03",
+      "decision_id": "krk-m8-1_trial0_step003",
+      "arm": "redecide_reply",
+      "replicate": 3,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "2fe7d7aeb4722e4201480d6cec4a161e73aea7c5a5a42168695255d7ecba6344",
+      "source_branch_id": "br-530e4c7ce831"
+    },
+    {
+      "job_id": "krk-m8-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:04",
+      "decision_id": "krk-m8-1_trial0_step003",
+      "arm": "redecide_reply",
+      "replicate": 4,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "2fe7d7aeb4722e4201480d6cec4a161e73aea7c5a5a42168695255d7ecba6344",
+      "source_branch_id": "br-530e4c7ce831"
+    },
+    {
+      "job_id": "krk-m8-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:05",
+      "decision_id": "krk-m8-1_trial0_step003",
+      "arm": "redecide_reply",
+      "replicate": 5,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "2fe7d7aeb4722e4201480d6cec4a161e73aea7c5a5a42168695255d7ecba6344",
+      "source_branch_id": "br-530e4c7ce831"
+    },
+    {
+      "job_id": "krk-m8-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:06",
+      "decision_id": "krk-m8-1_trial0_step003",
+      "arm": "redecide_reply",
+      "replicate": 6,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "2fe7d7aeb4722e4201480d6cec4a161e73aea7c5a5a42168695255d7ecba6344",
+      "source_branch_id": "br-530e4c7ce831"
+    },
+    {
+      "job_id": "krk-m8-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:07",
+      "decision_id": "krk-m8-1_trial0_step003",
+      "arm": "redecide_reply",
+      "replicate": 7,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "2fe7d7aeb4722e4201480d6cec4a161e73aea7c5a5a42168695255d7ecba6344",
+      "source_branch_id": "br-530e4c7ce831"
+    },
+    {
+      "job_id": "krk-m8-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:08",
+      "decision_id": "krk-m8-1_trial0_step003",
+      "arm": "redecide_reply",
+      "replicate": 8,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "2fe7d7aeb4722e4201480d6cec4a161e73aea7c5a5a42168695255d7ecba6344",
+      "source_branch_id": "br-530e4c7ce831"
+    },
+    {
+      "job_id": "krk-m8-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:09",
+      "decision_id": "krk-m8-1_trial0_step003",
+      "arm": "redecide_reply",
+      "replicate": 9,
+      "target_model": "anthropic/claude-haiku-4-5-20251001",
+      "before_checkpoint": "2fe7d7aeb4722e4201480d6cec4a161e73aea7c5a5a42168695255d7ecba6344",
+      "source_branch_id": "br-530e4c7ce831"
+    }
+  ],
+  "models": {
+    "target": {
+      "id": "anthropic/claude-haiku-4-5-20251001",
+      "role": "second model under test",
+      "listed_status": "Active (legacy); docs advise migrating to Haiku 5.5",
+      "retirement_stated": "not sooner than 2026-10-15; no firm date published"
+    },
+    "reference": {
+      "id": "anthropic/claude-haiku-5-5",
+      "role": "original M2 model; not dispatched in this stage"
+    },
+    "policy_source": "m3_runtime/policies.py (registry fingerprint recorded at run time)",
+    "declared_change": "M3 sets drop_params=False where M2 recorded True, and Haiku 4.5 uses an explicit 4096-token thinking budget where Haiku 5.5 used adaptive thinking. This is a declared model-policy transfer, not isolation of model weights."
+  },
+  "metrics": {
+    "primary_feasibility": [
+      "dispatch_success_rate",
+      "response_model_identity_verified_on_every_call",
+      "prefix_and_board_preserved_on_every_fork",
+      "forced_reply_dispatched_exactly_once_in_keep_arm",
+      "actual_usd_per_continuation",
+      "actual_vs_proxy_token_ratio"
+    ],
+    "descriptive_only": [
+      "recovery rate per arm per decision, with interval, labelled non-confirmatory"
+    ],
+    "multiplicity": "None applied. No confirmatory claim is made from this stage. The confirmation stage will declare and freeze its own Holm family before its outcomes are collected."
+  },
+  "budget": {
+    "ceiling_usd": 15,
+    "ledger": "experiments/m3_live_v1/ledger.sqlite",
+    "shared": "One transactional cap across all jobs and worker processes.",
+    "proxy_expectation_usd": 7.230300466666667,
+    "proxy_basis": "same-usage proxy from M2 token counts at current Haiku 4.5 list prices",
+    "note": "Proxy may overestimate input tokens: Haiku 5.5's newer tokenizer yields about 30% more tokens for the same text. It may underestimate output if the 4096-token thinking budget exceeds Haiku 5.5's adaptive usage.",
+    "unknown_usage_policy": "Maximum liability retained until usage and model identity are confirmed."
+  },
+  "stopping_and_interruption": {
+    "hard_stop": "Budget cap; no call starts that could exceed it.",
+    "on_transport_failure": "Stop the run. No retries are configured or permitted.",
+    "resume": "Completed job_ids are skipped on restart. Reservations survive interruption; no paid prefix is redrawn.",
+    "abort_conditions": [
+      "Any response whose model id is not the pinned target.",
+      "Any fork that fails prefix, board or non-policy context verification.",
+      "Any response missing usage."
+    ]
+  },
+  "provenance": {
+    "taxonomy_sha256": "bbf18e4bcb8837bf0251cdac8d88e054436d4f1f9097eb0665df80dbc56ef2d7",
+    "forecast_sha256": "605b11877a2ee6ad378163e0a29759784bcd91bb2173db48df9ee9357649e9ec",
+    "m1_source_pin": "8799acfc484febd0c9156ccca0bfa00fb0724aeb",
+    "store": "inputs/m1_original/runs/m1_think (read-only seed)"
+  },
+  "authorization": {
+    "authorized_usd": 0,
+    "authorized_by": null,
+    "authorized_on": null,
+    "note": "No paid call may run until authorized_usd is set to the approved figure by the project owner and this manifest is re-frozen."
+  }
+}

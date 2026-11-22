@@ -1,0 +1,59 @@
+{
+  "schema": "caaf.m3.offline_preparation/1",
+  "date": "2026-11-20",
+  "status": "OFFLINE_PREPARATION_COMPLETE_NOT_LIVE_AUTHORIZATION",
+  "authorization": {
+    "scope": "Review seven original failed dialogues and 48 decisions; prepare explicit cross-model execution and spending checks offline",
+    "paid_runs_authorized": false,
+    "authorized_new_api_spend_usd": 0,
+    "m2_allowance_carries_forward": false
+  },
+  "source": {
+    "m2_manifest": "../m2_direct_v2/experiment_manifest.json",
+    "m2_primary_statistics": "../m2_direct_v2/primary_profiles.csv",
+    "original_store": "inputs/m1_original/runs/m1_think",
+    "source_pr_commit": "8799acfc484febd0c9156ccca0bfa00fb0724aeb",
+    "decision_checkpoint_inventory": "taxonomy.json",
+    "source_hash_inventory": "taxonomy.json#/summary/source_files_sha256",
+    "source_model": "anthropic/claude-haiku-5-5",
+    "proposed_target_model": "anthropic/claude-haiku-4-5-20251001"
+  },
+  "offline_coverage": {
+    "dialogues": 7,
+    "decisions": 48,
+    "starting_positions": 4,
+    "models": 2,
+    "arms": ["keep_original_reply", "redecide_reply"],
+    "restorations": 192,
+    "mock_full_continuations": 14,
+    "mock_dispatches": 89,
+    "regression_tests_passed": 55,
+    "actual_api_calls": 0,
+    "actual_api_spend_usd": 0
+  },
+  "execution_contract": {
+    "explicit_target_required": true,
+    "target_policy_replaces_saved_sampling": true,
+    "full_saved_history_preserved": true,
+    "all_nonmodel_context_fields_preserved": true,
+    "board_and_limits_preserved": true,
+    "new_child_checkpoint_records_model_change": true,
+    "keep_arm_forces_original_reply_once": true,
+    "default_live_transport_disabled": true,
+    "credentials_loaded": false,
+    "history_truncation_allowed": false,
+    "unknown_model_or_price_policy_allowed": false,
+    "retry_count": 0,
+    "shared_cap_required_across_models": true,
+    "unknown_cost_liability": "Retain model-specific maximum and halt; never automatically refund or redraw",
+    "model_policy_registry": "model_policies.json"
+  },
+  "scientific_limits": [
+    "Post-hoc assistant annotation with deterministic board checks; independent human annotation pending",
+    "Observed errors, clock-aware oracle loss, uncertain interpretations and M2 measured reply effects are separate fields",
+    "No new causal or transfer effects measured",
+    "Thinking policies differ across models; a future comparison must declare model-policy transfer",
+    "No live provider compatibility established by mocks",
+    "No API sample count, stopping rule or paid job schedule is authorized by this preparation"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schema": "caaf.m3.offline_verification/1",
+  "date": "2026-11-20",
+  "base_commit": "1f629bdee737b560f5a7aff4ddbf4ba489d270b2",
+  "branch": "codex/m3-offline-preparation",
+  "api_cost_usd": 0,
+  "api_calls": 0,
+  "frozen_preexisting_tracked_files_unchanged": 148,
+  "preexisting_tracked_files_intentionally_updated": [
+    "README.md",
+    ".gitignore"
+  ],
+  "source_checks": "Source SHA-256 identities in taxonomy.json are verified before and after preflight; all original public replies match the complete exported histories.",
+  "tests": {
+    "network_blocked": true,
+    "api_calls": 0,
+    "exit_code": 0,
+    "tests": 55,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "artifact_sha256": {
+    ".gitignore": "6ca7c7b966fe345e385a50ae691fe4244d61482d953c12da1527da98fd841262",
+    "README.md": "69dfed4427a8eca7d776a696a2248c0edbd540e28a59aed2e4b340b2bebd1fce",
+    "experiments/m3_offline_v1/DIALOGUES.md": "f4a933c9f4391bdc2ce6152eba1fa9d5e75061d1c544f5e0b52ce717feaa7c16",
+    "experiments/m3_offline_v1/README.md": "4ad2fc756eba60a0769abb838d4528dc43717336b7be1b41f1f5587dc288c53c",
+    "experiments/m3_offline_v1/TAXONOMY.md": "356f44096f77f043ff048b4819a791244bdd74086f73897e0cab8c99e0d96d30",
+    "experiments/m3_offline_v1/dialogues.json": "77236e5f7e13c673a742ae5b8c6144096aa1855d6eabcc3422ad42319d08227d",
+    "experiments/m3_offline_v1/experiment_manifest.json": "88e5d0863ff4508d0cf705a76f0cbc6aa503e0647dd8fcb31b236d4a3abf8ecb",
+    "experiments/m3_offline_v1/model_policies.json": "52b116919c25b088e10a7151b27b59285ea12b712ba2e129808ed0a9ecd6277f",
+    "experiments/m3_offline_v1/preflight.json": "5f01fd23c266ce75642e44907672d96a3a54b54f33f60627f9ba56b8edcdf307",
+    "experiments/m3_offline_v1/taxonomy.csv": "613d2f654c65b0f292ee259a881d55ba8bbd42cbbf56200fbeed6fe4d54a8a1a",
+    "experiments/m3_offline_v1/taxonomy.json": "bbf18e4bcb8837bf0251cdac8d88e054436d4f1f9097eb0665df80dbc56ef2d7",
+    "experiments/m3_offline_v1/test_results.json": "887d380d613604ef4859c66f886f78e3a5d658036136dd1fbbe421d3d0dc348c",
+    "m3_runtime/__init__.py": "aa23cf15cf97d159f6bf8a9a6ee6027625946092068107b91bc1ba2dd1a4a61e",
+    "m3_runtime/annotations.py": "f671ee2b762e126896a8f62ad7361abe88c3dced04a71a267622562a2ea80a56",
+    "m3_runtime/budget.py": "03c26639feac9be1d5c26b2e8f2276b69802975bffdd063f6d7cb8f0351c9ad3",
+    "m3_runtime/policies.py": "cf7867912d204b44911e3b6f1f5eef26149893d3e5f12ec7adb64cb7d62e2e38",
+    "m3_runtime/source.py": "6298dadc191ed3808c7e49e280eadd9804ca350dfed8e84719eab35d18963fa7",
+    "m3_runtime/transfer.py": "44d3d3dc1f42c4e2b4ebca39f614ca684649934a19fa7315d7366c192f4547bb",
+    "m3_runtime/transport.py": "9ec58c89e0495470bc65283034e01b86895b6982b4d4089207d682a1adf712b8",
+    "scripts/build_m3_taxonomy.py": "bb4078665efd9b52abc1ead3da82837d6f367c4fd885f6addd2b2b2c9fb47174",
+    "scripts/m3_offline_common.py": "a2fe1349b61f853eb85b2cc5c52043f97401da180453309e9b539363b4746e93",
+    "scripts/preflight_m3_offline.py": "8704c6ef4b45ed57594ac62b13be20fbba63a520374bfff267b2432ec5c21c31",
+    "scripts/verify_m3_offline.py": "934ddf1bd74038626c7bca6e4de0a1e6588caed41d854c2acbd7f28034cb4f2e",
+    "tests/test_m3_offline.py": "0ad22b9cf01c7168fb076dbcd4f71f8b46fa565e281c8ced13bbbe4179b83ebb"
+  }
+}

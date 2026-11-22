@@ -1,0 +1,49 @@
+decision_id,command,observed_labels,uncertain_interpretation,causal_status,repair_gain,holm_p,review_note
+krk-m3-1_trial0_step001,play move Rb2,,False,unresolved,0.03333333333333333,1.0,Rb2 confines the king to c1/e1; the stated immediate reply set is correct.
+krk-m3-1_trial0_step002,play move Kc3,clock_win_lost,False,unresolved,0.03333333333333333,1.0,Kc3 protects b2 and leaves only Kd1. Locally correct reply reasoning nevertheless loses the clock-aware theoretical win.
+krk-m3-1_trial0_step003,play move Kd3,,False,unresolved,0.0,1.0,Kd3 leaves c1/e1 as stated. The position had already lost its clock-aware win; no additional local error established.
+krk-m3-1_trial0_step004,play move Ke3,,False,unresolved,0.0,1.0,Ke3 leaves d1/f1 as stated. No new factual error established in this reply.
+krk-m3-1_trial0_step005,play move Kd3,board_revisit,True,unresolved,0.0,1.0,Kd3 returns to the earlier board with four fewer half-moves. The claim that this is most restrictive is not established by the transcript.
+krk-m3-1_trial0_step006,play move Rb1+,,False,unresolved,0.0,1.0,Rb1+ leaves Kf2 as stated. This correct immediate check does not restore the clock-aware win.
+krk-m3-1_trial0_step007,play move Rb2+,false_attack_or_reply_claim,False,unresolved,0.0,1.0,Acknowledges no mate in one. Lists g2 as a possible escape although the rook on b2 attacks g2; these are hypothetical replies because the game ends at clock 100 immediately after White moves.
+krk-m3-1_trial1_step001,play move Rb2,,False,unresolved,0.13333333333333333,1.0,Rb2 leaves c1/e1 as stated; no factual error established.
+krk-m3-1_trial1_step002,play move Kc3,false_attack_or_reply_claim;clock_win_lost,False,unresolved,0.0,1.0,Kc3 loses the clock-aware win. The stated b1 alternative is illegal because the rook on b2 attacks b1; only Kd1 is legal.
+krk-m3-1_trial1_step003,play move Kd3,,False,unresolved,0.0,1.0,"Kd3 leaves c1/e1 as stated, from an already clock-lost position."
+krk-m3-1_trial1_step004,play move Ke3,,False,unresolved,0.0,1.0,Ke3 leaves d1/f1 as stated; no new factual error established.
+krk-m3-1_trial1_step005,play move Kd3,board_revisit,False,unresolved,0.0,1.0,Kd3 repeats the board after step 3 while consuming four half-moves; c1/e1 is the correct immediate reply set.
+krk-m3-1_trial1_step006,play move Ke3,board_revisit,False,unresolved,0.0,1.0,Ke3 repeats the board after step 4. Expresses uncertainty about a forced mate in two; this is not a false completion claim.
+krk-m3-1_trial1_step007,play move Rb1+,,False,unresolved,0.0,1.0,"Rb1+ does not mate, as acknowledged. The geometrical c2 escape is legal, but clock 100 terminates play before any Black reply."
+krk-m4-1_trial0_step001,play move Ke1,,False,unresolved,-0.3333333333333333,0.8402265011827871,Ke1 protects the rook plan and covers f1/f2. Rejecting Rg3+ because of Kxg3 is sound. The primary corrected analysis does not resolve a helpful effect despite its negative point estimate.
+krk-m4-1_trial0_step002,play move Rd2,,False,unresolved,-0.3,0.8760300453854877,Rd2 is protected by Ke1 and leaves only Kh1 as stated. No factual error established.
+krk-m4-1_trial0_step003,play move Ke2,false_attack_or_reply_claim,False,resolved_harmful_reply_effect,0.6666666666666666,1.7107946274196676e-05,"Ke2 blocks its own rook's second-rank ray. Contrary to the only-Kg1 claim, Kh2 and Kg2 are also legal. Theoretical winning status survives, but M2 resolves a harmful keep-versus-redecide effect for this entire reply."
+krk-m4-1_trial0_step004,play move Rd3,false_attack_or_reply_claim,False,unresolved,-0.16666666666666666,1.0,Rd3 reply lists f1 among Black's choices; Ke2 attacks f1. The other listed g1/h1/h2 replies are legal. The causal effect remains unresolved.
+krk-m4-1_trial0_step005,play move Rd1+,clock_win_lost,True,resolved_harmful_reply_effect,0.36666666666666664,0.014983846870510612,Rd1+ has the stated h2/g2 replies but loses the clock-aware theoretical win. The promise to work out mate after the reply does not establish a feasible plan; M2 resolves a harmful reply effect.
+krk-m4-1_trial0_step006,play move Ra1,,False,unresolved,0.0,1.0,Ra1 leaves g3/h3/h2 as stated; the clock-aware win had already been lost.
+krk-m4-1_trial0_step007,play move Ra3+,,True,unresolved,0.0,1.0,Ra3+ is followed by Kf4. The reply acknowledges a forced mate in two is not established; its proposed future plan remains unverified.
+krk-m4-1_trial0_step008,play move Ra4+,,False,unresolved,0.0,1.0,"Ra4+ is not mate as acknowledged. Escape examples are non-exhaustive, not an explicit only-replies assertion; omission of Kg3 alone is not labeled a false claim."
+krk-m4-1_trial1_step001,play move Rh3,false_attack_or_reply_claim;actual_rook_loss,False,resolved_harmful_reply_effect,0.36666666666666664,0.014983846870510612,"Rh3 is claimed uncapturable with only Kg1 available. Kxh3 is legal and is actually played, losing the rook and ending in insufficient material. M2 resolves a harmful effect for this reply."
+krk-m6-1_trial0_step001,play move Rg6,,False,unresolved,-0.2,1.0,Rg6 confines Black to ranks 7/8 as stated; no factual error established.
+krk-m6-1_trial0_step002,play move Rg7,,False,unresolved,-0.13333333333333333,1.0,Rg7 confines Black to rank 8. General rank examples are not treated as an exhaustive immediate move list.
+krk-m6-1_trial0_step003,play move Kd7,false_attack_or_reply_claim,False,unresolved,0.26666666666666666,1.0,Kd7 blocks its own rook's seventh-rank ray. The claim that Black must stay on rank 8 is false: Ka7 and Kb7 are legal. Theoretical winning status survives; Holm-corrected causal evidence is unresolved.
+krk-m6-1_trial0_step004,play move Rg8,,False,unresolved,0.26666666666666666,0.20587780758113852,"Rg8 leaves a6/a7/b6 as stated. This boundary is still theoretically winning; the clock pivot occurs at the next decision, not here."
+krk-m6-1_trial0_step005,play move Kd6,clock_win_lost,False,unresolved,0.03333333333333333,1.0,"Kd6 has the stated local replies, but changes clock/DTZ feasibility from 89+9 to 91+13 and loses the theoretical win. Statistical harmful-effect evidence is unresolved."
+krk-m6-1_trial0_step006,play move Rb8+,,False,unresolved,0.0,1.0,Rb8+ forces Black off the b-file as stated; the clock-aware win is already lost.
+krk-m6-1_trial0_step007,play move Ke5,,False,unresolved,0.0,1.0,Ke5 avoids the proposed Rb4+ line that would allow Kxb4. This tactical caution is correct; no new factual error established.
+krk-m6-1_trial0_step008,play move Rc8+,,False,unresolved,0.0,1.0,"Rc8+ cannot be answered by Kd4 because Ke5 attacks d4, as stated. No new factual error established."
+krk-m6-1_trial0_step009,play move Rd8+,,False,unresolved,0.0,1.0,Rd8+ is not immediately capturable; doubts about mate in two are not labeled a false claim.
+krk-m6-1_trial0_step010,play move Rc8+,,False,unresolved,0.0,1.0,Rc8+ does not mate; the reply acknowledges the draw. Clock 100 ends play before a Black reply.
+krk-m8-1_trial0_step001,play move Rh3+,,True,unresolved,0.0,1.0,Rh3+ begins a checking/confinement plan. The generic plan is not sufficiently specified to certify or refute from prose alone.
+krk-m8-1_trial0_step002,play move Kd4,,False,unresolved,0.0,1.0,Kd4 keeps the third rank covered by Rh3 and leaves a5/b4/b5 as stated.
+krk-m8-1_trial0_step003,play move Ra3,false_attack_or_reply_claim;actual_rook_loss,False,unresolved,0.0,1.0,"Ra3 is claimed to leave only Kb5. Kxa3 is legal and actually occurs, losing the rook and drawing. Both M2 arms had zero wins, so a harmful intervention effect is not statistically resolved."
+krk-m8-1_trial1_step001,play move Rh3+,,False,unresolved,0.03333333333333333,1.0,Rh3+ leaves a2/b2/a4/b4 as stated; no factual error established.
+krk-m8-1_trial1_step002,play move Kd4,,False,unresolved,0.0,1.0,Kd4 keeps the third rank covered as stated; no factual error established.
+krk-m8-1_trial1_step003,play move Kd5,,False,unresolved,0.06666666666666667,1.0,Kd5 leaves a4/a5/b5 as stated; no factual error established.
+krk-m8-1_trial1_step004,play move Rh4,,False,unresolved,0.0,1.0,Rh4 leaves a5/a6/b6 as stated; no factual error established.
+krk-m8-1_trial1_step005,play move Rb4+,clock_win_lost,False,unresolved,0.0,1.0,Rb4+ has the stated local replies but loses the clock-aware theoretical win: 85+15 becomes 87+15. Its harmful effect is statistically unresolved.
+krk-m8-1_trial1_step006,play move Rh4,board_revisit,True,unresolved,0.0,1.0,Rh4 revisits the board after step 4 with four fewer half-moves. Avoiding Rb7+ because of Kxb7 is correct; the future Rh7+ plan is unverified.
+krk-m8-1_trial1_step007,play move Rh7,,False,unresolved,0.0,1.0,Rh7 leaves a5/a6/b5 as stated; no new factual error established.
+krk-m8-1_trial1_step008,play move Ra7,,False,unresolved,0.0,1.0,Ra7 leaves b4/b6 as stated. The broad c-file language is evaluated locally: c4/c5/c6 are covered by Kd5; no exhaustive whole-file claim is imposed.
+krk-m8-1_trial1_step009,play move Kd4,,True,unresolved,0.0,1.0,Kd4 leaves b3/b5 as stated. Whether this is the best remaining plan is unverified; the position is already clock-lost.
+krk-m8-1_trial1_step010,play move Kc3,,True,unresolved,0.0,1.0,Kc3 leaves b6/c5/c6 as stated. The phrase keeps the net tight is evaluative and not independently demonstrated.
+krk-m8-1_trial1_step011,play move Rd7,,False,unresolved,0.0,1.0,Rd7 moves the rook away from the real Kxa7 threat. The reply acknowledges the short clock and lack of mate in two.
+krk-m8-1_trial1_step012,play move Kd4,false_attack_or_reply_claim,True,unresolved,0.0,1.0,"Kd4 does not mate, as acknowledged. The claim that it keeps the rook safe is false geometrically: Black could play Kxd7. Clock 100 ends the actual game first, so no rook capture occurs. The c5 parenthetical may describe pre-move alternatives; that interpretation is uncertain and is not counted as a second factual error."

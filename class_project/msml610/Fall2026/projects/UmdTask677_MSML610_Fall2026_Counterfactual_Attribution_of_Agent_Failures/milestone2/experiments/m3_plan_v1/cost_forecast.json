@@ -1,0 +1,124 @@
+{
+  "status": "DRAFT_NOT_AUTHORIZED",
+  "date": "2026-11-19",
+  "paid_runs_started": false,
+  "authorized_m3_spend_usd": 0,
+  "scope": "Chess taxonomy and targeted matched-prefix cross-model feasibility. Full original M3 also needs additional task families and broader model-owned trajectories.",
+  "sources": {
+    "original_milestone": "https://github.com/gpsaggese/gpsaggese.github.io/issues/677",
+    "chess_plan": "vendor/pr917/docs/04-plan.md",
+    "rates": "https://platform.claude.com/docs/en/about-claude/pricing",
+    "rates_checked": "2026-11-19"
+  },
+  "candidate_model": {
+    "id": "claude-haiku-4-5-20251001",
+    "input_usd_per_mtok": 1,
+    "output_usd_per_mtok": 5,
+    "thinking": "manual enabled; proposed 4096 thinking budget, max output 16000; settings must be fixed and tested before inference"
+  },
+  "reference_model": {
+    "id": "claude-haiku-5-5",
+    "input_usd_per_mtok_under_100k": 0.1,
+    "output_usd_per_mtok": 0.5,
+    "policy": "Original M2 adaptive policy unchanged"
+  },
+  "selected_decisions": [
+    "krk-m4-1_trial0_step003",
+    "krk-m4-1_trial0_step005",
+    "krk-m4-1_trial1_step001",
+    "krk-m4-1_trial0_step001",
+    "krk-m6-1_trial0_step001",
+    "krk-m3-1_trial0_step001",
+    "krk-m3-1_trial0_step003",
+    "krk-m8-1_trial0_step003"
+  ],
+  "reference_union_decisions": 13,
+  "proposed_phases": [
+    {
+      "phase": "taxonomy_and_offline_protocol_tests",
+      "continuations": 0,
+      "expected_api_usd": 0
+    },
+    {
+      "phase": "second_model_cost_and_fidelity_pilot",
+      "decisions": 8,
+      "per_arm": 10,
+      "continuations": 160,
+      "same_usage_proxy_usd": 7.230300466666667,
+      "planning_range_usd": [
+        5,
+        15
+      ],
+      "proposed_stage_cap_usd": 15,
+      "used_for_confirmatory_labels": false
+    },
+    {
+      "phase": "fresh_reference_and_discovery_replication",
+      "decisions": 13,
+      "per_arm": 30,
+      "continuations": 780,
+      "same_usage_proxy_usd": 2.826896675,
+      "planning_range_usd": [
+        2,
+        5
+      ]
+    },
+    {
+      "phase": "fresh_second_model_confirmation",
+      "decisions": 8,
+      "per_arm": 30,
+      "continuations": 480,
+      "same_usage_proxy_usd": 21.6909014,
+      "planning_range_usd": [
+        15,
+        40
+      ]
+    }
+  ],
+  "budget": {
+    "same_token_cache_pattern_point_proxy_usd": 31.748098541666668,
+    "same_token_all_input_uncached_proxy_usd": 37.51670863333333,
+    "practical_planning_range_usd": [
+      30,
+      50
+    ],
+    "proposed_total_shared_cap_usd": 60,
+    "proposed_remaining_stage_allowance_after_15_pilot_usd": 45,
+    "not_authorized": true,
+    "excludes": "Taxes, new task-family collection, full original cross-family M3, and M4 training/evaluation"
+  },
+  "expected_volume_same_usage_proxy": {
+    "continuations": 1420,
+    "model_calls": 5998.0,
+    "input_tokens": 14758202.666666668,
+    "output_tokens": 10648998.333333332
+  },
+  "empirical_cost_basis": {
+    "matched_8_M2_decisions_480_continuations": {
+      "model_calls": 2235,
+      "input_tokens": 5389856,
+      "output_tokens": 4041427,
+      "usage_rated_usd": 2.16909014
+    },
+    "reference_union_13_M2_decisions_780_continuations": {
+      "model_calls": 3018,
+      "input_tokens": 7571728,
+      "output_tokens": 5260429,
+      "usage_rated_usd": 2.826896675
+    }
+  },
+  "inference_rules": [
+    "Pilot samples excluded from fresh confirmation labels.",
+    "Freeze the confirmation sample counts and analysis after the technical/cost pilot, before confirmation outcomes.",
+    "Shared-prefix results are conditional on Haiku 5.5 generated histories and original replies.",
+    "Different thinking implementations are recorded as model-policy differences.",
+    "Compare gain differences with uncertainty; significance in one model and nonsignificance in another is not evidence of a difference.",
+    "All floor/ceiling and unresolved results remain explicit.",
+    "Stop at a stage boundary for user review before further paid phases."
+  ],
+  "implementation_findings": [
+    "vendor/pr917/caaf_agent.py fork overrides the configured model with the checkpoint model; an explicit audited transfer fork is required.",
+    "scripts/run_validation_stage.py and m2_runtime/budget.py are model-specific to M2; use a new versioned model-aware guard without editing frozen M2.",
+    "Capture actual response model IDs, usage, maximum liabilities, exact prefix/environment hashes and restore counters."
+  ]
+}

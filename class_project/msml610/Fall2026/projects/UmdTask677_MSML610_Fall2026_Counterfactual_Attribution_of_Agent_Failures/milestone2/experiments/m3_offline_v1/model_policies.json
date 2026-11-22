@@ -1,0 +1,53 @@
+{
+  "schema": "caaf.m3.policies/1",
+  "checked": "2026-11-20",
+  "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+  "policies": [
+    {
+      "model": "anthropic/claude-haiku-5-5",
+      "response_models": [
+        "claude-haiku-5-5"
+      ],
+      "max_input": 1000000,
+      "max_output": 16000,
+      "thinking": "adaptive",
+      "thinking_budget": null,
+      "short": {
+        "input": 100,
+        "write": 125,
+        "read": 10,
+        "output": 500
+      },
+      "long": {
+        "input": 500,
+        "write": 625,
+        "read": 50,
+        "output": 2500
+      },
+      "long_threshold": 100000
+    },
+    {
+      "model": "anthropic/claude-haiku-4-5-20251001",
+      "response_models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "max_input": 200000,
+      "max_output": 16000,
+      "thinking": "enabled",
+      "thinking_budget": 4096,
+      "short": {
+        "input": 1000,
+        "write": 1250,
+        "read": 100,
+        "output": 5000
+      },
+      "long": {
+        "input": 1000,
+        "write": 1250,
+        "read": 100,
+        "output": 5000
+      },
+      "long_threshold": 200000
+    }
+  ]
+}
