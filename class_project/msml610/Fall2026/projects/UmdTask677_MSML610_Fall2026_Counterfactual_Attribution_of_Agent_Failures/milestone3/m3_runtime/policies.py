@@ -60,6 +60,10 @@ H4 = Policy("anthropic/claude-haiku-4-5-20251001", ("claude-haiku-4-5-20251001",
             200_000, 16_000, "enabled", 4096,
             Rates(1000, 1250, 100, 5000), Rates(1000, 1250, 100, 5000), 200_000)
 POLICIES = MappingProxyType({p.model: p for p in (H5, H4)})
+# Geography the API reports for each model. Haiku 5.5 is sent inference_geo="global"
+# as in M2; Haiku 4.5 rejects the parameter and reports "not_available" (live
+# check 2026-11-22). Kept outside Policy so the recorded fingerprints are unchanged.
+EXPECTED_GEO = MappingProxyType({H5.model: "global", H4.model: "not_available"})
 PRICING_SOURCE = "https://platform.claude.com/docs/en/about-claude/pricing"
 PRICING_CHECKED = "2026-11-20"
 
@@ -95,7 +99,7 @@ def _same_counter(*values):
 def normalize_usage(usage, policy):
     if not isinstance(usage, dict):
         raise AccountingError("Missing token usage")
-    if usage.get("service_tier") not in (None, "standard") or usage.get("inference_geo") not in (None, "global"):
+    if usage.get("service_tier") not in (None, "standard") or usage.get("inference_geo") not in (None, EXPECTED_GEO[policy.model]):
         raise AccountingError("Unexpected billing tier or geography")
     details = usage.get("prompt_tokens_details") or {}
     cache = usage.get("cache_creation") or {}

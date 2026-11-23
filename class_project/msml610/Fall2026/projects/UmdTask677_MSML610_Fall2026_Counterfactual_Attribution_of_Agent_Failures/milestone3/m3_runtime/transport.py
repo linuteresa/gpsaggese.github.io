@@ -5,7 +5,24 @@ import time
 from minisweagent.exceptions import FormatError
 
 from .budget import BudgetBusy
-from .policies import AccountingError, NANO, canonical, policy_for
+from .policies import EXPECTED_GEO, AccountingError, NANO, canonical, policy_for
+
+
+# service_tier is not sent: M2 passed "standard" with drop_params=True, so litellm
+# silently dropped it; with M3's drop_params=False litellm rejects it client-side.
+# The standard tier is still enforced on every response below.
+REQUEST_OPTIONS = {"api_base": "https://api.anthropic.com",
+                   "num_retries": 0, "max_retries": 0, "timeout": 180}
+
+
+def request_options(model_id):
+    """M2 sent inference_geo="global" to Haiku 5.5. Haiku 4.5 rejects the parameter
+    (400 "does not support inference_geo", live check 2026-11-22). Responses are
+    checked against EXPECTED_GEO either way."""
+    options = dict(REQUEST_OPTIONS)
+    if EXPECTED_GEO[model_id] == "global":
+        options["inference_geo"] = "global"
+    return options
 
 
 def _text_only(prepared):
@@ -53,8 +70,7 @@ def make_guarded_query(budget, model_id, job_id, stopped, *, completion):
             raise RuntimeError("Run stopped before dispatch")
         try:
             response = completion(model=policy.model, messages=prepared, **policy.sampling(),
-                api_base="https://api.anthropic.com", service_tier="standard", inference_geo="global",
-                num_retries=0, max_retries=0, timeout=180)
+                **request_options(policy.model))
         except BaseException as exc:
             status = getattr(exc, "status_code", None)
             rejection = status if status in {400,401,403,404,413,422,429} else None
@@ -63,7 +79,7 @@ def make_guarded_query(budget, model_id, job_id, stopped, *, completion):
             raise RuntimeError(f"Transport failed ({type(exc).__name__}); no retry") from None
         try:
             raw = response.model_dump(mode="json")
-            if raw.get("service_tier") not in (None, "standard") or raw.get("inference_geo") not in (None, "global"):
+            if raw.get("service_tier") not in (None, "standard") or raw.get("inference_geo") not in (None, EXPECTED_GEO[policy.model]):
                 raise AccountingError("Response billing policy differs from request")
             if raw.get("usage") is None:
                 raise AccountingError("Provider returned no usage")

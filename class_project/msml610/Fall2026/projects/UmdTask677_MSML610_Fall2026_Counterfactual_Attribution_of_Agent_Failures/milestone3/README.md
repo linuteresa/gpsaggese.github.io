@@ -5,9 +5,10 @@ cross-model transfer study: restore a checkpoint from a Haiku 5.5 run and let
 Haiku 4.5 continue from the identical prefix and board.
 
 Source: Sri Ramm's handoff bundle `caaf_chess_m3_handoff_20261121`, M1 source
-pin `8799acfc484febd0c9156ccca0bfa00fb0724aeb`. Milestone 2 is merged in
-`../milestone2/` (PR #977); `m2_runtime` and `vendor/pr917` are symlinks to it
-and to the M1 project root.
+pin `8799acfc484febd0c9156ccca0bfa00fb0724aeb`. Milestone 2 lives in
+`../milestone2/` (PR #977) and stays frozen. This folder reads it through
+relative links: `m2_runtime`, `inputs` and `experiments/m2_direct_v2` point
+into `../milestone2/`, and `vendor/pr917` points to the M1 project root.
 
 ## Status
 
@@ -16,21 +17,23 @@ and to the M1 project root.
 | Taxonomy of 7 failures / 48 decisions | First review done; independent review pending |
 | Explicit model-switch transfer path | Implemented, verified offline |
 | Model-specific spending guard | Implemented, tested offline |
-| Live provider compatibility | Not tested |
-| Paid pilot | Frozen manifest, not authorized |
-| Cross-model transfer conclusion | Not measured |
+| Live path | Verified end to end, first against a local fake server ($0), then live |
+| Live provider compatibility | Verified 2026-11-22 after five pre-run fixes (see `pre_run_amendments`) |
+| Paid pilot | Done 2026-11-22: 160/160 jobs, $2.25 settled; see `experiments/m3_live_v1/REPORT.md` |
+| Cross-model transfer conclusion | Not measurable: Haiku 4.5 is at the floor (1/160 wins) |
 
 ## Setup
 
 ```bash
-python3.12 bootstrap_offline.py          # restores inputs/ from the M1 archive
-python3.12 -m venv .venv
-.venv/bin/python -m pip install -r requirements-analysis.lock
-.venv/bin/python scripts/verify_m3_offline.py     # expect 55 passed
+uv venv --python 3.12 .venv
+uv pip install --python .venv/bin/python -r ../milestone2/requirements-analysis.lock
+.venv/bin/python scripts/verify_m3_offline.py     # expect 59 passed
 ```
 
-`bootstrap_offline.py` needs `inputs/archive/m1_runs.tar.gz` from the handoff
-bundle or the shared Drive folder; `inputs/` is not in git.
+The suite runs the M3 tests, the frozen M2 regressions in `../milestone2/tests`
+and the pinned M1 chess tests, with the network blocked. It needs
+`../milestone2/inputs/` restored from the M1 archive (`bootstrap_offline.py` in
+the handoff bundle); `inputs/` is not in git.
 
 ## Taxonomy review
 
@@ -52,14 +55,25 @@ stage and is **not** used for confirmatory transfer labels.
 
 ```bash
 .venv/bin/python scripts/run_m3_pilot.py --preflight      # 0 API calls
-set -a; source .env; set +a
+set -a; source ../milestone2/.env; set +a        # ANTHROPIC_API_KEY
 .venv/bin/python scripts/run_m3_pilot.py --live --workers 4
 ```
 
 Live mode refuses to start unless `ANTHROPIC_API_KEY` is set and
 `authorization.authorized_usd` in the manifest is greater than zero. It stops on
-the first transport failure, never retries, and resumes by skipping completed
-job IDs.
+the first transport failure, never retries, and resumes by skipping job IDs
+already recorded for the same mode. Preflight writes `results.json` and
+`progress.json`; live writes `results_live.json` and `progress_live.json`. The
+three runner fixes made before any outcome are listed under
+`pre_run_amendments` in the manifest.
+
+## Pilot report
+
+```bash
+.venv/bin/python scripts/report_m3_pilot.py   # report.json + REPORT.md, 0 API calls
+```
+
+Write-up: [`../docs/milestone3.md`](../docs/milestone3.md).
 
 ## Limits
 

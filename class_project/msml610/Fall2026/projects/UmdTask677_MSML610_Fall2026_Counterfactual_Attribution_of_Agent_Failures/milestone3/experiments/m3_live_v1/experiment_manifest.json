@@ -1,7 +1,7 @@
 {
   "schema": "caaf.m3.live_stage/1",
   "stage": "m3_live_v1_pilot",
-  "status": "FROZEN_PENDING_AUTHORIZATION",
+  "status": "FROZEN_AUTHORIZED",
   "frozen_before_any_outcome": true,
   "supersedes": null,
   "historical_proposal": "experiments/m3_plan_v1/PLAN.md (not an authorization)",
@@ -1718,9 +1718,46 @@
     "store": "inputs/m1_original/runs/m1_think (read-only seed)"
   },
   "authorization": {
-    "authorized_usd": 0,
-    "authorized_by": null,
-    "authorized_on": null,
-    "note": "No paid call may run until authorized_usd is set to the approved figure by the project owner and this manifest is re-frozen."
-  }
+    "authorized_usd": 15,
+    "authorized_by": "Linu (project owner), approved in the working session",
+    "authorized_on": "2026-11-22",
+    "note": "Approves this 160-continuation technical/cost pilot only, up to the $15 ceiling. Does not approve the later confirmation stage, and no unused M2 allowance is reused."
+  },
+  "pre_run_amendments": [
+    {
+      "date": "2026-11-22",
+      "before_any_outcome": true,
+      "design_changed": false,
+      "change": "run_m3_pilot.py keeps preflight and live records in separate files",
+      "reason": "Live resume read the preflight results.json and would have skipped all 160 jobs."
+    },
+    {
+      "date": "2026-11-22",
+      "before_any_outcome": true,
+      "design_changed": false,
+      "change": "run_m3_pilot.py restores the real socket functions in live mode only",
+      "reason": "m3_offline_common blocks the network on import, so every live request would have failed before reaching the provider."
+    },
+    {
+      "date": "2026-11-22",
+      "before_any_outcome": true,
+      "design_changed": false,
+      "change": "m3_runtime/transport.py no longer sends service_tier",
+      "reason": "With drop_params=False litellm 1.104.2 rejects service_tier for Anthropic client-side. M2 sent it with drop_params=True, so litellm silently dropped it and it never reached the provider; omitting it matches M2's wire request. The standard tier is still verified on every response."
+    },
+    {
+      "date": "2026-11-22",
+      "before_any_outcome": true,
+      "design_changed": false,
+      "change": "m3_runtime/transport.py sends inference_geo only to Haiku 5.5",
+      "reason": "The first live request was rejected before inference (400: claude-haiku-4-5-20251001 does not support inference_geo). M2 sent inference_geo=global to Haiku 5.5; without the parameter Haiku 4.5 uses the default global routing. Responses are still checked for a global geo. Earlier attempts that day were rejected before inference with an invalid API key; all rejected attempts cost $0 and are kept as rejected_*_20261122_*.json."
+    },
+    {
+      "date": "2026-11-22",
+      "before_any_outcome": true,
+      "design_changed": false,
+      "change": "m3_runtime/policies.py accepts inference_geo=\"not_available\" for Haiku 4.5 only (EXPECTED_GEO); Haiku 5.5 still requires \"global\"",
+      "reason": "Two live requests were answered by claude-haiku-4-5-20251001, but the usage they returned reports inference_geo=\"not_available\" and the normalizer accepted only \"global\", so both kept the maximum $0.33 liability ($0.66 in all) and the runner stopped before any game finished. No outcome was recorded; their liabilities stay in the ledger as uncertain_maximum_retained. One separate diagnostic call outside the ledger (42 input, 40 output tokens, about $0.0002) captured the usage shape."
+    }
+  ]
 }

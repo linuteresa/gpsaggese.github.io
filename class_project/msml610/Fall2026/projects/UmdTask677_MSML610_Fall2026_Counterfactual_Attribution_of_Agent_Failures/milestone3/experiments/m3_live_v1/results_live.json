@@ -1,0 +1,5856 @@
+[
+  {
+    "job_id": "krk-m3-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:00",
+    "decision_id": "krk-m3-1_trial0_step001",
+    "arm": "keep_original_reply",
+    "replicate": 0,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-164b864e619f",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 2,
+      "cost_usd": 0.003481,
+      "moves_san": [
+        "Rb2",
+        "Kc1",
+        "Rc2+",
+        "Kxc2"
+      ],
+      "last_snapshot": "43d53e1abc2c47bfe0fe2d8bede0fc84d1b83d0ce5fa13f1f5857d91d935a6fd",
+      "pivot_white_move": 2,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m3-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:01",
+    "decision_id": "krk-m3-1_trial0_step001",
+    "arm": "keep_original_reply",
+    "replicate": 1,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-3a0810844ed8",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 2,
+      "cost_usd": 0.003651,
+      "moves_san": [
+        "Rb2",
+        "Kc1",
+        "Rc2+",
+        "Kxc2"
+      ],
+      "last_snapshot": "26273638b67c1e277214fef1ef400bfbc892e81b48c7aea7741c2bfaece709c9",
+      "pivot_white_move": 2,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m3-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:02",
+    "decision_id": "krk-m3-1_trial0_step001",
+    "arm": "keep_original_reply",
+    "replicate": 2,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-ef3c58f762ff",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 4,
+      "cost_usd": 0.022912,
+      "moves_san": [
+        "Rb2",
+        "Kc1",
+        "Kc3",
+        "Kd1",
+        "Rb1+",
+        "Ke2",
+        "Re1+",
+        "Kxe1"
+      ],
+      "last_snapshot": "4c169288a4e48d66653ec2155c28c831c313b9ff5f328f7878b83b98ca30363e",
+      "pivot_white_move": 2,
+      "end": "insufficient_material"
+    },
+    "model_calls": 4,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m3-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:03",
+    "decision_id": "krk-m3-1_trial0_step001",
+    "arm": "keep_original_reply",
+    "replicate": 3,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-c18bb8c057f2",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 2,
+      "cost_usd": 0.006271,
+      "moves_san": [
+        "Rb2",
+        "Kc1",
+        "Rb1+",
+        "Kxb1"
+      ],
+      "last_snapshot": "888b70ec8247fb003a1ff162557556a0b0e1c8592f800179461876558a8a88dc",
+      "pivot_white_move": 2,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m3-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:04",
+    "decision_id": "krk-m3-1_trial0_step001",
+    "arm": "keep_original_reply",
+    "replicate": 4,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-aa93f298edf6",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 2,
+      "cost_usd": 0.003606,
+      "moves_san": [
+        "Rb2",
+        "Kc1",
+        "Rc2+",
+        "Kxc2"
+      ],
+      "last_snapshot": "db0fc025db1edcaf29eade49288bd7c762205bee98f0850bca9b5c0b0fdd93bd",
+      "pivot_white_move": 2,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m3-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:05",
+    "decision_id": "krk-m3-1_trial0_step001",
+    "arm": "keep_original_reply",
+    "replicate": 5,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-743d0979e92a",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 2,
+      "cost_usd": 0.006976,
+      "moves_san": [
+        "Rb2",
+        "Kc1",
+        "Rc2+",
+        "Kxc2"
+      ],
+      "last_snapshot": "cf557bc5285e73d861adfd0437af2db94ab871955279cba66bb33edd82506d3d",
+      "pivot_white_move": 2,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m3-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:06",
+    "decision_id": "krk-m3-1_trial0_step001",
+    "arm": "keep_original_reply",
+    "replicate": 6,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-8f464cca56ed",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 2,
+      "cost_usd": 0.006991,
+      "moves_san": [
+        "Rb2",
+        "Kc1",
+        "Rb1+",
+        "Kxb1"
+      ],
+      "last_snapshot": "e300cdeea93816838beb3a8dc8e460add1d6f5629121fb37f8edc92bda65d536",
+      "pivot_white_move": 2,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m3-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:07",
+    "decision_id": "krk-m3-1_trial0_step001",
+    "arm": "keep_original_reply",
+    "replicate": 7,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-4f031842921f",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 2,
+      "cost_usd": 0.004896,
+      "moves_san": [
+        "Rb2",
+        "Kc1",
+        "Rb1+",
+        "Kxb1"
+      ],
+      "last_snapshot": "e13401e146c0e8c9ec540e5a2a8fdb84b679d48835baa8382765ea62ded5137b",
+      "pivot_white_move": 2,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m3-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:08",
+    "decision_id": "krk-m3-1_trial0_step001",
+    "arm": "keep_original_reply",
+    "replicate": 8,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-a288f5c5bdf6",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 2,
+      "cost_usd": 0.004021,
+      "moves_san": [
+        "Rb2",
+        "Kc1",
+        "Rc2+",
+        "Kxc2"
+      ],
+      "last_snapshot": "ffd82f1eceed36b851d895e56c746ed3ad66325f1aaad029d8110192ba06a246",
+      "pivot_white_move": 2,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m3-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:09",
+    "decision_id": "krk-m3-1_trial0_step001",
+    "arm": "keep_original_reply",
+    "replicate": 9,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-ef753f9812c9",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 2,
+      "cost_usd": 0.004146,
+      "moves_san": [
+        "Rb2",
+        "Kc1",
+        "Rc2+",
+        "Kxc2"
+      ],
+      "last_snapshot": "a2ed93234ca1b4f91b611e8f7f9ea93b5a8049f22ab4c7bc03203f4af578f065",
+      "pivot_white_move": 2,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m3-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:00",
+    "decision_id": "krk-m3-1_trial0_step001",
+    "arm": "redecide_reply",
+    "replicate": 0,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-b50dbdf0b61a",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 2,
+      "cost_usd": 0.008812,
+      "moves_san": [
+        "Rb1+",
+        "Ke2",
+        "Re1+",
+        "Kxe1"
+      ],
+      "last_snapshot": "4467752a2fd6d8a88a6949a639cf4cd72f46585f2cd6c08f0267fb7e9887653a",
+      "pivot_white_move": 1,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m3-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:01",
+    "decision_id": "krk-m3-1_trial0_step001",
+    "arm": "redecide_reply",
+    "replicate": 1,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-43e00fe19251",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 2,
+      "cost_usd": 0.006607,
+      "moves_san": [
+        "Rb1+",
+        "Ke2",
+        "Re1+",
+        "Kxe1"
+      ],
+      "last_snapshot": "a8e3a36830b6a646e1cd85d3c78455cb91f26419b3bcfea3a2cf486bd1a0900c",
+      "pivot_white_move": 1,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m3-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:02",
+    "decision_id": "krk-m3-1_trial0_step001",
+    "arm": "redecide_reply",
+    "replicate": 2,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-e28c3b97e815",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 2,
+      "cost_usd": 0.0052,
+      "moves_san": [
+        "Rb1+",
+        "Ke2",
+        "Re1+",
+        "Kxe1"
+      ],
+      "last_snapshot": "8f2593e23feefab986edc1225ba976d48dfd5f9d784f7687f5c1dbfde7f9565a",
+      "pivot_white_move": 1,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m3-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:03",
+    "decision_id": "krk-m3-1_trial0_step001",
+    "arm": "redecide_reply",
+    "replicate": 3,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-4bcffeb00700",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 2,
+      "cost_usd": 0.008593,
+      "moves_san": [
+        "Rb1+",
+        "Ke2",
+        "Re1+",
+        "Kxe1"
+      ],
+      "last_snapshot": "25c4f76897a7c33e673222b94081097f0ed760e60f03176576964c8158e96089",
+      "pivot_white_move": 1,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m3-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:04",
+    "decision_id": "krk-m3-1_trial0_step001",
+    "arm": "redecide_reply",
+    "replicate": 4,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-b2720ddd112a",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 2,
+      "cost_usd": 0.007333,
+      "moves_san": [
+        "Rb1+",
+        "Ke2",
+        "Re1+",
+        "Kxe1"
+      ],
+      "last_snapshot": "19030c1ead6ee0e8c5e89382b1c0119980fa4027b86e4cd275a6c7ca46e3a29c",
+      "pivot_white_move": 1,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m3-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:05",
+    "decision_id": "krk-m3-1_trial0_step001",
+    "arm": "redecide_reply",
+    "replicate": 5,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-b7c450561060",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 2,
+      "cost_usd": 0.00599,
+      "moves_san": [
+        "Rb1+",
+        "Ke2",
+        "Re1+",
+        "Kxe1"
+      ],
+      "last_snapshot": "b2296a7bfe2bb6a894dbd0ea3a1d7ddc951ed4f99dfd7877693580bf86e5522b",
+      "pivot_white_move": 1,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m3-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:06",
+    "decision_id": "krk-m3-1_trial0_step001",
+    "arm": "redecide_reply",
+    "replicate": 6,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-8d8c4765ae21",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 2,
+      "cost_usd": 0.007632,
+      "moves_san": [
+        "Rb1+",
+        "Ke2",
+        "Re1+",
+        "Kxe1"
+      ],
+      "last_snapshot": "aee4dafc0073b6c82b736923df940129d4e208cfcf7fb144674c54df2dd44843",
+      "pivot_white_move": 1,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m3-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:07",
+    "decision_id": "krk-m3-1_trial0_step001",
+    "arm": "redecide_reply",
+    "replicate": 7,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-f87c04c0e3ac",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 2,
+      "cost_usd": 0.006016,
+      "moves_san": [
+        "Rb1+",
+        "Ke2",
+        "Re1+",
+        "Kxe1"
+      ],
+      "last_snapshot": "145ae7dc419776f61db380305577c61694dd94d769d096550d41786bed7e9ca4",
+      "pivot_white_move": 1,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m3-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:08",
+    "decision_id": "krk-m3-1_trial0_step001",
+    "arm": "redecide_reply",
+    "replicate": 8,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-b49ce84c506c",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 2,
+      "cost_usd": 0.006309,
+      "moves_san": [
+        "Rb1+",
+        "Ke2",
+        "Re1+",
+        "Kxe1"
+      ],
+      "last_snapshot": "1445087c641e41508d0f3bcc000c8c9f4cb6d7ed3b22b1ab8a566647d6a1072b",
+      "pivot_white_move": 1,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m3-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:09",
+    "decision_id": "krk-m3-1_trial0_step001",
+    "arm": "redecide_reply",
+    "replicate": 9,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-143e4afc368f",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 2,
+      "cost_usd": 0.006456,
+      "moves_san": [
+        "Rb1+",
+        "Ke2",
+        "Re1+",
+        "Kxe1"
+      ],
+      "last_snapshot": "a74a2ed45d437b8b247d1b6713e98354680681228e73cac4fd84757fdc646693",
+      "pivot_white_move": 1,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m3-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:00",
+    "decision_id": "krk-m3-1_trial0_step003",
+    "arm": "keep_original_reply",
+    "replicate": 0,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-02f2fe7fe41b",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 5,
+      "cost_usd": 0.019661,
+      "moves_san": [
+        "Rb2",
+        "Kc1",
+        "Kc3",
+        "Kd1",
+        "Kd3",
+        "Ke1",
+        "Rb1+",
+        "Kf2",
+        "Rf1+",
+        "Kxf1"
+      ],
+      "last_snapshot": "be328e8555cc5814142223a9276a13a2f3a7b888d5f2a5f56d91b2ca7e85c0ed",
+      "pivot_white_move": 2,
+      "end": "insufficient_material"
+    },
+    "model_calls": 3,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m3-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:01",
+    "decision_id": "krk-m3-1_trial0_step003",
+    "arm": "keep_original_reply",
+    "replicate": 1,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-a93595577506",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 5,
+      "cost_usd": 0.030822,
+      "moves_san": [
+        "Rb2",
+        "Kc1",
+        "Kc3",
+        "Kd1",
+        "Kd3",
+        "Ke1",
+        "Re2+",
+        "Kf1",
+        "Rf2+",
+        "Kxf2"
+      ],
+      "last_snapshot": "96288e61a2e9e39edd0bb22e039628e2fc17d3743801e75223cb22be8e3fb3a5",
+      "pivot_white_move": 2,
+      "end": "insufficient_material"
+    },
+    "model_calls": 3,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m3-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:02",
+    "decision_id": "krk-m3-1_trial0_step003",
+    "arm": "keep_original_reply",
+    "replicate": 2,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-5753b8b503bf",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 5,
+      "cost_usd": 0.021059,
+      "moves_san": [
+        "Rb2",
+        "Kc1",
+        "Kc3",
+        "Kd1",
+        "Kd3",
+        "Ke1",
+        "Rb1+",
+        "Kf2",
+        "Rf1+",
+        "Kxf1"
+      ],
+      "last_snapshot": "0c147c26281b964275cd4a5d7b9aecbb1776d54dfe65cefc0d256b01ca6f4152",
+      "pivot_white_move": 2,
+      "end": "insufficient_material"
+    },
+    "model_calls": 3,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m3-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:03",
+    "decision_id": "krk-m3-1_trial0_step003",
+    "arm": "keep_original_reply",
+    "replicate": 3,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-e9549e9e4bdf",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 5,
+      "cost_usd": 0.014579,
+      "moves_san": [
+        "Rb2",
+        "Kc1",
+        "Kc3",
+        "Kd1",
+        "Kd3",
+        "Ke1",
+        "Rb1+",
+        "Kf2",
+        "Rf1+",
+        "Kxf1"
+      ],
+      "last_snapshot": "e61ef72c3082be67b9e5716324427e05f5329a5e1affddcf25aae0e920f43e77",
+      "pivot_white_move": 2,
+      "end": "insufficient_material"
+    },
+    "model_calls": 3,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m3-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:04",
+    "decision_id": "krk-m3-1_trial0_step003",
+    "arm": "keep_original_reply",
+    "replicate": 4,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-552266f30efb",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "fifty_move_rule",
+      "exit_status": "GameOver",
+      "n_calls": 7,
+      "cost_usd": 0.091471,
+      "moves_san": [
+        "Rb2",
+        "Kc1",
+        "Kc3",
+        "Kd1",
+        "Kd3",
+        "Ke1",
+        "Rb1+",
+        "Kf2",
+        "Ke4",
+        "Kg3",
+        "Rg1+",
+        "Kf2",
+        "Rg2+"
+      ],
+      "last_snapshot": "e34c7de18a177a6515857f474d4038edacbb031f48ec25926a741870b6ab227b",
+      "pivot_white_move": 2,
+      "end": "fifty_move_rule"
+    },
+    "model_calls": 5,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m3-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:05",
+    "decision_id": "krk-m3-1_trial0_step003",
+    "arm": "keep_original_reply",
+    "replicate": 5,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-c96f7109f3c5",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 6,
+      "cost_usd": 0.017026,
+      "moves_san": [
+        "Rb2",
+        "Kc1",
+        "Kc3",
+        "Kd1",
+        "Kd3",
+        "Ke1",
+        "Re2+",
+        "Kf1",
+        "Rf2+",
+        "Kxf2"
+      ],
+      "last_snapshot": "614cb0bdf2fdf1bd8bb0d6c6adc36e5354565158f28460a43330d4d24fcea4dc",
+      "pivot_white_move": 2,
+      "end": "insufficient_material"
+    },
+    "model_calls": 4,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m3-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:06",
+    "decision_id": "krk-m3-1_trial0_step003",
+    "arm": "keep_original_reply",
+    "replicate": 6,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-a862fdf9844d",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 5,
+      "cost_usd": 0.032019,
+      "moves_san": [
+        "Rb2",
+        "Kc1",
+        "Kc3",
+        "Kd1",
+        "Kd3",
+        "Ke1",
+        "Re2+",
+        "Kf1",
+        "Rf2+",
+        "Kxf2"
+      ],
+      "last_snapshot": "1254dad459a5287375caa6dd54ec11e7247077e5c2a070f8addd36b2cda1746e",
+      "pivot_white_move": 2,
+      "end": "insufficient_material"
+    },
+    "model_calls": 3,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m3-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:07",
+    "decision_id": "krk-m3-1_trial0_step003",
+    "arm": "keep_original_reply",
+    "replicate": 7,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-0410d719050e",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 5,
+      "cost_usd": 0.023548,
+      "moves_san": [
+        "Rb2",
+        "Kc1",
+        "Kc3",
+        "Kd1",
+        "Kd3",
+        "Ke1",
+        "Rb1+",
+        "Kf2",
+        "Rf1+",
+        "Kxf1"
+      ],
+      "last_snapshot": "854ddd1282a73c0b034060b67a8d4063f2b7c2386259c9710dbe9a2b8db29607",
+      "pivot_white_move": 2,
+      "end": "insufficient_material"
+    },
+    "model_calls": 3,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m3-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:08",
+    "decision_id": "krk-m3-1_trial0_step003",
+    "arm": "keep_original_reply",
+    "replicate": 8,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-180121854ba3",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 5,
+      "cost_usd": 0.012682,
+      "moves_san": [
+        "Rb2",
+        "Kc1",
+        "Kc3",
+        "Kd1",
+        "Kd3",
+        "Ke1",
+        "Rb1+",
+        "Kf2",
+        "Rf1+",
+        "Kxf1"
+      ],
+      "last_snapshot": "5441fe99db77ef687255301ab1b6c928da25a83c27625d8882ebe871f3953c34",
+      "pivot_white_move": 2,
+      "end": "insufficient_material"
+    },
+    "model_calls": 3,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m3-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:09",
+    "decision_id": "krk-m3-1_trial0_step003",
+    "arm": "keep_original_reply",
+    "replicate": 9,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-1dc78b3f11f1",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 5,
+      "cost_usd": 0.014581,
+      "moves_san": [
+        "Rb2",
+        "Kc1",
+        "Kc3",
+        "Kd1",
+        "Kd3",
+        "Ke1",
+        "Rb1+",
+        "Kf2",
+        "Rf1+",
+        "Kxf1"
+      ],
+      "last_snapshot": "b87094ffe7a2ba7a0ef3f11d9845f8b26ff65baa2987ff065614451aaa59b0ae",
+      "pivot_white_move": 2,
+      "end": "insufficient_material"
+    },
+    "model_calls": 3,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m3-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:00",
+    "decision_id": "krk-m3-1_trial0_step003",
+    "arm": "redecide_reply",
+    "replicate": 0,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-7ef058b11735",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 4,
+      "cost_usd": 0.011928,
+      "moves_san": [
+        "Rb2",
+        "Kc1",
+        "Kc3",
+        "Kd1",
+        "Rd2+",
+        "Ke1",
+        "Rd1+",
+        "Kxd1"
+      ],
+      "last_snapshot": "7fb1f35987036183c59cfda41c02212dfe5bf4f7439166a67ba6d5fc8ed590da",
+      "pivot_white_move": 2,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m3-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:01",
+    "decision_id": "krk-m3-1_trial0_step003",
+    "arm": "redecide_reply",
+    "replicate": 1,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-7b2ee3c05d8a",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 4,
+      "cost_usd": 0.012535,
+      "moves_san": [
+        "Rb2",
+        "Kc1",
+        "Kc3",
+        "Kd1",
+        "Rb1+",
+        "Ke2",
+        "Re1+",
+        "Kxe1"
+      ],
+      "last_snapshot": "1566abc736f58c7331b92f7b054165c0efc415ce223de85a2ad45c5eb687c9b3",
+      "pivot_white_move": 2,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m3-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:02",
+    "decision_id": "krk-m3-1_trial0_step003",
+    "arm": "redecide_reply",
+    "replicate": 2,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-718cf14b6b1b",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 5,
+      "cost_usd": 0.02001,
+      "moves_san": [
+        "Rb2",
+        "Kc1",
+        "Kc3",
+        "Kd1",
+        "Kd3",
+        "Ke1",
+        "Re2+",
+        "Kf1",
+        "Rf2+",
+        "Kxf2"
+      ],
+      "last_snapshot": "8e89cb20aed8f907620a4b33e1745c856d48f030d6a072a329b5bfe48d760ee9",
+      "pivot_white_move": 2,
+      "end": "insufficient_material"
+    },
+    "model_calls": 3,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m3-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:03",
+    "decision_id": "krk-m3-1_trial0_step003",
+    "arm": "redecide_reply",
+    "replicate": 3,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-788e2a266587",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 4,
+      "cost_usd": 0.022652,
+      "moves_san": [
+        "Rb2",
+        "Kc1",
+        "Kc3",
+        "Kd1",
+        "Rd2+",
+        "Ke1",
+        "Re2+",
+        "Kxe2"
+      ],
+      "last_snapshot": "79d6727db341647547aa12ec85fc95d1b34f3d1887627f15edc957e02a2ecb89",
+      "pivot_white_move": 2,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m3-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:04",
+    "decision_id": "krk-m3-1_trial0_step003",
+    "arm": "redecide_reply",
+    "replicate": 4,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-d2d3bc1ccbfd",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 4,
+      "cost_usd": 0.007752,
+      "moves_san": [
+        "Rb2",
+        "Kc1",
+        "Kc3",
+        "Kd1",
+        "Rb1+",
+        "Ke2",
+        "Re1+",
+        "Kxe1"
+      ],
+      "last_snapshot": "64a07aeb184f883e6c4f3a000aff0202e672e012ed78ce8e4061b044e644bc1e",
+      "pivot_white_move": 2,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m3-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:05",
+    "decision_id": "krk-m3-1_trial0_step003",
+    "arm": "redecide_reply",
+    "replicate": 5,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-1ca3be3ee981",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 4,
+      "cost_usd": 0.007374,
+      "moves_san": [
+        "Rb2",
+        "Kc1",
+        "Kc3",
+        "Kd1",
+        "Rd2+",
+        "Ke1",
+        "Rd1+",
+        "Kxd1"
+      ],
+      "last_snapshot": "5b74212ff920d979ff44e928311e07f2c6b44c0bef83ca46da6674c1ef25d07b",
+      "pivot_white_move": 2,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m3-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:06",
+    "decision_id": "krk-m3-1_trial0_step003",
+    "arm": "redecide_reply",
+    "replicate": 6,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-eb7269da5aa6",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 4,
+      "cost_usd": 0.017523,
+      "moves_san": [
+        "Rb2",
+        "Kc1",
+        "Kc3",
+        "Kd1",
+        "Rb1+",
+        "Ke2",
+        "Re1+",
+        "Kxe1"
+      ],
+      "last_snapshot": "d7f8f4468b843d5ba7215c98943f5945a139eabcc845f2b6134b513b8926aa66",
+      "pivot_white_move": 2,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m3-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:07",
+    "decision_id": "krk-m3-1_trial0_step003",
+    "arm": "redecide_reply",
+    "replicate": 7,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-22fde428b3c5",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 4,
+      "cost_usd": 0.010712,
+      "moves_san": [
+        "Rb2",
+        "Kc1",
+        "Kc3",
+        "Kd1",
+        "Rb1+",
+        "Ke2",
+        "Re1+",
+        "Kxe1"
+      ],
+      "last_snapshot": "4ea2bbeab7ded364b41a01b27b0be5ba239fe666f7bd1bcdde2cf571ed7dfbe7",
+      "pivot_white_move": 2,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m3-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:08",
+    "decision_id": "krk-m3-1_trial0_step003",
+    "arm": "redecide_reply",
+    "replicate": 8,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-6f311b4b9d64",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 5,
+      "cost_usd": 0.025084,
+      "moves_san": [
+        "Rb2",
+        "Kc1",
+        "Kc3",
+        "Kd1",
+        "Rb1+",
+        "Ke2",
+        "Rb2+",
+        "Ke3",
+        "Re2+",
+        "Kxe2"
+      ],
+      "last_snapshot": "e771744c5658b1743c3211e5377856c7c7c7755d845504a45414fc910d3305eb",
+      "pivot_white_move": 2,
+      "end": "insufficient_material"
+    },
+    "model_calls": 3,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m3-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:09",
+    "decision_id": "krk-m3-1_trial0_step003",
+    "arm": "redecide_reply",
+    "replicate": 9,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-b7934e543102",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 4,
+      "cost_usd": 0.007655,
+      "moves_san": [
+        "Rb2",
+        "Kc1",
+        "Kc3",
+        "Kd1",
+        "Rd2+",
+        "Ke1",
+        "Rd1+",
+        "Kxd1"
+      ],
+      "last_snapshot": "25776b660cd91ed61d13690e16c040f40581fed164532d8fb69cbd8ff44d1e0f",
+      "pivot_white_move": 2,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:00",
+    "decision_id": "krk-m4-1_trial0_step001",
+    "arm": "keep_original_reply",
+    "replicate": 0,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-26765b09a2a5",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 4,
+      "cost_usd": 0.034158,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rg3+",
+        "Kh1",
+        "Rh3+",
+        "Kg2",
+        "Rh2+",
+        "Kxh2"
+      ],
+      "last_snapshot": "862d5e931948070029ae6d2dd0b43f13e09d86b2cdf8ad30ed27eb966de24d8a",
+      "pivot_white_move": 4,
+      "end": "insufficient_material"
+    },
+    "model_calls": 4,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:01",
+    "decision_id": "krk-m4-1_trial0_step001",
+    "arm": "keep_original_reply",
+    "replicate": 1,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-745fe04539e7",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 3,
+      "cost_usd": 0.016856,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rg3+",
+        "Kh1",
+        "Rg1+",
+        "Kxg1"
+      ],
+      "last_snapshot": "6493ae4e649b20d3e1d57690ca7c9699976cbed3f2449b93b99caeada33bc2ad",
+      "pivot_white_move": 3,
+      "end": "insufficient_material"
+    },
+    "model_calls": 3,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:02",
+    "decision_id": "krk-m4-1_trial0_step001",
+    "arm": "keep_original_reply",
+    "replicate": 2,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-555d2fa76532",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 4,
+      "cost_usd": 0.022482,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rg3+",
+        "Kh1",
+        "Kf1",
+        "Kh2",
+        "Rh3+",
+        "Kxh3"
+      ],
+      "last_snapshot": "af0f1e1c49ed7bbc21ac26cf082f97f2ad35084b13a2aaeff6fbb6c4f60385ec",
+      "pivot_white_move": 4,
+      "end": "insufficient_material"
+    },
+    "model_calls": 4,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:03",
+    "decision_id": "krk-m4-1_trial0_step001",
+    "arm": "keep_original_reply",
+    "replicate": 3,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-1dc0ecb15f58",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 3,
+      "cost_usd": 0.029272,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rg3+",
+        "Kh1",
+        "Rg1+",
+        "Kxg1"
+      ],
+      "last_snapshot": "0c0c07a014e9db6dc66debfa12adfb54e7164e105dc799b4bd2563ff7e73c5b3",
+      "pivot_white_move": 3,
+      "end": "insufficient_material"
+    },
+    "model_calls": 3,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:04",
+    "decision_id": "krk-m4-1_trial0_step001",
+    "arm": "keep_original_reply",
+    "replicate": 4,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-468619a789ea",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 3,
+      "cost_usd": 0.013554,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rg3+",
+        "Kh1",
+        "Rg1+",
+        "Kxg1"
+      ],
+      "last_snapshot": "110df3756156dbdd3df1849efd262b0ec5a0f259388facc626f7a26a679a4715",
+      "pivot_white_move": 3,
+      "end": "insufficient_material"
+    },
+    "model_calls": 3,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:05",
+    "decision_id": "krk-m4-1_trial0_step001",
+    "arm": "keep_original_reply",
+    "replicate": 5,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-0a99b4384598",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 3,
+      "cost_usd": 0.012694,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rg3+",
+        "Kh1",
+        "Rg1+",
+        "Kxg1"
+      ],
+      "last_snapshot": "0dd2bbe838704eaa2d413b17db748d2dc0b44726302131828daa97a9d68b522e",
+      "pivot_white_move": 3,
+      "end": "insufficient_material"
+    },
+    "model_calls": 3,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:06",
+    "decision_id": "krk-m4-1_trial0_step001",
+    "arm": "keep_original_reply",
+    "replicate": 6,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-0b3b88571fc8",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 5,
+      "cost_usd": 0.030057,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rg3+",
+        "Kh1",
+        "Rh3+",
+        "Kg2",
+        "Rh2+",
+        "Kxh2"
+      ],
+      "last_snapshot": "46fcf916358a6422468505bf0c69382842a54026e0a29b5c0b996a436492cfb5",
+      "pivot_white_move": 4,
+      "end": "insufficient_material"
+    },
+    "model_calls": 5,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:07",
+    "decision_id": "krk-m4-1_trial0_step001",
+    "arm": "keep_original_reply",
+    "replicate": 7,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-f7fa9adf11d9",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 4,
+      "cost_usd": 0.015792,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rg3+",
+        "Kh1",
+        "Rh3+",
+        "Kg2",
+        "Rh2+",
+        "Kxh2"
+      ],
+      "last_snapshot": "874e1812604522986ce137e8f5fde37e61bf978f72cd8d3af2fc8bcc22137fc6",
+      "pivot_white_move": 4,
+      "end": "insufficient_material"
+    },
+    "model_calls": 4,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:08",
+    "decision_id": "krk-m4-1_trial0_step001",
+    "arm": "keep_original_reply",
+    "replicate": 8,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-6938966839aa",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 6,
+      "cost_usd": 0.029171,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rd1",
+        "Kg2",
+        "Rd2+",
+        "Kf3",
+        "Rd3+",
+        "Kf4",
+        "Rd4+",
+        "Ke5",
+        "Rd5+",
+        "Kxd5"
+      ],
+      "last_snapshot": "0f8f705891e8401f76a67b99d6d88f79fdf6dbc9f44c89352e76d74586180699",
+      "pivot_white_move": 3,
+      "end": "insufficient_material"
+    },
+    "model_calls": 6,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:09",
+    "decision_id": "krk-m4-1_trial0_step001",
+    "arm": "keep_original_reply",
+    "replicate": 9,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-e6f12aa8386f",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 3,
+      "cost_usd": 0.016125,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rg3+",
+        "Kh1",
+        "Rg1+",
+        "Kxg1"
+      ],
+      "last_snapshot": "0a6dd30ad1bb648dcf658b268ca921ebceae5c26ff52a1505b182d2e6a175fbc",
+      "pivot_white_move": 3,
+      "end": "insufficient_material"
+    },
+    "model_calls": 3,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:00",
+    "decision_id": "krk-m4-1_trial0_step001",
+    "arm": "redecide_reply",
+    "replicate": 0,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-10f2b815e082",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 1,
+      "cost_usd": 0.004809,
+      "moves_san": [
+        "Rg3+",
+        "Kxg3"
+      ],
+      "last_snapshot": "7fd843e3dcc41ad1ffcc8ab8d9b45cdcd9366ed0cd878098e824b5eff74baf99",
+      "pivot_white_move": 1,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:01",
+    "decision_id": "krk-m4-1_trial0_step001",
+    "arm": "redecide_reply",
+    "replicate": 1,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-97b341395ec9",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 1,
+      "cost_usd": 0.002749,
+      "moves_san": [
+        "Rg3+",
+        "Kxg3"
+      ],
+      "last_snapshot": "bab1a321c15919a23fa6df724200b4ff8a8b4224a887f8edc787ed623bc35034",
+      "pivot_white_move": 1,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:02",
+    "decision_id": "krk-m4-1_trial0_step001",
+    "arm": "redecide_reply",
+    "replicate": 2,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-6dd0c6dce8c4",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 1,
+      "cost_usd": 0.004044,
+      "moves_san": [
+        "Rg3+",
+        "Kxg3"
+      ],
+      "last_snapshot": "bd2c398fb90a97b5388a79bff0120c2b10ed916d40b1b613a8f348e55919f8c5",
+      "pivot_white_move": 1,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:03",
+    "decision_id": "krk-m4-1_trial0_step001",
+    "arm": "redecide_reply",
+    "replicate": 3,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-eb4b0cc6a618",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 1,
+      "cost_usd": 0.003459,
+      "moves_san": [
+        "Rg3+",
+        "Kxg3"
+      ],
+      "last_snapshot": "ed5fb3ae7308b0be31fbeffe1789b0702cdca87df7c37aa65d8d60d200e499ef",
+      "pivot_white_move": 1,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:04",
+    "decision_id": "krk-m4-1_trial0_step001",
+    "arm": "redecide_reply",
+    "replicate": 4,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-37a3d99ad2f2",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 1,
+      "cost_usd": 0.004899,
+      "moves_san": [
+        "Rg3+",
+        "Kxg3"
+      ],
+      "last_snapshot": "c6abd73f255d0ae4f51d42eef44f451312e8278cafe43ac52425d6b8f99c8fe7",
+      "pivot_white_move": 1,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:05",
+    "decision_id": "krk-m4-1_trial0_step001",
+    "arm": "redecide_reply",
+    "replicate": 5,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-7c5e8b5457c1",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 1,
+      "cost_usd": 0.003289,
+      "moves_san": [
+        "Rg3+",
+        "Kxg3"
+      ],
+      "last_snapshot": "bac36795144d1c1ccb879e431fd663a4111f92c7c4456383cd8ae70afecd2edd",
+      "pivot_white_move": 1,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:06",
+    "decision_id": "krk-m4-1_trial0_step001",
+    "arm": "redecide_reply",
+    "replicate": 6,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-dafd2e3e56c8",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 1,
+      "cost_usd": 0.003124,
+      "moves_san": [
+        "Rg3+",
+        "Kxg3"
+      ],
+      "last_snapshot": "30d9bde9711aa636312a7694e8b7af01a01713ef30286a9dcca0cbd3567ce86e",
+      "pivot_white_move": 1,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:07",
+    "decision_id": "krk-m4-1_trial0_step001",
+    "arm": "redecide_reply",
+    "replicate": 7,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-7d7104b7a97a",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 1,
+      "cost_usd": 0.003119,
+      "moves_san": [
+        "Rg3+",
+        "Kxg3"
+      ],
+      "last_snapshot": "ef4a430bfd99827a1e380117aad98c341ab1b750b901e7c268411597f202e329",
+      "pivot_white_move": 1,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:08",
+    "decision_id": "krk-m4-1_trial0_step001",
+    "arm": "redecide_reply",
+    "replicate": 8,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-7ab2d4d9da38",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 1,
+      "cost_usd": 0.004274,
+      "moves_san": [
+        "Rg3+",
+        "Kxg3"
+      ],
+      "last_snapshot": "7d5901c232b1fb9ad34273aa9954eee98a8250b85406125d5f54eddb123b2282",
+      "pivot_white_move": 1,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:09",
+    "decision_id": "krk-m4-1_trial0_step001",
+    "arm": "redecide_reply",
+    "replicate": 9,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-1cca732fbb1f",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 1,
+      "cost_usd": 0.004174,
+      "moves_san": [
+        "Rg3+",
+        "Kxg3"
+      ],
+      "last_snapshot": "a0dadd85d63db35441ec9a9134520e78d719792a367a5f525655d3b50d710d46",
+      "pivot_white_move": 1,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:00",
+    "decision_id": "krk-m4-1_trial0_step003",
+    "arm": "keep_original_reply",
+    "replicate": 0,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-5b0f728e8b87",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 6,
+      "cost_usd": 0.022979,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rd2",
+        "Kh1",
+        "Ke2",
+        "Kg2",
+        "Ke3+",
+        "Kg3",
+        "Rg2+",
+        "Kxg2"
+      ],
+      "last_snapshot": "1b92d3dcadcc58cbe324137eb093d66927470263ec55d313ed46e5cddeb22cbf",
+      "pivot_white_move": 4,
+      "end": "insufficient_material"
+    },
+    "model_calls": 4,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:01",
+    "decision_id": "krk-m4-1_trial0_step003",
+    "arm": "keep_original_reply",
+    "replicate": 1,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-3c2d330fc99e",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 5,
+      "cost_usd": 0.015592,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rd2",
+        "Kh1",
+        "Ke2",
+        "Kg2",
+        "Kd3+",
+        "Kf3",
+        "Rf2+",
+        "Kxf2"
+      ],
+      "last_snapshot": "79d6af3f91f0450c9aa745562d983a4aa854db1d7332555823946b1986ca76b1",
+      "pivot_white_move": 4,
+      "end": "insufficient_material"
+    },
+    "model_calls": 3,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:02",
+    "decision_id": "krk-m4-1_trial0_step003",
+    "arm": "keep_original_reply",
+    "replicate": 2,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-150b9956cab3",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 7,
+      "cost_usd": 0.030601,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rd2",
+        "Kh1",
+        "Ke2",
+        "Kg2",
+        "Rd1",
+        "Kg3",
+        "Rg1+",
+        "Kf4",
+        "Rg4+",
+        "Kxg4"
+      ],
+      "last_snapshot": "6aa9e8c89686aab92a079dda36dc062692bcf3286b5394249cf1808d37642ca1",
+      "pivot_white_move": 4,
+      "end": "insufficient_material"
+    },
+    "model_calls": 5,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:03",
+    "decision_id": "krk-m4-1_trial0_step003",
+    "arm": "keep_original_reply",
+    "replicate": 3,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-be4edddb3214",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 5,
+      "cost_usd": 0.031201,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rd2",
+        "Kh1",
+        "Ke2",
+        "Kg2",
+        "Ke3+",
+        "Kg3",
+        "Rg2+",
+        "Kxg2"
+      ],
+      "last_snapshot": "304e0aba1775f279e51a3b3a5c0377353ac8335a5f624c515614c873c5c55950",
+      "pivot_white_move": 4,
+      "end": "insufficient_material"
+    },
+    "model_calls": 3,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:04",
+    "decision_id": "krk-m4-1_trial0_step003",
+    "arm": "keep_original_reply",
+    "replicate": 4,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-d363920135d5",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 5,
+      "cost_usd": 0.015425,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rd2",
+        "Kh1",
+        "Ke2",
+        "Kg2",
+        "Kd3+",
+        "Kf3",
+        "Rf2+",
+        "Kxf2"
+      ],
+      "last_snapshot": "d68261a54f5c547987276863a9ebae0c991e32f8d12501c38378561c30585940",
+      "pivot_white_move": 4,
+      "end": "insufficient_material"
+    },
+    "model_calls": 3,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:05",
+    "decision_id": "krk-m4-1_trial0_step003",
+    "arm": "keep_original_reply",
+    "replicate": 5,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-9ec8e4a8064d",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 5,
+      "cost_usd": 0.028487,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rd2",
+        "Kh1",
+        "Ke2",
+        "Kg2",
+        "Ke3+",
+        "Kg3",
+        "Rg2+",
+        "Kxg2"
+      ],
+      "last_snapshot": "ec09ab9a9c9e885c23e20396539a25638affae5e4f92aa25e405bc5c7729839b",
+      "pivot_white_move": 4,
+      "end": "insufficient_material"
+    },
+    "model_calls": 3,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:06",
+    "decision_id": "krk-m4-1_trial0_step003",
+    "arm": "keep_original_reply",
+    "replicate": 6,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-874c298d34a7",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 5,
+      "cost_usd": 0.02324,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rd2",
+        "Kh1",
+        "Ke2",
+        "Kg2",
+        "Ke3+",
+        "Kg3",
+        "Rg2+",
+        "Kxg2"
+      ],
+      "last_snapshot": "418a5969c5c25a2c1b7e4ccf9e8ed1e8b762c32b422fa4d0380877d66ccdcc22",
+      "pivot_white_move": 4,
+      "end": "insufficient_material"
+    },
+    "model_calls": 3,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:07",
+    "decision_id": "krk-m4-1_trial0_step003",
+    "arm": "keep_original_reply",
+    "replicate": 7,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-23d2e386eb82",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 5,
+      "cost_usd": 0.021391,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rd2",
+        "Kh1",
+        "Ke2",
+        "Kg2",
+        "Ke3+",
+        "Kg3",
+        "Rg2+",
+        "Kxg2"
+      ],
+      "last_snapshot": "4708e95d00bd8135a5714fa92155307f567c5861f8ce8b35accbb4ec4ea59aeb",
+      "pivot_white_move": 4,
+      "end": "insufficient_material"
+    },
+    "model_calls": 3,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:08",
+    "decision_id": "krk-m4-1_trial0_step003",
+    "arm": "keep_original_reply",
+    "replicate": 8,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-abab68a38aa0",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 6,
+      "cost_usd": 0.035408,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rd2",
+        "Kh1",
+        "Ke2",
+        "Kg2",
+        "Rd1",
+        "Kg3",
+        "Rg1+",
+        "Kf4",
+        "Rg4+",
+        "Kxg4"
+      ],
+      "last_snapshot": "c99d06794ce7eb10307bd1eb8c546e94e0e0684fdcb6214b4881971fd6143384",
+      "pivot_white_move": 4,
+      "end": "insufficient_material"
+    },
+    "model_calls": 4,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:09",
+    "decision_id": "krk-m4-1_trial0_step003",
+    "arm": "keep_original_reply",
+    "replicate": 9,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-2010fab6f0cf",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 5,
+      "cost_usd": 0.021269,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rd2",
+        "Kh1",
+        "Ke2",
+        "Kg2",
+        "Ke3+",
+        "Kg3",
+        "Rg2+",
+        "Kxg2"
+      ],
+      "last_snapshot": "c7c45dfc53054782986ba54b6691a4c1e4bf8f348311023d8bbc65be7cbf1dc4",
+      "pivot_white_move": 4,
+      "end": "insufficient_material"
+    },
+    "model_calls": 3,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:00",
+    "decision_id": "krk-m4-1_trial0_step003",
+    "arm": "redecide_reply",
+    "replicate": 0,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-222a1aa186c7",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "stalemate",
+      "exit_status": "GameOver",
+      "n_calls": 3,
+      "cost_usd": 0.012482,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rd2",
+        "Kh1",
+        "Kf1"
+      ],
+      "last_snapshot": "5cafe66b85cfdc1deb04cac7c2a4f316a8e7ba48d259eeeabe1931a90c0f1b36",
+      "pivot_white_move": 3,
+      "end": "stalemate"
+    },
+    "model_calls": 1,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:01",
+    "decision_id": "krk-m4-1_trial0_step003",
+    "arm": "redecide_reply",
+    "replicate": 1,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-09b043786a83",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 3,
+      "cost_usd": 0.007202,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rd2",
+        "Kh1",
+        "Rh2+",
+        "Kxh2"
+      ],
+      "last_snapshot": "35ec2daf9f70f0507663c70388521cc31c8eb11a26403534773c6a63954f5bcb",
+      "pivot_white_move": 3,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:02",
+    "decision_id": "krk-m4-1_trial0_step003",
+    "arm": "redecide_reply",
+    "replicate": 2,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-470205bfcda5",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 6,
+      "cost_usd": 0.0537,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rd2",
+        "Kh1",
+        "Kf2",
+        "Kh2",
+        "Kf3+",
+        "Kg1",
+        "Rg2+",
+        "Kf1",
+        "Rg1+",
+        "Kxg1"
+      ],
+      "last_snapshot": "dbac36188eece2b8486b493579cee7a3628d6800176497551ccca35aa371f1c2",
+      "pivot_white_move": 6,
+      "end": "insufficient_material"
+    },
+    "model_calls": 4,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:03",
+    "decision_id": "krk-m4-1_trial0_step003",
+    "arm": "redecide_reply",
+    "replicate": 3,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-1f15e7c2e339",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 3,
+      "cost_usd": 0.007912,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rd2",
+        "Kh1",
+        "Rh2+",
+        "Kxh2"
+      ],
+      "last_snapshot": "be6b7157e39e9198e9ab35158ab1b72ff2abc2201f4b27af39c7787f5a6dd954",
+      "pivot_white_move": 3,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:04",
+    "decision_id": "krk-m4-1_trial0_step003",
+    "arm": "redecide_reply",
+    "replicate": 4,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-acb7e70b3f6c",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 3,
+      "cost_usd": 0.005422,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rd2",
+        "Kh1",
+        "Rh2+",
+        "Kxh2"
+      ],
+      "last_snapshot": "9382f24b28b25123e984fa46000e61d03a76a26cb4c54fa8a6ec4793ebd64537",
+      "pivot_white_move": 3,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:05",
+    "decision_id": "krk-m4-1_trial0_step003",
+    "arm": "redecide_reply",
+    "replicate": 5,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-9e3cf2b61fc9",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 6,
+      "cost_usd": 0.045187,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rd2",
+        "Kh1",
+        "Kf2",
+        "Kh2",
+        "Kf1+",
+        "Kg3",
+        "Rg2+",
+        "Kf4",
+        "Rg4+",
+        "Kxg4"
+      ],
+      "last_snapshot": "9280708f871fc6f37f61b00e79c76e9cd0e6b60bcb5edc8e82599d0db9fe39be",
+      "pivot_white_move": 4,
+      "end": "insufficient_material"
+    },
+    "model_calls": 4,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:06",
+    "decision_id": "krk-m4-1_trial0_step003",
+    "arm": "redecide_reply",
+    "replicate": 6,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-c0bc83357ff6",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 3,
+      "cost_usd": 0.013877,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rd2",
+        "Kh1",
+        "Rh2+",
+        "Kxh2"
+      ],
+      "last_snapshot": "0627cc49278bf741f9a0515e86f1c4a8bc4edcda1f37c6bda77b0d39b27fda59",
+      "pivot_white_move": 3,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:07",
+    "decision_id": "krk-m4-1_trial0_step003",
+    "arm": "redecide_reply",
+    "replicate": 7,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-3db6c552bf28",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 3,
+      "cost_usd": 0.022772,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rd2",
+        "Kh1",
+        "Rh2+",
+        "Kxh2"
+      ],
+      "last_snapshot": "185da75876c8e0db2577cf8621c8bc278c5dd815171f7881576cde3b52096334",
+      "pivot_white_move": 3,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:08",
+    "decision_id": "krk-m4-1_trial0_step003",
+    "arm": "redecide_reply",
+    "replicate": 8,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-7a0913264bdf",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 3,
+      "cost_usd": 0.007337,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rd2",
+        "Kh1",
+        "Rh2+",
+        "Kxh2"
+      ],
+      "last_snapshot": "d92600a9833442092ed20444107e0b4a4ae9e94ce13b96ec1b0aee3d57308f1b",
+      "pivot_white_move": 3,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:09",
+    "decision_id": "krk-m4-1_trial0_step003",
+    "arm": "redecide_reply",
+    "replicate": 9,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-7eff477a18fc",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 3,
+      "cost_usd": 0.015662,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rd2",
+        "Kh1",
+        "Rh2+",
+        "Kxh2"
+      ],
+      "last_snapshot": "c009629073cfb102710d816c0a6490d12499ba348e5a2deb68b2626a516e6d77",
+      "pivot_white_move": 3,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step005:anthropic/claude-haiku-4-5-20251001:keep_original_reply:00",
+    "decision_id": "krk-m4-1_trial0_step005",
+    "arm": "keep_original_reply",
+    "replicate": 0,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-eeddf2a809b8",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 6,
+      "cost_usd": 0.054187,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rd2",
+        "Kh1",
+        "Ke2",
+        "Kg2",
+        "Rd3",
+        "Kg1",
+        "Rd1+",
+        "Kg2",
+        "Rg1+",
+        "Kxg1"
+      ],
+      "last_snapshot": "32dd4f7d55642827704d5fd59c7526c0255c285829a10eb9320f1fa43f435e21",
+      "pivot_white_move": 5,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step005:anthropic/claude-haiku-4-5-20251001:keep_original_reply:01",
+    "decision_id": "krk-m4-1_trial0_step005",
+    "arm": "keep_original_reply",
+    "replicate": 1,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-a0e2eb2defd0",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 6,
+      "cost_usd": 0.018262,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rd2",
+        "Kh1",
+        "Ke2",
+        "Kg2",
+        "Rd3",
+        "Kg1",
+        "Rd1+",
+        "Kg2",
+        "Rg1+",
+        "Kxg1"
+      ],
+      "last_snapshot": "17221ab34918257ebc2611dc6e4e76f2e770ee9b4fb3ec2084200395cdcc0243",
+      "pivot_white_move": 5,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step005:anthropic/claude-haiku-4-5-20251001:keep_original_reply:02",
+    "decision_id": "krk-m4-1_trial0_step005",
+    "arm": "keep_original_reply",
+    "replicate": 2,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-971bde48e900",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 6,
+      "cost_usd": 0.017137,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rd2",
+        "Kh1",
+        "Ke2",
+        "Kg2",
+        "Rd3",
+        "Kg1",
+        "Rd1+",
+        "Kg2",
+        "Rg1+",
+        "Kxg1"
+      ],
+      "last_snapshot": "af39549fc922c1192b13ed4efae9fc7b672692ee9536fc7520c398c41f984987",
+      "pivot_white_move": 5,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step005:anthropic/claude-haiku-4-5-20251001:keep_original_reply:03",
+    "decision_id": "krk-m4-1_trial0_step005",
+    "arm": "keep_original_reply",
+    "replicate": 3,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-eee7ee01ecc4",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 6,
+      "cost_usd": 0.022542,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rd2",
+        "Kh1",
+        "Ke2",
+        "Kg2",
+        "Rd3",
+        "Kg1",
+        "Rd1+",
+        "Kg2",
+        "Rg1+",
+        "Kxg1"
+      ],
+      "last_snapshot": "7aefc1111f5ce2050cbfdd2df589229d1e7544c929a6fc7e0383011490c90501",
+      "pivot_white_move": 5,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step005:anthropic/claude-haiku-4-5-20251001:keep_original_reply:04",
+    "decision_id": "krk-m4-1_trial0_step005",
+    "arm": "keep_original_reply",
+    "replicate": 4,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-5eeb3f190f47",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 7,
+      "cost_usd": 0.025595,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rd2",
+        "Kh1",
+        "Ke2",
+        "Kg2",
+        "Rd3",
+        "Kg1",
+        "Rd1+",
+        "Kg2",
+        "Rg1+",
+        "Kxg1"
+      ],
+      "last_snapshot": "a48694107808f72c8d80475651d2e2a098737f3553defa23da026c42a6b1d152",
+      "pivot_white_move": 5,
+      "end": "insufficient_material"
+    },
+    "model_calls": 3,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step005:anthropic/claude-haiku-4-5-20251001:keep_original_reply:05",
+    "decision_id": "krk-m4-1_trial0_step005",
+    "arm": "keep_original_reply",
+    "replicate": 5,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-9537af83726f",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 6,
+      "cost_usd": 0.016162,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rd2",
+        "Kh1",
+        "Ke2",
+        "Kg2",
+        "Rd3",
+        "Kg1",
+        "Rd1+",
+        "Kg2",
+        "Rg1+",
+        "Kxg1"
+      ],
+      "last_snapshot": "396b3bf41738ea1e4fd23acc14272b371b1d0a9d25628f0921469de0a94def7f",
+      "pivot_white_move": 5,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step005:anthropic/claude-haiku-4-5-20251001:keep_original_reply:06",
+    "decision_id": "krk-m4-1_trial0_step005",
+    "arm": "keep_original_reply",
+    "replicate": 6,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-f54e06a1cf2f",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 6,
+      "cost_usd": 0.022767,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rd2",
+        "Kh1",
+        "Ke2",
+        "Kg2",
+        "Rd3",
+        "Kg1",
+        "Rd1+",
+        "Kg2",
+        "Rg1+",
+        "Kxg1"
+      ],
+      "last_snapshot": "788fef007c6e8470354d9795c868f0030d8ee0744046c0e036fb8ac5daf182dc",
+      "pivot_white_move": 5,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step005:anthropic/claude-haiku-4-5-20251001:keep_original_reply:07",
+    "decision_id": "krk-m4-1_trial0_step005",
+    "arm": "keep_original_reply",
+    "replicate": 7,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-cbb7a7aa1c63",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 6,
+      "cost_usd": 0.038732,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rd2",
+        "Kh1",
+        "Ke2",
+        "Kg2",
+        "Rd3",
+        "Kg1",
+        "Rd1+",
+        "Kg2",
+        "Rg1+",
+        "Kxg1"
+      ],
+      "last_snapshot": "870a3ee2fb12b5e166094a3d7d0ed059988873be348b274520bc12416db3f0d0",
+      "pivot_white_move": 5,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step005:anthropic/claude-haiku-4-5-20251001:keep_original_reply:08",
+    "decision_id": "krk-m4-1_trial0_step005",
+    "arm": "keep_original_reply",
+    "replicate": 8,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-e0f14868c3ec",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 6,
+      "cost_usd": 0.015512,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rd2",
+        "Kh1",
+        "Ke2",
+        "Kg2",
+        "Rd3",
+        "Kg1",
+        "Rd1+",
+        "Kg2",
+        "Rg1+",
+        "Kxg1"
+      ],
+      "last_snapshot": "2a9248630ea7c9a58068157eab53ad9e784e2dac4d3f56013a708ab650f4c33e",
+      "pivot_white_move": 5,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step005:anthropic/claude-haiku-4-5-20251001:keep_original_reply:09",
+    "decision_id": "krk-m4-1_trial0_step005",
+    "arm": "keep_original_reply",
+    "replicate": 9,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-c0062dc3a13c",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 6,
+      "cost_usd": 0.043082,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rd2",
+        "Kh1",
+        "Ke2",
+        "Kg2",
+        "Rd3",
+        "Kg1",
+        "Rd1+",
+        "Kg2",
+        "Rg1+",
+        "Kxg1"
+      ],
+      "last_snapshot": "94bc249b936268b2b544d820d19ea482e82f47d52544e83ac957c0d68e4842f3",
+      "pivot_white_move": 5,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step005:anthropic/claude-haiku-4-5-20251001:redecide_reply:00",
+    "decision_id": "krk-m4-1_trial0_step005",
+    "arm": "redecide_reply",
+    "replicate": 0,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-70a85e91a1cd",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 6,
+      "cost_usd": 0.066428,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rd2",
+        "Kh1",
+        "Ke2",
+        "Kg2",
+        "Rd3",
+        "Kg1",
+        "Rd1+",
+        "Kg2",
+        "Rg1+",
+        "Kxg1"
+      ],
+      "last_snapshot": "5a0a6730a76fa312b103f67a77f00a26a1f832552c33c31345b0d0e2e03625b9",
+      "pivot_white_move": 5,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step005:anthropic/claude-haiku-4-5-20251001:redecide_reply:01",
+    "decision_id": "krk-m4-1_trial0_step005",
+    "arm": "redecide_reply",
+    "replicate": 1,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-0f9941988871",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 6,
+      "cost_usd": 0.01793,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rd2",
+        "Kh1",
+        "Ke2",
+        "Kg2",
+        "Rd3",
+        "Kg1",
+        "Rg3+",
+        "Kh1",
+        "Rg2",
+        "Kxg2"
+      ],
+      "last_snapshot": "fc29354117ad476e166396368ac8974758bb2dcebb94bd4356efa0ebb486b6ba",
+      "pivot_white_move": 6,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step005:anthropic/claude-haiku-4-5-20251001:redecide_reply:02",
+    "decision_id": "krk-m4-1_trial0_step005",
+    "arm": "redecide_reply",
+    "replicate": 2,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-20fa7b60680b",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 6,
+      "cost_usd": 0.020352,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rd2",
+        "Kh1",
+        "Ke2",
+        "Kg2",
+        "Rd3",
+        "Kg1",
+        "Rg3+",
+        "Kh1",
+        "Rg1+",
+        "Kxg1"
+      ],
+      "last_snapshot": "9e0d96aeabc477705c02b94dead25bbc4c4ae051f72219448db6fc6800e83366",
+      "pivot_white_move": 6,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step005:anthropic/claude-haiku-4-5-20251001:redecide_reply:03",
+    "decision_id": "krk-m4-1_trial0_step005",
+    "arm": "redecide_reply",
+    "replicate": 3,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-e8db608157d4",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 7,
+      "cost_usd": 0.114941,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rd2",
+        "Kh1",
+        "Ke2",
+        "Kg2",
+        "Rd3",
+        "Kg1",
+        "Rg3+",
+        "Kh1",
+        "Rh3+",
+        "Kg2",
+        "Rg3+",
+        "Kxg3"
+      ],
+      "last_snapshot": "9918eda0ff46e3de3e486676a6ec34da8ce3dbf99921556fca24c756f8bdaf71",
+      "pivot_white_move": 6,
+      "end": "insufficient_material"
+    },
+    "model_calls": 3,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step005:anthropic/claude-haiku-4-5-20251001:redecide_reply:04",
+    "decision_id": "krk-m4-1_trial0_step005",
+    "arm": "redecide_reply",
+    "replicate": 4,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-8ef2d55075a2",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": true,
+      "status": "checkmate",
+      "exit_status": "GameOver",
+      "n_calls": 9,
+      "cost_usd": 0.036779,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rd2",
+        "Kh1",
+        "Ke2",
+        "Kg2",
+        "Rd3",
+        "Kg1",
+        "Kf3",
+        "Kh1",
+        "Kf2",
+        "Kh2",
+        "Rg3",
+        "Kh1",
+        "Rh3#"
+      ],
+      "last_snapshot": "6acff251bd92c9a4d2751091980319ee7ec9cb7691eef5e0d7f32ecfaaaaade5",
+      "pivot_white_move": null,
+      "end": "checkmate"
+    },
+    "model_calls": 5,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step005:anthropic/claude-haiku-4-5-20251001:redecide_reply:05",
+    "decision_id": "krk-m4-1_trial0_step005",
+    "arm": "redecide_reply",
+    "replicate": 5,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-8f3fd94d1d5a",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 7,
+      "cost_usd": 0.071939,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rd2",
+        "Kh1",
+        "Ke2",
+        "Kg2",
+        "Rd3",
+        "Kg1",
+        "Rg3+",
+        "Kh1",
+        "Rh3+",
+        "Kg2",
+        "Rh2+",
+        "Kxh2"
+      ],
+      "last_snapshot": "57140bd3d199217526ceb77b9ae3709478fde46f1e5b264982b512f016c65a5c",
+      "pivot_white_move": 6,
+      "end": "insufficient_material"
+    },
+    "model_calls": 3,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step005:anthropic/claude-haiku-4-5-20251001:redecide_reply:06",
+    "decision_id": "krk-m4-1_trial0_step005",
+    "arm": "redecide_reply",
+    "replicate": 6,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-c7d78d16b662",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 6,
+      "cost_usd": 0.01799,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rd2",
+        "Kh1",
+        "Ke2",
+        "Kg2",
+        "Rd3",
+        "Kg1",
+        "Rg3+",
+        "Kh1",
+        "Rg1+",
+        "Kxg1"
+      ],
+      "last_snapshot": "f28eb08c5719040b30425351e2be59e4eb24176987f82bea191127922c91770a",
+      "pivot_white_move": 6,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step005:anthropic/claude-haiku-4-5-20251001:redecide_reply:07",
+    "decision_id": "krk-m4-1_trial0_step005",
+    "arm": "redecide_reply",
+    "replicate": 7,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-7d6999007d92",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 7,
+      "cost_usd": 0.091806,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rd2",
+        "Kh1",
+        "Ke2",
+        "Kg2",
+        "Rd3",
+        "Kg1",
+        "Rg3+",
+        "Kh1",
+        "Rh3+",
+        "Kg2",
+        "Rh2+",
+        "Kxh2"
+      ],
+      "last_snapshot": "ef2524e1a423728691ae556f462cbed5f9e076f28a3f6ab602d732f3bd2a2450",
+      "pivot_white_move": 6,
+      "end": "insufficient_material"
+    },
+    "model_calls": 3,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step005:anthropic/claude-haiku-4-5-20251001:redecide_reply:08",
+    "decision_id": "krk-m4-1_trial0_step005",
+    "arm": "redecide_reply",
+    "replicate": 8,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-288609902aaa",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "fifty_move_rule",
+      "exit_status": "GameOver",
+      "n_calls": 9,
+      "cost_usd": 0.127625,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rd2",
+        "Kh1",
+        "Ke2",
+        "Kg2",
+        "Rd3",
+        "Kg1",
+        "Rd1+",
+        "Kg2",
+        "Ke3",
+        "Kg3",
+        "Rg1+",
+        "Kh4",
+        "Rh1+"
+      ],
+      "last_snapshot": "13f8344f3bc8f1179b1ec8f410d7d07c898c11372aea155367d15827e58ce067",
+      "pivot_white_move": 5,
+      "end": "fifty_move_rule"
+    },
+    "model_calls": 5,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step005:anthropic/claude-haiku-4-5-20251001:redecide_reply:09",
+    "decision_id": "krk-m4-1_trial0_step005",
+    "arm": "redecide_reply",
+    "replicate": 9,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-c9027baa33d6",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 7,
+      "cost_usd": 0.060314,
+      "moves_san": [
+        "Ke1",
+        "Kg1",
+        "Rd2",
+        "Kh1",
+        "Ke2",
+        "Kg2",
+        "Rd3",
+        "Kg1",
+        "Rg3+",
+        "Kh1",
+        "Rh3+",
+        "Kg2",
+        "Rh2+",
+        "Kxh2"
+      ],
+      "last_snapshot": "b59c2aab3739578fcaea62612733718d2ac28353578b9563353bf4e003a10e48",
+      "pivot_white_move": 6,
+      "end": "insufficient_material"
+    },
+    "model_calls": 3,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m4-1_trial1_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:00",
+    "decision_id": "krk-m4-1_trial1_step001",
+    "arm": "keep_original_reply",
+    "replicate": 0,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-d17299f9eb3f",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 1,
+      "cost_usd": 0.0,
+      "moves_san": [
+        "Rh3",
+        "Kxh3"
+      ],
+      "last_snapshot": "b59112591199f9d16bcfef23f620b33410c9e1c820c3100e53e0f445f931b2b1",
+      "pivot_white_move": 1,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m4-1_trial1_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:01",
+    "decision_id": "krk-m4-1_trial1_step001",
+    "arm": "keep_original_reply",
+    "replicate": 1,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-db87e7a9f087",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 1,
+      "cost_usd": 0.0,
+      "moves_san": [
+        "Rh3",
+        "Kxh3"
+      ],
+      "last_snapshot": "62db667715a47ec774900781c57529438996874d785800ecec2f6e292242b808",
+      "pivot_white_move": 1,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m4-1_trial1_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:02",
+    "decision_id": "krk-m4-1_trial1_step001",
+    "arm": "keep_original_reply",
+    "replicate": 2,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-a773fe72bcf2",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 1,
+      "cost_usd": 0.0,
+      "moves_san": [
+        "Rh3",
+        "Kxh3"
+      ],
+      "last_snapshot": "1a84a19444cb8038c713ddaf777cd7c39817fa23efb956c426582e5103f5b5aa",
+      "pivot_white_move": 1,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m4-1_trial1_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:03",
+    "decision_id": "krk-m4-1_trial1_step001",
+    "arm": "keep_original_reply",
+    "replicate": 3,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-69348aac07f8",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 1,
+      "cost_usd": 0.0,
+      "moves_san": [
+        "Rh3",
+        "Kxh3"
+      ],
+      "last_snapshot": "15018139da04b24ae19797348df42804233f964769a2f5d7a0d5cc365eb3410b",
+      "pivot_white_move": 1,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m4-1_trial1_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:04",
+    "decision_id": "krk-m4-1_trial1_step001",
+    "arm": "keep_original_reply",
+    "replicate": 4,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-963099569816",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 1,
+      "cost_usd": 0.0,
+      "moves_san": [
+        "Rh3",
+        "Kxh3"
+      ],
+      "last_snapshot": "0f16d857019f68598fca79d062937f4f6599f7e551b97ec23373f7c6e82e4fe7",
+      "pivot_white_move": 1,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m4-1_trial1_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:05",
+    "decision_id": "krk-m4-1_trial1_step001",
+    "arm": "keep_original_reply",
+    "replicate": 5,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-d109815bb869",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 1,
+      "cost_usd": 0.0,
+      "moves_san": [
+        "Rh3",
+        "Kxh3"
+      ],
+      "last_snapshot": "a721eec29d54a55922c074ab78fcef0496d943e93fd9ac2772eeecf79b22a4ee",
+      "pivot_white_move": 1,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m4-1_trial1_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:06",
+    "decision_id": "krk-m4-1_trial1_step001",
+    "arm": "keep_original_reply",
+    "replicate": 6,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-570e7d88afba",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 1,
+      "cost_usd": 0.0,
+      "moves_san": [
+        "Rh3",
+        "Kxh3"
+      ],
+      "last_snapshot": "a7f87ccc0ea7b48a6d62b716e7d16ccc00ff182580fe9cbf305ef9ef94275f6e",
+      "pivot_white_move": 1,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m4-1_trial1_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:07",
+    "decision_id": "krk-m4-1_trial1_step001",
+    "arm": "keep_original_reply",
+    "replicate": 7,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-c94a3656c8a4",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 1,
+      "cost_usd": 0.0,
+      "moves_san": [
+        "Rh3",
+        "Kxh3"
+      ],
+      "last_snapshot": "389dc40527b86bc1ae5315ea51c3e610e3d134669ff7e74554640d8fbe5935af",
+      "pivot_white_move": 1,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m4-1_trial1_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:08",
+    "decision_id": "krk-m4-1_trial1_step001",
+    "arm": "keep_original_reply",
+    "replicate": 8,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-30f4e08dab5c",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 1,
+      "cost_usd": 0.0,
+      "moves_san": [
+        "Rh3",
+        "Kxh3"
+      ],
+      "last_snapshot": "b60422c2d584a9678c12d5e3fe49d869bd9467430fa5e9ffb2d90ada886eb405",
+      "pivot_white_move": 1,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m4-1_trial1_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:09",
+    "decision_id": "krk-m4-1_trial1_step001",
+    "arm": "keep_original_reply",
+    "replicate": 9,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-8afb5bed674d",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 1,
+      "cost_usd": 0.0,
+      "moves_san": [
+        "Rh3",
+        "Kxh3"
+      ],
+      "last_snapshot": "ac57e41e6772d46a9b0e456edc48119613ad878e7a8ff37250953e40ca121da4",
+      "pivot_white_move": 1,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m4-1_trial1_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:00",
+    "decision_id": "krk-m4-1_trial1_step001",
+    "arm": "redecide_reply",
+    "replicate": 0,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-752fac8923b6",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 1,
+      "cost_usd": 0.003114,
+      "moves_san": [
+        "Rg3+",
+        "Kxg3"
+      ],
+      "last_snapshot": "1129eb02b8798bafc859a51d67afcbb5fb2fca723100198fe03d588f13ba2446",
+      "pivot_white_move": 1,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m4-1_trial1_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:01",
+    "decision_id": "krk-m4-1_trial1_step001",
+    "arm": "redecide_reply",
+    "replicate": 1,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-7ded52dc392f",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 1,
+      "cost_usd": 0.005239,
+      "moves_san": [
+        "Rg3+",
+        "Kxg3"
+      ],
+      "last_snapshot": "50ca88d8caf9e38539f37f7556348ac22020c3bef7867590e3ef754ae151f36d",
+      "pivot_white_move": 1,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m4-1_trial1_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:02",
+    "decision_id": "krk-m4-1_trial1_step001",
+    "arm": "redecide_reply",
+    "replicate": 2,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-57b6d656b7d4",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 1,
+      "cost_usd": 0.003974,
+      "moves_san": [
+        "Rg3+",
+        "Kxg3"
+      ],
+      "last_snapshot": "2ad9ae6f0f37c539d238c25eb3e273b732c20cd0dfa2e062ceb3d480a8194daf",
+      "pivot_white_move": 1,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m4-1_trial1_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:03",
+    "decision_id": "krk-m4-1_trial1_step001",
+    "arm": "redecide_reply",
+    "replicate": 3,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-d8074307d723",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 1,
+      "cost_usd": 0.004964,
+      "moves_san": [
+        "Rg3+",
+        "Kxg3"
+      ],
+      "last_snapshot": "f6898ee8d8a4747a0ce7262469a1bd3572a1f83193c8f2cfda411618ae7049eb",
+      "pivot_white_move": 1,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m4-1_trial1_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:04",
+    "decision_id": "krk-m4-1_trial1_step001",
+    "arm": "redecide_reply",
+    "replicate": 4,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-9a33c547752e",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 1,
+      "cost_usd": 0.004929,
+      "moves_san": [
+        "Rg3+",
+        "Kxg3"
+      ],
+      "last_snapshot": "fb6641ed7ad93295fdd6bfc1d60f691becf47761c7fd1126cd15e084ca7bf422",
+      "pivot_white_move": 1,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m4-1_trial1_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:05",
+    "decision_id": "krk-m4-1_trial1_step001",
+    "arm": "redecide_reply",
+    "replicate": 5,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-7a46067ca5ff",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 1,
+      "cost_usd": 0.005124,
+      "moves_san": [
+        "Rg3+",
+        "Kxg3"
+      ],
+      "last_snapshot": "863b5fcfb8df350b30c183276fabfe4482a165a1545fb1831d6f961b51a45408",
+      "pivot_white_move": 1,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m4-1_trial1_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:06",
+    "decision_id": "krk-m4-1_trial1_step001",
+    "arm": "redecide_reply",
+    "replicate": 6,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-c3347ef7e362",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 1,
+      "cost_usd": 0.002414,
+      "moves_san": [
+        "Rg3+",
+        "Kxg3"
+      ],
+      "last_snapshot": "a4381fe6079da76a7d02e6f0e906f3ab837f1fd74cd9c710f3f9d61270280ad6",
+      "pivot_white_move": 1,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m4-1_trial1_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:07",
+    "decision_id": "krk-m4-1_trial1_step001",
+    "arm": "redecide_reply",
+    "replicate": 7,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-4505dace2e57",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 1,
+      "cost_usd": 0.003394,
+      "moves_san": [
+        "Rg3+",
+        "Kxg3"
+      ],
+      "last_snapshot": "384ea4627648ff60d73221cbddac44fe21ecddbaf46bbad08890370da6b59a4b",
+      "pivot_white_move": 1,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m4-1_trial1_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:08",
+    "decision_id": "krk-m4-1_trial1_step001",
+    "arm": "redecide_reply",
+    "replicate": 8,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-4999b513f378",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 1,
+      "cost_usd": 0.003499,
+      "moves_san": [
+        "Rg3+",
+        "Kxg3"
+      ],
+      "last_snapshot": "1da37bd24206944950983c64347f49e757f716db387c0c352de77572a2109bb4",
+      "pivot_white_move": 1,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m4-1_trial1_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:09",
+    "decision_id": "krk-m4-1_trial1_step001",
+    "arm": "redecide_reply",
+    "replicate": 9,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-dafc7282ebe7",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 1,
+      "cost_usd": 0.003424,
+      "moves_san": [
+        "Rg3+",
+        "Kxg3"
+      ],
+      "last_snapshot": "3e3a7655fc6d1256a89a0b102d43be24dc4e027b1f70513a8f66a96f50ac37a3",
+      "pivot_white_move": 1,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m6-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:00",
+    "decision_id": "krk-m6-1_trial0_step001",
+    "arm": "keep_original_reply",
+    "replicate": 0,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-f2a2b4f4bcbb",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 3,
+      "cost_usd": 0.010858,
+      "moves_san": [
+        "Rg6",
+        "Ka8",
+        "Ra6+",
+        "Kb7",
+        "Ra7+",
+        "Kxa7"
+      ],
+      "last_snapshot": "156c84232e970d60dcf62f38cf7016f493dc5e7e7473044c12aa8a27f63346ce",
+      "pivot_white_move": 3,
+      "end": "insufficient_material"
+    },
+    "model_calls": 3,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m6-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:01",
+    "decision_id": "krk-m6-1_trial0_step001",
+    "arm": "keep_original_reply",
+    "replicate": 1,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-8094a5dbce9a",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 3,
+      "cost_usd": 0.011818,
+      "moves_san": [
+        "Rg6",
+        "Ka8",
+        "Ra6+",
+        "Kb7",
+        "Ra7+",
+        "Kxa7"
+      ],
+      "last_snapshot": "60ed87ef2b55a3ff03560319f21c00696a441cc04de0c20f65067b86d02777f8",
+      "pivot_white_move": 3,
+      "end": "insufficient_material"
+    },
+    "model_calls": 3,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m6-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:02",
+    "decision_id": "krk-m6-1_trial0_step001",
+    "arm": "keep_original_reply",
+    "replicate": 2,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-76c4cf019a06",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 3,
+      "cost_usd": 0.020156,
+      "moves_san": [
+        "Rg6",
+        "Ka8",
+        "Ra6+",
+        "Kb7",
+        "Ra7+",
+        "Kxa7"
+      ],
+      "last_snapshot": "1bc200e2b855d0cefabf42a445c18fc32157f3868aa853e17557b5a619d717a9",
+      "pivot_white_move": 3,
+      "end": "insufficient_material"
+    },
+    "model_calls": 3,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m6-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:03",
+    "decision_id": "krk-m6-1_trial0_step001",
+    "arm": "keep_original_reply",
+    "replicate": 3,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-d4b9819d8c6d",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 3,
+      "cost_usd": 0.00642,
+      "moves_san": [
+        "Rg6",
+        "Ka8",
+        "Ra6+",
+        "Kb7",
+        "Rb6+",
+        "Kxb6"
+      ],
+      "last_snapshot": "eeb429581e8d0ba01ed8f28a06d938a20799fb60368fd60f01da32cec3132378",
+      "pivot_white_move": 3,
+      "end": "insufficient_material"
+    },
+    "model_calls": 3,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m6-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:04",
+    "decision_id": "krk-m6-1_trial0_step001",
+    "arm": "keep_original_reply",
+    "replicate": 4,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-524226a265d2",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 3,
+      "cost_usd": 0.020579,
+      "moves_san": [
+        "Rg6",
+        "Ka8",
+        "Ra6+",
+        "Kb7",
+        "Ra7+",
+        "Kxa7"
+      ],
+      "last_snapshot": "9bd44b8f661e685bc51bf7821765cf2c2f3f418880fec3475d4195c3ee0cf5cd",
+      "pivot_white_move": 3,
+      "end": "insufficient_material"
+    },
+    "model_calls": 3,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m6-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:05",
+    "decision_id": "krk-m6-1_trial0_step001",
+    "arm": "keep_original_reply",
+    "replicate": 5,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-6f26dabf540f",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 3,
+      "cost_usd": 0.008275,
+      "moves_san": [
+        "Rg6",
+        "Ka8",
+        "Kd7",
+        "Kb7",
+        "Rb6+",
+        "Kxb6"
+      ],
+      "last_snapshot": "e0a62198aaacaa72a8dc00b02ead6e311e669ea2613d4b54c5c2538462d14457",
+      "pivot_white_move": 3,
+      "end": "insufficient_material"
+    },
+    "model_calls": 3,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m6-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:06",
+    "decision_id": "krk-m6-1_trial0_step001",
+    "arm": "keep_original_reply",
+    "replicate": 6,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-82e19d1f6802",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 3,
+      "cost_usd": 0.005506,
+      "moves_san": [
+        "Rg6",
+        "Ka8",
+        "Ra6+",
+        "Kb7",
+        "Ra7+",
+        "Kxa7"
+      ],
+      "last_snapshot": "f331f39c69d87d5a1bb44cc8ba1594c7e86dd51edf8a8b15b2dfc6633f6f80b2",
+      "pivot_white_move": 3,
+      "end": "insufficient_material"
+    },
+    "model_calls": 3,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m6-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:07",
+    "decision_id": "krk-m6-1_trial0_step001",
+    "arm": "keep_original_reply",
+    "replicate": 7,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-04dcfe7b4248",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 3,
+      "cost_usd": 0.014549,
+      "moves_san": [
+        "Rg6",
+        "Ka8",
+        "Kd7",
+        "Kb7",
+        "Rb6+",
+        "Kxb6"
+      ],
+      "last_snapshot": "4d44aa8cccca4232ffec2e92aef69abbdb007774da3b480ef76767642d4896c0",
+      "pivot_white_move": 3,
+      "end": "insufficient_material"
+    },
+    "model_calls": 3,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m6-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:08",
+    "decision_id": "krk-m6-1_trial0_step001",
+    "arm": "keep_original_reply",
+    "replicate": 8,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-37bcc95ba652",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 3,
+      "cost_usd": 0.012983,
+      "moves_san": [
+        "Rg6",
+        "Ka8",
+        "Kd7",
+        "Kb7",
+        "Rb6+",
+        "Kxb6"
+      ],
+      "last_snapshot": "e01daaa015bfdfd00082057de8cb5677585afa66c825572232cfe6be6dc3c75c",
+      "pivot_white_move": 3,
+      "end": "insufficient_material"
+    },
+    "model_calls": 3,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m6-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:keep_original_reply:09",
+    "decision_id": "krk-m6-1_trial0_step001",
+    "arm": "keep_original_reply",
+    "replicate": 9,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-684fc34edd2b",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 3,
+      "cost_usd": 0.012741,
+      "moves_san": [
+        "Rg6",
+        "Ka8",
+        "Ra6+",
+        "Kb7",
+        "Rb6+",
+        "Kxb6"
+      ],
+      "last_snapshot": "c4f1face82a22047a2b2358407211f22355958a244132a016a9ab9340f87ffff",
+      "pivot_white_move": 3,
+      "end": "insufficient_material"
+    },
+    "model_calls": 3,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m6-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:00",
+    "decision_id": "krk-m6-1_trial0_step001",
+    "arm": "redecide_reply",
+    "replicate": 0,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-626304dbf740",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 2,
+      "cost_usd": 0.007704,
+      "moves_san": [
+        "Ra5+",
+        "Kb6",
+        "Ra6+",
+        "Kxa6"
+      ],
+      "last_snapshot": "5cbb274edefdb9ea13253f4b6e13a015745f338b4c7145603828414425496079",
+      "pivot_white_move": 2,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m6-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:01",
+    "decision_id": "krk-m6-1_trial0_step001",
+    "arm": "redecide_reply",
+    "replicate": 1,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-7a95fe43d7d2",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 2,
+      "cost_usd": 0.01077,
+      "moves_san": [
+        "Ra5+",
+        "Kb6",
+        "Ra6+",
+        "Kxa6"
+      ],
+      "last_snapshot": "c4945bc86dec662674944127d7bf95da7422ed57d21190a79ce98f3f26b2a5b6",
+      "pivot_white_move": 2,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m6-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:02",
+    "decision_id": "krk-m6-1_trial0_step001",
+    "arm": "redecide_reply",
+    "replicate": 2,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-e0955ac816b8",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 2,
+      "cost_usd": 0.006167,
+      "moves_san": [
+        "Ra5+",
+        "Kb6",
+        "Ra6+",
+        "Kxa6"
+      ],
+      "last_snapshot": "1ff307767bbf1e90f0283ddbb3421d1386d7702c350dbb0607e1a9f75c62c86b",
+      "pivot_white_move": 2,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m6-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:03",
+    "decision_id": "krk-m6-1_trial0_step001",
+    "arm": "redecide_reply",
+    "replicate": 3,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-b0b73fc5810f",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 2,
+      "cost_usd": 0.008814,
+      "moves_san": [
+        "Ra5+",
+        "Kb6",
+        "Ra6+",
+        "Kxa6"
+      ],
+      "last_snapshot": "d6df53deaae56000f13b1d2da1701cb7da47aada8bc43ed45735c53517b57a25",
+      "pivot_white_move": 2,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m6-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:04",
+    "decision_id": "krk-m6-1_trial0_step001",
+    "arm": "redecide_reply",
+    "replicate": 4,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-cc704d7b1c41",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 2,
+      "cost_usd": 0.007968,
+      "moves_san": [
+        "Ra5+",
+        "Kb6",
+        "Ra6+",
+        "Kxa6"
+      ],
+      "last_snapshot": "1db09acc68920d272a461f65c0a1520a5bf33a3383dbd59b2c9c4615adcec241",
+      "pivot_white_move": 2,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m6-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:05",
+    "decision_id": "krk-m6-1_trial0_step001",
+    "arm": "redecide_reply",
+    "replicate": 5,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-a2593b0ab564",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 2,
+      "cost_usd": 0.005718,
+      "moves_san": [
+        "Ra5+",
+        "Kb6",
+        "Ra6+",
+        "Kxa6"
+      ],
+      "last_snapshot": "64ce7b9568651277f039a84a24696d34a2eabd3ae6c8d80f56c88f1e707fb94f",
+      "pivot_white_move": 2,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m6-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:06",
+    "decision_id": "krk-m6-1_trial0_step001",
+    "arm": "redecide_reply",
+    "replicate": 6,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-d6f83834db30",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 2,
+      "cost_usd": 0.007547,
+      "moves_san": [
+        "Ra5+",
+        "Kb6",
+        "Ra6+",
+        "Kxa6"
+      ],
+      "last_snapshot": "3d2bbc0e24691f004248d2e9ee433c97e04f5b829ea38789cf8633c18a60061b",
+      "pivot_white_move": 2,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m6-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:07",
+    "decision_id": "krk-m6-1_trial0_step001",
+    "arm": "redecide_reply",
+    "replicate": 7,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-5527824951ee",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 2,
+      "cost_usd": 0.014348,
+      "moves_san": [
+        "Ra5+",
+        "Kb6",
+        "Ra6+",
+        "Kxa6"
+      ],
+      "last_snapshot": "652a3329cc99b33fcb141c6dce05a5865f0b7a143a3b8e469a4455404d581d35",
+      "pivot_white_move": 2,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m6-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:08",
+    "decision_id": "krk-m6-1_trial0_step001",
+    "arm": "redecide_reply",
+    "replicate": 8,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-3a4cb6a39370",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 2,
+      "cost_usd": 0.006016,
+      "moves_san": [
+        "Ra5+",
+        "Kb6",
+        "Ra6+",
+        "Kxa6"
+      ],
+      "last_snapshot": "d2f5d63dd5774159594fb4fb206aa2544d871d7cfbf9d1eab2def759a043e645",
+      "pivot_white_move": 2,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m6-1_trial0_step001:anthropic/claude-haiku-4-5-20251001:redecide_reply:09",
+    "decision_id": "krk-m6-1_trial0_step001",
+    "arm": "redecide_reply",
+    "replicate": 9,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-2215ec6dd46f",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 2,
+      "cost_usd": 0.006752,
+      "moves_san": [
+        "Ra5+",
+        "Kb6",
+        "Ra6+",
+        "Kxa6"
+      ],
+      "last_snapshot": "4ee7f71c703ae2505716614a44d795b0f0733b29a13148d16d2c148f23c584ae",
+      "pivot_white_move": 2,
+      "end": "insufficient_material"
+    },
+    "model_calls": 2,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m8-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:00",
+    "decision_id": "krk-m8-1_trial0_step003",
+    "arm": "keep_original_reply",
+    "replicate": 0,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-2ccd312c06e2",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 3,
+      "cost_usd": 0.00126,
+      "moves_san": [
+        "Rh3+",
+        "Ka4",
+        "Kd4",
+        "Kb4",
+        "Ra3",
+        "Kxa3"
+      ],
+      "last_snapshot": "c51c9973178930c08942ea44abc14fc1131e60bdfb3f5f973fc74789edf53cb4",
+      "pivot_white_move": 3,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m8-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:01",
+    "decision_id": "krk-m8-1_trial0_step003",
+    "arm": "keep_original_reply",
+    "replicate": 1,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-97f4134ef309",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 3,
+      "cost_usd": 0.00126,
+      "moves_san": [
+        "Rh3+",
+        "Ka4",
+        "Kd4",
+        "Kb4",
+        "Ra3",
+        "Kxa3"
+      ],
+      "last_snapshot": "6f64ae129a2601c844d198c6fd28ebd7e713cdc8495f345d296aec8ab4178874",
+      "pivot_white_move": 3,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m8-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:02",
+    "decision_id": "krk-m8-1_trial0_step003",
+    "arm": "keep_original_reply",
+    "replicate": 2,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-46e0debef049",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 3,
+      "cost_usd": 0.00126,
+      "moves_san": [
+        "Rh3+",
+        "Ka4",
+        "Kd4",
+        "Kb4",
+        "Ra3",
+        "Kxa3"
+      ],
+      "last_snapshot": "6b6dbfa441b70053f7998a06b078f1da0397d7568ff153db583d5d58dc4578f3",
+      "pivot_white_move": 3,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m8-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:03",
+    "decision_id": "krk-m8-1_trial0_step003",
+    "arm": "keep_original_reply",
+    "replicate": 3,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-22ab1f8645bc",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 3,
+      "cost_usd": 0.00126,
+      "moves_san": [
+        "Rh3+",
+        "Ka4",
+        "Kd4",
+        "Kb4",
+        "Ra3",
+        "Kxa3"
+      ],
+      "last_snapshot": "a436d671121f7aee5c2d371e1974ba1cee46551bf0a4d424502410e769822e5b",
+      "pivot_white_move": 3,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m8-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:04",
+    "decision_id": "krk-m8-1_trial0_step003",
+    "arm": "keep_original_reply",
+    "replicate": 4,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-1c861a828020",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 3,
+      "cost_usd": 0.00126,
+      "moves_san": [
+        "Rh3+",
+        "Ka4",
+        "Kd4",
+        "Kb4",
+        "Ra3",
+        "Kxa3"
+      ],
+      "last_snapshot": "0b156e21a545b34ae8fad72f084fc5fae16f16fe5c4e4c1a26341bf12cac64ee",
+      "pivot_white_move": 3,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m8-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:05",
+    "decision_id": "krk-m8-1_trial0_step003",
+    "arm": "keep_original_reply",
+    "replicate": 5,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-f8bbdc552874",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 3,
+      "cost_usd": 0.00126,
+      "moves_san": [
+        "Rh3+",
+        "Ka4",
+        "Kd4",
+        "Kb4",
+        "Ra3",
+        "Kxa3"
+      ],
+      "last_snapshot": "0ab0127ddff55c0f7a507c0a7c56489eaa203c0ba8b7d3ae185780ac6ae13fdd",
+      "pivot_white_move": 3,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m8-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:06",
+    "decision_id": "krk-m8-1_trial0_step003",
+    "arm": "keep_original_reply",
+    "replicate": 6,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-b64c9c3675e1",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 3,
+      "cost_usd": 0.00126,
+      "moves_san": [
+        "Rh3+",
+        "Ka4",
+        "Kd4",
+        "Kb4",
+        "Ra3",
+        "Kxa3"
+      ],
+      "last_snapshot": "a34d45442a528bd0f2b7dabac5dbfde02261a71c82e8f9f4632330362abb9ec5",
+      "pivot_white_move": 3,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m8-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:07",
+    "decision_id": "krk-m8-1_trial0_step003",
+    "arm": "keep_original_reply",
+    "replicate": 7,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-aa748102acf4",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 3,
+      "cost_usd": 0.00126,
+      "moves_san": [
+        "Rh3+",
+        "Ka4",
+        "Kd4",
+        "Kb4",
+        "Ra3",
+        "Kxa3"
+      ],
+      "last_snapshot": "71702f73c98f62482d2ea59cc9494b1b8b2a79eb8de3a706f60deb4c3292d586",
+      "pivot_white_move": 3,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m8-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:08",
+    "decision_id": "krk-m8-1_trial0_step003",
+    "arm": "keep_original_reply",
+    "replicate": 8,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-0a329083d9fb",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 3,
+      "cost_usd": 0.00126,
+      "moves_san": [
+        "Rh3+",
+        "Ka4",
+        "Kd4",
+        "Kb4",
+        "Ra3",
+        "Kxa3"
+      ],
+      "last_snapshot": "ae553a1c25e41fe49822dafd7f7f3f9dbc5e64803430328621ecdfc674c69d72",
+      "pivot_white_move": 3,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m8-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:09",
+    "decision_id": "krk-m8-1_trial0_step003",
+    "arm": "keep_original_reply",
+    "replicate": 9,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-4a94aad36749",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 3,
+      "cost_usd": 0.00126,
+      "moves_san": [
+        "Rh3+",
+        "Ka4",
+        "Kd4",
+        "Kb4",
+        "Ra3",
+        "Kxa3"
+      ],
+      "last_snapshot": "4e69585110fb95fc90eb63716dfd30f1e86afcc888751d933e7732bee1acd1ee",
+      "pivot_white_move": 3,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 1
+  },
+  {
+    "job_id": "krk-m8-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:00",
+    "decision_id": "krk-m8-1_trial0_step003",
+    "arm": "redecide_reply",
+    "replicate": 0,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-8a7c995b92ba",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 3,
+      "cost_usd": 0.004025,
+      "moves_san": [
+        "Rh3+",
+        "Ka4",
+        "Kd4",
+        "Kb4",
+        "Rb3+",
+        "Kxb3"
+      ],
+      "last_snapshot": "7a071c3dfb77b85eb82b11639a3b4cedfac0d8118d4bdc7156fc73600d86ec95",
+      "pivot_white_move": 3,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m8-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:01",
+    "decision_id": "krk-m8-1_trial0_step003",
+    "arm": "redecide_reply",
+    "replicate": 1,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-b796cfa8608a",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 3,
+      "cost_usd": 0.00515,
+      "moves_san": [
+        "Rh3+",
+        "Ka4",
+        "Kd4",
+        "Kb4",
+        "Rb3+",
+        "Kxb3"
+      ],
+      "last_snapshot": "445de297406e11cb30cc391ce98cc9e9a846fc9581eeb1961043a758e4551d1f",
+      "pivot_white_move": 3,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m8-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:02",
+    "decision_id": "krk-m8-1_trial0_step003",
+    "arm": "redecide_reply",
+    "replicate": 2,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-c8cb5bb4e6dc",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 3,
+      "cost_usd": 0.003825,
+      "moves_san": [
+        "Rh3+",
+        "Ka4",
+        "Kd4",
+        "Kb4",
+        "Rb3+",
+        "Kxb3"
+      ],
+      "last_snapshot": "b81ddd471b39c430024a2a93595b9aef3d2697a3d99ddf601ff449946b826a4e",
+      "pivot_white_move": 3,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m8-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:03",
+    "decision_id": "krk-m8-1_trial0_step003",
+    "arm": "redecide_reply",
+    "replicate": 3,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-0a79fd2e623b",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 3,
+      "cost_usd": 0.007405,
+      "moves_san": [
+        "Rh3+",
+        "Ka4",
+        "Kd4",
+        "Kb4",
+        "Rb3+",
+        "Kxb3"
+      ],
+      "last_snapshot": "e9cf62a2c7fc1b7645db2eded062ca345744b742e2e3ccf0f278248e75ebe180",
+      "pivot_white_move": 3,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m8-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:04",
+    "decision_id": "krk-m8-1_trial0_step003",
+    "arm": "redecide_reply",
+    "replicate": 4,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-babf8607c986",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 3,
+      "cost_usd": 0.00424,
+      "moves_san": [
+        "Rh3+",
+        "Ka4",
+        "Kd4",
+        "Kb4",
+        "Rb3+",
+        "Kxb3"
+      ],
+      "last_snapshot": "261d98d8948926a60139390e110fd3bdce92d5013d9f0574c48f56479fd38694",
+      "pivot_white_move": 3,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m8-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:05",
+    "decision_id": "krk-m8-1_trial0_step003",
+    "arm": "redecide_reply",
+    "replicate": 5,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-ff371caa61b3",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 3,
+      "cost_usd": 0.00397,
+      "moves_san": [
+        "Rh3+",
+        "Ka4",
+        "Kd4",
+        "Kb4",
+        "Rb3+",
+        "Kxb3"
+      ],
+      "last_snapshot": "f587e3715754108405fadde1f1eb47f4c65862181a2d79630f588fc221f1236e",
+      "pivot_white_move": 3,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m8-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:06",
+    "decision_id": "krk-m8-1_trial0_step003",
+    "arm": "redecide_reply",
+    "replicate": 6,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-cf548c18ce40",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 3,
+      "cost_usd": 0.005105,
+      "moves_san": [
+        "Rh3+",
+        "Ka4",
+        "Kd4",
+        "Kb4",
+        "Rb3+",
+        "Kxb3"
+      ],
+      "last_snapshot": "f3ff434f3d5894c36a25721adff7f6fcf9d360deb856e63fa70bf7870248698b",
+      "pivot_white_move": 3,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m8-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:07",
+    "decision_id": "krk-m8-1_trial0_step003",
+    "arm": "redecide_reply",
+    "replicate": 7,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-c83015b0bb5c",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 3,
+      "cost_usd": 0.005375,
+      "moves_san": [
+        "Rh3+",
+        "Ka4",
+        "Kd4",
+        "Kb4",
+        "Rb3+",
+        "Kxb3"
+      ],
+      "last_snapshot": "39baae86bee11b59118b5cb8ca4f34fb6e36fa0b820cfcb4753929097cb9eaf9",
+      "pivot_white_move": 3,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m8-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:08",
+    "decision_id": "krk-m8-1_trial0_step003",
+    "arm": "redecide_reply",
+    "replicate": 8,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-16dea2a988ec",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 3,
+      "cost_usd": 0.005635,
+      "moves_san": [
+        "Rh3+",
+        "Ka4",
+        "Kd4",
+        "Kb4",
+        "Rb3+",
+        "Kxb3"
+      ],
+      "last_snapshot": "617983ae84af3a3da20746e0c41d4c9747105b85d720a8f80f4dbaf3983f48db",
+      "pivot_white_move": 3,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 0
+  },
+  {
+    "job_id": "krk-m8-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:redecide_reply:09",
+    "decision_id": "krk-m8-1_trial0_step003",
+    "arm": "redecide_reply",
+    "replicate": 9,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "completed",
+    "branch_id": "br-ebb898a03785",
+    "verification": {
+      "visible_prefix_preserved": true,
+      "step_counter_correct": true,
+      "target_policy_installed": true,
+      "sampling_installed": true
+    },
+    "outcome": {
+      "won": false,
+      "status": "insufficient_material",
+      "exit_status": "GameOver",
+      "n_calls": 3,
+      "cost_usd": 0.0043,
+      "moves_san": [
+        "Rh3+",
+        "Ka4",
+        "Kd4",
+        "Kb4",
+        "Rb3+",
+        "Kxb3"
+      ],
+      "last_snapshot": "d91d47b7e7088ec9f484d2d41a0b31376827437a96c224f0254d224b6e5ce0e1",
+      "pivot_white_move": 3,
+      "end": "insufficient_material"
+    },
+    "model_calls": 1,
+    "forced_replies": 0
+  }
+]

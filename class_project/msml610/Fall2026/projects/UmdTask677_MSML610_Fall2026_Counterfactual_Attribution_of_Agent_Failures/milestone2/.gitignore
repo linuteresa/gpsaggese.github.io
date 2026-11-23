@@ -24,8 +24,3 @@ experiments/**/halt_evidence_inventory.json
 experiments/**/credit_probe_latest.json
 experiments/**/halt_provider_check.json
 experiments/**/authentication_check.json
-
-# Milestone 3 live stage: the frozen manifest and results are published;
-# the writable store, ledger and the reviewer's working sheet are not.
-experiments/m3_live_v1/store/
-review/taxonomy_review_sheet.csv

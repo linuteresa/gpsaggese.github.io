@@ -1,0 +1,24 @@
+[
+  {
+    "job_id": "krk-m4-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:00",
+    "decision_id": "krk-m4-1_trial0_step003",
+    "arm": "keep_original_reply",
+    "replicate": 0,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "error",
+    "error_type": "AccountingError",
+    "branch_id": "br-a7711755a1d8"
+  },
+  {
+    "job_id": "krk-m4-1_trial0_step003:anthropic/claude-haiku-4-5-20251001:keep_original_reply:01",
+    "decision_id": "krk-m4-1_trial0_step003",
+    "arm": "keep_original_reply",
+    "replicate": 1,
+    "target_model": "anthropic/claude-haiku-4-5-20251001",
+    "mode": "live",
+    "status": "error",
+    "error_type": "AccountingError",
+    "branch_id": "br-8b5ae3f09ed3"
+  }
+]

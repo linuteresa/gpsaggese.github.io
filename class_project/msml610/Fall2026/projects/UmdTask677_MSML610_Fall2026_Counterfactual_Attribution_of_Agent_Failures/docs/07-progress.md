@@ -5,8 +5,8 @@
 | Milestone | Target date | Status | PR |
 | :-------- | :---------- | :----- | :- |
 | M1: Checkpoint and Resume | - | Done (2026-11-11), not yet merged | PR 2 (to open) |
-| M2: Blame Profiles | December 1, 2026 (project) | Not started | - |
-| M3: Taxonomy and Transfer | December 1, 2026 (project) | Not started | - |
+| M2: Blame Profiles | December 1, 2026 (project) | Done (2026-11-19) | #977 |
+| M3: Taxonomy and Transfer | December 1, 2026 (project) | Pilot done (2026-11-22); taxonomy review pending | - |
 | M4: Cheap Surrogate and Feedback Loop | December 1, 2026 (project) | Not started | - |
 
 - Tracking: GitHub project board and milestones on the fork
@@ -69,8 +69,10 @@
 | 2026-11-11 | Docker setup changed for chess: Docker CLI, host-socket mount, SWE evaluator and `requirements.eval.txt` removed; the image builds natively on arm64 and the 11 unit tests pass inside it |
 | 2026-11-11 | Reproduction notes added to `milestone1.md` (environment, tablebase hashes, seeds and positions, model settings, commands, ledger by phase in `results/ledger_summary.json`); checked: tasks regenerate byte-identically from the seeds and the 62 replay checks pass again on a copy of the store with no API calls |
 | 2026-11-11 | PR 2 opened (#917) and merged with upstream master; `docker_jupyter.sh` tested on the new image; checkpoint stores and ledger archived (66 MB, sha256 recorded) and put on the project's UMD Google Drive folder, one subfolder per run, with instructions in `milestone1.md` for getting them and for running with your own API key |
+| 2026-11-22 | M3 moved to `milestone3/`; five runner defects fixed before any outcome; transfer pilot run: 160/160 jobs, every call on the pinned Haiku 4.5, $2.25 settled; Haiku 4.5 is at the floor (1/160 wins, 156 rook losses), so transfer is not measurable with it; write-up in `milestone3.md` |
 
 ## Open Work
 
 - PR #917: waiting for review
+- M3: independent taxonomy review (Linu); decide the transfer target now that Haiku 4.5 is at the floor
 - Research Google Doc: not started (PR 3)

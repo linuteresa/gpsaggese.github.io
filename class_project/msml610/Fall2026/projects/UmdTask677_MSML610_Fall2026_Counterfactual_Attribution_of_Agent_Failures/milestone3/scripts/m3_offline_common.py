@@ -13,6 +13,9 @@ def deny_network(*args, **kwargs):
     raise RuntimeError("Network prohibited during M3 offline preparation")
 
 
+# Kept so that an explicitly authorized live stage can undo the block.
+REAL_CONNECT = socket.socket.connect
+REAL_CREATE_CONNECTION = socket.create_connection
 socket.socket.connect = deny_network
 socket.create_connection = deny_network
 sys.path[:0] = [str(ROOT), str(ROOT / "vendor/pr917")]

@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env*
+.offline_settings/
+*.sqlite
+*.sqlite-*
+
+# Live stage: the frozen manifest and results are published; the writable
+# store, ledger and the reviewer's working sheet are not.
+experiments/m3_live_v1/store/
+review/taxonomy_review_sheet.csv
+experiments/m3_offline_v1/tests.xml
+experiments/m3_confirm_v1/store/

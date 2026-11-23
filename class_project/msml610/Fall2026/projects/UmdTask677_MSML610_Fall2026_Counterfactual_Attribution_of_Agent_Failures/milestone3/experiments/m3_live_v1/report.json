@@ -1,0 +1,359 @@
+{
+  "stage": "m3_live_v1_pilot",
+  "label": "Technical and cost feasibility. Recovery rates are descriptive, non-confirmatory, and excluded from later confirmation labels.",
+  "feasibility": {
+    "jobs_planned": 160,
+    "jobs_completed": 160,
+    "jobs_not_completed": 0,
+    "dispatch_success_rate": 0.9922,
+    "paid_calls_settled_for_completed_jobs": 256,
+    "response_model_identity_verified_on_every_call": true,
+    "prefix_and_board_preserved_on_every_fork": true,
+    "forced_reply_dispatched_exactly_once_in_keep_arm": true,
+    "no_forced_reply_in_redecide_arm": true,
+    "actual_usd_completed_jobs": 2.246495,
+    "actual_usd_per_continuation": 0.014041,
+    "input_tokens_per_continuation": 2346.8,
+    "output_tokens_per_continuation": 2338.8,
+    "actual_vs_proxy_token_ratio": {
+      "input": 0.209,
+      "output": 0.278
+    },
+    "proxy_usd_for_160": 7.2303,
+    "ledger": {
+      "settled_requests": 256,
+      "settled_usd": 2.246495,
+      "uncertain_maximum_retained_requests": 2,
+      "uncertain_maximum_retained_usd": 0.66,
+      "rejected_before_inference_requests": 6,
+      "accounted_plus_reserved_usd": 2.906495,
+      "cap_usd": 15
+    }
+  },
+  "decisions": [
+    {
+      "decision_id": "krk-m4-1_trial0_step003",
+      "selection_role": "resolved_harmful",
+      "h45_keep": [
+        0,
+        10
+      ],
+      "h45_redecide": [
+        0,
+        10
+      ],
+      "h45_gain": 0.0,
+      "h45_gain_interval": [
+        -0.278,
+        0.278
+      ],
+      "h55_m2_keep": [
+        5,
+        30
+      ],
+      "h55_m2_redecide": [
+        25,
+        30
+      ],
+      "h55_m2_gain": 0.667,
+      "h55_m2_holm_p": 1.7107946274196676e-05,
+      "ends": {
+        "insufficient_material": 19,
+        "stalemate": 1
+      },
+      "h45_keep_interval": [
+        0.0,
+        0.278
+      ],
+      "h45_redecide_interval": [
+        0.0,
+        0.278
+      ]
+    },
+    {
+      "decision_id": "krk-m4-1_trial0_step005",
+      "selection_role": "resolved_harmful",
+      "h45_keep": [
+        0,
+        10
+      ],
+      "h45_redecide": [
+        1,
+        10
+      ],
+      "h45_gain": 0.1,
+      "h45_gain_interval": [
+        -0.189,
+        0.404
+      ],
+      "h55_m2_keep": [
+        0,
+        30
+      ],
+      "h55_m2_redecide": [
+        11,
+        30
+      ],
+      "h55_m2_gain": 0.367,
+      "h55_m2_holm_p": 0.014983846870510612,
+      "ends": {
+        "insufficient_material": 18,
+        "checkmate": 1,
+        "fifty_move_rule": 1
+      },
+      "h45_keep_interval": [
+        0.0,
+        0.278
+      ],
+      "h45_redecide_interval": [
+        0.018,
+        0.404
+      ]
+    },
+    {
+      "decision_id": "krk-m4-1_trial1_step001",
+      "selection_role": "resolved_harmful",
+      "h45_keep": [
+        0,
+        10
+      ],
+      "h45_redecide": [
+        0,
+        10
+      ],
+      "h45_gain": 0.0,
+      "h45_gain_interval": [
+        -0.278,
+        0.278
+      ],
+      "h55_m2_keep": [
+        0,
+        30
+      ],
+      "h55_m2_redecide": [
+        11,
+        30
+      ],
+      "h55_m2_gain": 0.367,
+      "h55_m2_holm_p": 0.014983846870510612,
+      "ends": {
+        "insufficient_material": 20
+      },
+      "h45_keep_interval": [
+        0.0,
+        0.278
+      ],
+      "h45_redecide_interval": [
+        0.0,
+        0.278
+      ]
+    },
+    {
+      "decision_id": "krk-m4-1_trial0_step001",
+      "selection_role": "control_or_unresolved",
+      "h45_keep": [
+        0,
+        10
+      ],
+      "h45_redecide": [
+        0,
+        10
+      ],
+      "h45_gain": 0.0,
+      "h45_gain_interval": [
+        -0.278,
+        0.278
+      ],
+      "h55_m2_keep": [
+        21,
+        30
+      ],
+      "h55_m2_redecide": [
+        11,
+        30
+      ],
+      "h55_m2_gain": -0.333,
+      "h55_m2_holm_p": 0.8402265011827871,
+      "ends": {
+        "insufficient_material": 20
+      },
+      "h45_keep_interval": [
+        0.0,
+        0.278
+      ],
+      "h45_redecide_interval": [
+        0.0,
+        0.278
+      ]
+    },
+    {
+      "decision_id": "krk-m6-1_trial0_step001",
+      "selection_role": "control_or_unresolved",
+      "h45_keep": [
+        0,
+        10
+      ],
+      "h45_redecide": [
+        0,
+        10
+      ],
+      "h45_gain": 0.0,
+      "h45_gain_interval": [
+        -0.278,
+        0.278
+      ],
+      "h55_m2_keep": [
+        7,
+        30
+      ],
+      "h55_m2_redecide": [
+        1,
+        30
+      ],
+      "h55_m2_gain": -0.2,
+      "h55_m2_holm_p": 1.0,
+      "ends": {
+        "insufficient_material": 20
+      },
+      "h45_keep_interval": [
+        0.0,
+        0.278
+      ],
+      "h45_redecide_interval": [
+        0.0,
+        0.278
+      ]
+    },
+    {
+      "decision_id": "krk-m3-1_trial0_step001",
+      "selection_role": "control_or_unresolved",
+      "h45_keep": [
+        0,
+        10
+      ],
+      "h45_redecide": [
+        0,
+        10
+      ],
+      "h45_gain": 0.0,
+      "h45_gain_interval": [
+        -0.278,
+        0.278
+      ],
+      "h55_m2_keep": [
+        2,
+        30
+      ],
+      "h55_m2_redecide": [
+        3,
+        30
+      ],
+      "h55_m2_gain": 0.033,
+      "h55_m2_holm_p": 1.0,
+      "ends": {
+        "insufficient_material": 20
+      },
+      "h45_keep_interval": [
+        0.0,
+        0.278
+      ],
+      "h45_redecide_interval": [
+        0.0,
+        0.278
+      ]
+    },
+    {
+      "decision_id": "krk-m3-1_trial0_step003",
+      "selection_role": "control_or_unresolved",
+      "h45_keep": [
+        0,
+        10
+      ],
+      "h45_redecide": [
+        0,
+        10
+      ],
+      "h45_gain": 0.0,
+      "h45_gain_interval": [
+        -0.278,
+        0.278
+      ],
+      "h55_m2_keep": [
+        0,
+        30
+      ],
+      "h55_m2_redecide": [
+        0,
+        30
+      ],
+      "h55_m2_gain": 0.0,
+      "h55_m2_holm_p": 1.0,
+      "ends": {
+        "insufficient_material": 19,
+        "fifty_move_rule": 1
+      },
+      "h45_keep_interval": [
+        0.0,
+        0.278
+      ],
+      "h45_redecide_interval": [
+        0.0,
+        0.278
+      ]
+    },
+    {
+      "decision_id": "krk-m8-1_trial0_step003",
+      "selection_role": "control_or_unresolved",
+      "h45_keep": [
+        0,
+        10
+      ],
+      "h45_redecide": [
+        0,
+        10
+      ],
+      "h45_gain": 0.0,
+      "h45_gain_interval": [
+        -0.278,
+        0.278
+      ],
+      "h55_m2_keep": [
+        0,
+        30
+      ],
+      "h55_m2_redecide": [
+        0,
+        30
+      ],
+      "h55_m2_gain": 0.0,
+      "h55_m2_holm_p": 1.0,
+      "ends": {
+        "insufficient_material": 20
+      },
+      "h45_keep_interval": [
+        0.0,
+        0.278
+      ],
+      "h45_redecide_interval": [
+        0.0,
+        0.278
+      ]
+    }
+  ],
+  "ends_overall": {
+    "insufficient_material": 156,
+    "fifty_move_rule": 2,
+    "stalemate": 1,
+    "checkmate": 1
+  },
+  "wins_overall": {
+    "keep_original_reply": [
+      0,
+      80
+    ],
+    "redecide_reply": [
+      1,
+      80
+    ]
+  }
+}
